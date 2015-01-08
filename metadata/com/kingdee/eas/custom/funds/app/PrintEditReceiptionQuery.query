@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.funds.app</package>
+    <name>PrintEditReceiptionQuery</name>
+    <alias>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].description</description>
+    <userDefined>false</userDefined>
+    <reportDataSource />
+    <bizUnitPK />
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>Receiption</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[Receiption].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="Receiption" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>project</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[project].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.sellhouse.app" />
+                <key name="name" value="SellProject" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>recPerson</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[recPerson].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.person.app" />
+                <key name="name" value="Person" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>company</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[company].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entrys</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[entrys].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="ReceiptionEntry" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>settlementType</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[settlementType].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="SettlementType" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>recType</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[recType].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fi.cas.app" />
+                <key name="name" value="ReceivingBillType" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>b0e6d1a1-2f88-4e9a-bf0b-a8c922909976</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[b0e6d1a1-2f88-4e9a-bf0b-a8c922909976].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d586c91d-a8dc-4c77-a90d-ddda834e65fc</key>
+                    <parentUnit>
+                        <key name="name" value="b0e6d1a1-2f88-4e9a-bf0b-a8c922909976" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Receiption" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="company" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>1214537f-dd9b-4966-b1d4-d267ef23eede</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[1214537f-dd9b-4966-b1d4-d267ef23eede].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c7641fbb-f756-4861-8ee9-8c0724743b56</key>
+                    <parentUnit>
+                        <key name="name" value="1214537f-dd9b-4966-b1d4-d267ef23eede" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="company" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>300c6298-e6b1-4e89-83b1-78e04c728fa6</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[300c6298-e6b1-4e89-83b1-78e04c728fa6].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>96a5ba28-593f-4f3d-8243-d284e57c4022</key>
+                    <parentUnit>
+                        <key name="name" value="300c6298-e6b1-4e89-83b1-78e04c728fa6" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Receiption" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="project" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>ced011c3-8893-4e35-9b2c-7e9c9adca6b9</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[ced011c3-8893-4e35-9b2c-7e9c9adca6b9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ff764813-9515-4fe2-ac77-cb4f824bb698</key>
+                    <parentUnit>
+                        <key name="name" value="ced011c3-8893-4e35-9b2c-7e9c9adca6b9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="project" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>7b594603-b707-491e-8d67-922ba2e232ca</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[7b594603-b707-491e-8d67-922ba2e232ca].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>023cabe4-4ea5-4ded-8026-5096d87f1663</key>
+                    <parentUnit>
+                        <key name="name" value="7b594603-b707-491e-8d67-922ba2e232ca" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Receiption" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="recPerson" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>fe1e128c-cf8b-4dc1-9c0a-9221757bb4bd</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[fe1e128c-cf8b-4dc1-9c0a-9221757bb4bd].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b58c53cb-85e1-4585-9b33-5a112707aec4</key>
+                    <parentUnit>
+                        <key name="name" value="fe1e128c-cf8b-4dc1-9c0a-9221757bb4bd" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="recPerson" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>sum</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[sum].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>15bf73aa-e8ce-4c49-b54e-a84fc471545d</key>
+                    <parentUnit>
+                        <key name="name" value="sum" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Receiption" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="sum" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>upperAmount</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[upperAmount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>359f63b5-64d5-4306-b505-a688b722c5aa</key>
+                    <parentUnit>
+                        <key name="name" value="upperAmount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Receiption" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upperAmount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>comment</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[comment].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e12cfdf0-ec37-4e66-8d8c-d8248ba5a00e</key>
+                    <parentUnit>
+                        <key name="name" value="comment" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Receiption" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="comment" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>other</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[other].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e6cd75b0-e45f-4457-8298-8c34550ff56b</key>
+                    <parentUnit>
+                        <key name="name" value="other" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Receiption" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="other" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b9e87423-9748-4bf5-aa46-89f644af9df3</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Receiption" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d7c9570a-e0fb-4d6d-83b6-099a39e221ea</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Receiption" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>project.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[project.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a3caab09-845e-4ac3-9b0f-8df831015f64</key>
+                    <parentUnit>
+                        <key name="name" value="project.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="project" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>recPerson.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[recPerson.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>191f8296-4841-4343-a506-60e52b2c7218</key>
+                    <parentUnit>
+                        <key name="name" value="recPerson.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="recPerson" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>company.description</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[company.description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>75631477-a232-42de-bea7-a76d46119119</key>
+                    <parentUnit>
+                        <key name="name" value="company.description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="company" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>f578ea5b-dd1d-494d-ab9b-47ed539be2cd</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[f578ea5b-dd1d-494d-ab9b-47ed539be2cd].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>7352916d-50d5-45e6-a8ce-9eb1a3a4dbb5</key>
+                    <parentUnit>
+                        <key name="name" value="f578ea5b-dd1d-494d-ab9b-47ed539be2cd" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Receiption" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>ff94f075-1a0e-4dac-ad6e-7775215639d6</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[ff94f075-1a0e-4dac-ad6e-7775215639d6].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>c8db4aea-1bea-407c-9a67-000f904f0175</key>
+                    <parentUnit>
+                        <key name="name" value="ff94f075-1a0e-4dac-ad6e-7775215639d6" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="parent" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>9072490b-951f-46ce-b70f-898bc6af0a0d</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[9072490b-951f-46ce-b70f-898bc6af0a0d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>865e0406-0a50-4d34-ae75-a0d86fd06fcc</key>
+                    <parentUnit>
+                        <key name="name" value="9072490b-951f-46ce-b70f-898bc6af0a0d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="settlementType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>c3728d89-563f-4fb3-9f7a-eca351c41693</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[c3728d89-563f-4fb3-9f7a-eca351c41693].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>08ce776a-2a40-4a35-a4be-533a2aa8ecb8</key>
+                    <parentUnit>
+                        <key name="name" value="c3728d89-563f-4fb3-9f7a-eca351c41693" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="settlementType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>f966d41f-3488-49d6-b121-f73996d91e81</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[f966d41f-3488-49d6-b121-f73996d91e81].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>a332d484-c61a-45e7-8c33-0cc5aeeb21a6</key>
+                    <parentUnit>
+                        <key name="name" value="f966d41f-3488-49d6-b121-f73996d91e81" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="recType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>50fdd78b-627f-42f6-b72c-b4cb29c7811f</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[50fdd78b-627f-42f6-b72c-b4cb29c7811f].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>a36fc808-2f78-4717-bcd2-a2f47e6b85ec</key>
+                    <parentUnit>
+                        <key name="name" value="50fdd78b-627f-42f6-b72c-b4cb29c7811f" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="recType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>entrys.recAmount</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[entrys.recAmount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>847af8c0-046e-4c25-bc39-39150f6b7727</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.recAmount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="recAmount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>settlementType.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[settlementType.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>683c789f-4659-49bd-b3b7-3e7b696ce315</key>
+                    <parentUnit>
+                        <key name="name" value="settlementType.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="settlementType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>recType.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[recType.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a8cb54f3-6104-43f2-8752-9e76729cf94d</key>
+                    <parentUnit>
+                        <key name="name" value="recType.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="recType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.custom.funds.app" />
+            <key name="name" value="PrintEditReceiptionQuery" />
+        </query>
+    </defaultFilter>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>dc0720b6-58c5-496f-a72e-aa933916052b</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Receiption" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="project" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>26890b64-9474-4ede-a58e-4b63beeaac84</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="300c6298-e6b1-4e89-83b1-78e04c728fa6" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="ced011c3-8893-4e35-9b2c-7e9c9adca6b9" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="dc0720b6-58c5-496f-a72e-aa933916052b" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </join>
+        <join>
+            <name>6355a752-3349-4c16-aee2-b22eba5586a6</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Receiption" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="recPerson" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>edb566e4-cf80-47a0-a170-d244bbbebcb5</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="7b594603-b707-491e-8d67-922ba2e232ca" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="fe1e128c-cf8b-4dc1-9c0a-9221757bb4bd" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="6355a752-3349-4c16-aee2-b22eba5586a6" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </join>
+        <join>
+            <name>5b503fd9-2f27-4c27-8534-79e68b213e71</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="Receiption" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="company" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>aef94901-c79d-430a-bcb8-beff8333da60</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="b0e6d1a1-2f88-4e9a-bf0b-a8c922909976" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="1214537f-dd9b-4966-b1d4-d267ef23eede" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="5b503fd9-2f27-4c27-8534-79e68b213e71" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </join>
+        <join>
+            <name>79611824-24d7-44c5-b944-83c32b23ce46</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="Receiption" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entrys" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>18ca68f1-9ab7-4363-bffb-55f2eabe4e1f</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="f578ea5b-dd1d-494d-ab9b-47ed539be2cd" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="ff94f075-1a0e-4dac-ad6e-7775215639d6" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="79611824-24d7-44c5-b944-83c32b23ce46" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </join>
+        <join>
+            <name>1baaefa8-9add-453c-8219-3672dda5e294</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="entrys" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="settlementType" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>85ef916e-c90f-45e8-8fa3-1b385decfa89</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="9072490b-951f-46ce-b70f-898bc6af0a0d" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="c3728d89-563f-4fb3-9f7a-eca351c41693" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="1baaefa8-9add-453c-8219-3672dda5e294" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </join>
+        <join>
+            <name>af25e401-2523-4f7b-81ec-071ded4af6b0</name>
+            <formulaString>#0</formulaString>
+            <type>INNER JOIN</type>
+            <leftObject>
+                <key name="name" value="entrys" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="recType" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>425513e6-2e81-4bbf-8676-5fb36d7babd5</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="f966d41f-3488-49d6-b121-f73996d91e81" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="50fdd78b-627f-42f6-b72c-b4cb29c7811f" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="af25e401-2523-4f7b-81ec-071ded4af6b0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="PrintEditReceiptionQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].alias">
+            <lang locale="zh_CN" value="收据编辑界面打印" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收據編輯介面列印" />
+            <lang locale="zh_TW" value="收據編輯介面列印" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[Receiption].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[company].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[entrys].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[project].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[recPerson].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[recType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].subObjects.subEntity[settlementType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[1214537f-dd9b-4966-b1d4-d267ef23eede].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[300c6298-e6b1-4e89-83b1-78e04c728fa6].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[50fdd78b-627f-42f6-b72c-b4cb29c7811f].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[7b594603-b707-491e-8d67-922ba2e232ca].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[9072490b-951f-46ce-b70f-898bc6af0a0d].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[b0e6d1a1-2f88-4e9a-bf0b-a8c922909976].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[c3728d89-563f-4fb3-9f7a-eca351c41693].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[ced011c3-8893-4e35-9b2c-7e9c9adca6b9].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[f578ea5b-dd1d-494d-ab9b-47ed539be2cd].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[f966d41f-3488-49d6-b121-f73996d91e81].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[fe1e128c-cf8b-4dc1-9c0a-9221757bb4bd].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.propertyUnit[ff94f075-1a0e-4dac-ad6e-7775215639d6].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[bizDate].displayName">
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="en_US" value="" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[comment].displayName">
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[company.description].displayName">
+            <lang locale="zh_CN" value="项目公司" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目公司" />
+            <lang locale="zh_TW" value="項目公司" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[entrys.recAmount].displayName">
+            <lang locale="zh_CN" value="收款金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款金額" />
+            <lang locale="zh_TW" value="收款金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[number].displayName">
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[other].displayName">
+            <lang locale="zh_CN" value="交款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交款單位" />
+            <lang locale="zh_TW" value="交款單位" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[project.name].displayName">
+            <lang locale="zh_CN" value="项目" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目" />
+            <lang locale="zh_TW" value="項目" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[recPerson.name].displayName">
+            <lang locale="zh_CN" value="收款人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款人" />
+            <lang locale="zh_TW" value="收款人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[recType.name].displayName">
+            <lang locale="zh_CN" value="收款类别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款類別" />
+            <lang locale="zh_TW" value="收款類別" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[settlementType.name].displayName">
+            <lang locale="zh_CN" value="收款方式" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款方式" />
+            <lang locale="zh_TW" value="收款方式" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[sum].displayName">
+            <lang locale="zh_CN" value="合计" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合計" />
+            <lang locale="zh_TW" value="合計" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.PrintEditReceiptionQuery].units.queryField[upperAmount].displayName">
+            <lang locale="zh_CN" value="大写金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="大寫金額" />
+            <lang locale="zh_TW" value="大寫金額" />
+        </rs>
+    </resource>
+</joinQuery>
+

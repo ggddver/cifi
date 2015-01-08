@@ -1,0 +1,2337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.funds.app</package>
+    <name>Receiption</name>
+    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].description</description>
+    <userDefined>false</userDefined>
+    <bosType>E0D00475</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.funds.Receiption</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.funds.app.ReceiptionController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].description</description>
+            <innerID>9f755e3c-59cb-461f-b944-232da40ffa38</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].description</description>
+            <innerID>63324a45-d25e-4422-aa20-14069b46e8b6</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].description</description>
+            <innerID>e886f4cd-f391-4dd3-a48e-621e13b0a751</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].description</description>
+            <innerID>6b978e16-4807-481b-bc04-afba2d39fb23</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].description</description>
+            <innerID>e662f7e3-1d3b-47e2-9622-b134396573f7</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].description</description>
+            <innerID>57108472-cbae-463c-b559-3a05ceb49ef8</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>audit</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[audit].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[audit].description</description>
+            <innerID>ac766117-7a80-4387-a569-db9e4f8e02ec</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[audit].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[audit].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>unAudit</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unAudit].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unAudit].description</description>
+            <innerID>77bdb6b1-c21f-4027-b8c8-a2bfc212ced2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unAudit].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unAudit].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>close</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[close].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[close].description</description>
+            <innerID>a2e2d5be-6b81-4da0-99d5-df68b52eddbe</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[close].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[close].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>unclose</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unclose].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unclose].description</description>
+            <innerID>b6b3dc9d-92c1-403f-bf5d-e0621e42d138</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unclose].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unclose].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.funds.Receiption</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.funds.app" />
+        <key name="name" value="T_FUN_Receiption" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>entrys</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[entrys].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[entrys].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_Receiption_ReceiptionEntry_entrys" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>Fivouchered</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FFivouchered" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>payUnit</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FPayUnitID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_Receiption_CompanyOrgUnit_payUnit" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>project</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FProjectID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_Receiption_SellProject_project" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>sum</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSum" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>upperAmount</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FUpperAmount" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>recPerson</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FRecPersonID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_Receiption_Person_recPerson" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>auditDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAuditDate" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>company</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FCompanyID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_Receiption_CompanyOrgUnit_company" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>bizState</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.custom.funds.BizState</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FBizState" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>comment</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>2000</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FComment" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>payUnitType</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.custom.funds.payUnitType</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPayUnitType" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>customer</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FCustomerID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_Receiption_Customer_customer" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>employee</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FEmployeeID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_Receiption_Person_employee" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>other</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>255</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FOther" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>supplier</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FSupplierID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_Receiption_Supplier_supplier" />
+            </relationship>
+        </linkProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <events>
+        <event>
+            <name>submitEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>dfd2c083-00fa-1000-e000-001fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="submit" />
+                        <key name="innerID" value="dfd2c083-00fa-1000-e000-001fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>deleteEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>be5779dd-00fe-1000-e000-0007c0a813a9</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="delete" />
+                        <key name="innerID" value="be5779dd-00fe-1000-e000-0007c0a813a9" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>passAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000ec0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="passAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000ec0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>unpassAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="unpassAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>auditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>e0ae25d7-e7c5-413c-8382-91f12b5e0e0f</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].eventMethods.eventMethod[e0ae25d7-e7c5-413c-8382-91f12b5e0e0f].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].eventMethods.eventMethod[e0ae25d7-e7c5-413c-8382-91f12b5e0e0f].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="audit" />
+                        <key name="innerID" value="ac766117-7a80-4387-a569-db9e4f8e02ec" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].eventMethods.eventMethod[e0ae25d7-e7c5-413c-8382-91f12b5e0e0f].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].eventMethods.eventMethod[e0ae25d7-e7c5-413c-8382-91f12b5e0e0f].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>2026671f-dea9-40fc-a50a-d410573a03c4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>2026671f-dea9-40fc-a50a-d410573a03c4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>unAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>5683db1b-7673-4be5-91fe-ff7c9d37d614</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].eventMethods.eventMethod[5683db1b-7673-4be5-91fe-ff7c9d37d614].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].eventMethods.eventMethod[5683db1b-7673-4be5-91fe-ff7c9d37d614].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="unAudit" />
+                        <key name="innerID" value="77bdb6b1-c21f-4027-b8c8-a2bfc212ced2" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].eventMethods.eventMethod[5683db1b-7673-4be5-91fe-ff7c9d37d614].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].eventMethods.eventMethod[5683db1b-7673-4be5-91fe-ff7c9d37d614].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>3e9b9cdf-31ab-46a2-8152-4b278cb90678evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>3e9b9cdf-31ab-46a2-8152-4b278cb90678evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.Receiption</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+    </events>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.custom.funds.app.Receiption].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.custom.funds.app.Receiption].defaultViewdescription</description>
+        <filter>
+            <maskString />
+        </filter>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].alias">
+            <lang locale="zh_CN" value="资金往来收据" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="資金往來收據" />
+            <lang locale="zh_TW" value="資金往來收據" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].defaultView.filterextendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].defaultViewalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].defaultViewdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="多分錄基礎單據範本" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].alias">
+            <lang locale="zh_CN" value="审批事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審批事件" />
+            <lang locale="zh_TW" value="審批事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].eventMethods.eventMethod[e0ae25d7-e7c5-413c-8382-91f12b5e0e0f].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].eventMethods.eventMethod[e0ae25d7-e7c5-413c-8382-91f12b5e0e0f].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].eventMethods.eventMethod[e0ae25d7-e7c5-413c-8382-91f12b5e0e0f].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].eventMethods.eventMethod[e0ae25d7-e7c5-413c-8382-91f12b5e0e0f].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[auditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].alias">
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].description">
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].alias">
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].description">
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].alias">
+            <lang locale="zh_CN" value="提交" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="提交" />
+            <lang locale="zh_TW" value="提交" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].alias">
+            <lang locale="zh_CN" value="反审批事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審批事件" />
+            <lang locale="zh_TW" value="反審批事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].eventMethods.eventMethod[5683db1b-7673-4be5-91fe-ff7c9d37d614].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].eventMethods.eventMethod[5683db1b-7673-4be5-91fe-ff7c9d37d614].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].eventMethods.eventMethod[5683db1b-7673-4be5-91fe-ff7c9d37d614].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].eventMethods.eventMethod[5683db1b-7673-4be5-91fe-ff7c9d37d614].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].alias">
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].description">
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+            <lang locale="en_US" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].extendedProperty.defaultDisplayField">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+            <lang locale="en_US" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].extendedProperty.defaultF7Query">
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.funds.app.ReceiptionQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.funds.app.ReceiptionQuery" />
+            <lang locale="en_US" value="com.kingdee.eas.custom.funds.app.ReceiptionQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.funds.client.ReceiptionEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.funds.client.ReceiptionEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.custom.funds.client.ReceiptionEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].extendedProperty.isParamObject">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].extendedProperty.listUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.funds.client.ReceiptionListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.funds.client.ReceiptionListUI" />
+            <lang locale="en_US" value="com.kingdee.eas.custom.funds.client.ReceiptionListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].logicalKey[id].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].logicalKey[id].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[audit].alias">
+            <lang locale="zh_CN" value="审批" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審批" />
+            <lang locale="zh_TW" value="審批" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[audit].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[audit].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[audit].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[close].alias">
+            <lang locale="zh_CN" value="作废" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="作廢" />
+            <lang locale="zh_TW" value="作廢" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[close].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[close].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象" />
+            <lang locale="zh_TW" value="對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[close].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unAudit].alias">
+            <lang locale="zh_CN" value="反审批" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審批" />
+            <lang locale="zh_TW" value="反審批" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unAudit].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unAudit].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unAudit].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unclose].alias">
+            <lang locale="zh_CN" value="反作废" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反作廢" />
+            <lang locale="zh_TW" value="反作廢" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unclose].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unclose].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象" />
+            <lang locale="zh_TW" value="對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].methods.method[unclose].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].alias">
+            <lang locale="zh_CN" value="房产公司" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="房產公司" />
+            <lang locale="zh_TW" value="房產公司" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].description">
+            <lang locale="zh_CN" value="房产公司" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="房產公司" />
+            <lang locale="zh_TW" value="房產公司" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[company].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].alias">
+            <lang locale="zh_CN" value="交款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交款單位" />
+            <lang locale="zh_TW" value="交款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].description">
+            <lang locale="zh_CN" value="交款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交款單位" />
+            <lang locale="zh_TW" value="交款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[customer].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].alias">
+            <lang locale="zh_CN" value="交款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交款單位" />
+            <lang locale="zh_TW" value="交款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].description">
+            <lang locale="zh_CN" value="交款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交款單位" />
+            <lang locale="zh_TW" value="交款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[employee].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[entrys].alias">
+            <lang locale="zh_CN" value="分录" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分錄" />
+            <lang locale="zh_TW" value="分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[entrys].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].alias">
+            <lang locale="zh_CN" value="交款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交款單位" />
+            <lang locale="zh_TW" value="交款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].description">
+            <lang locale="zh_CN" value="交款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交款單位" />
+            <lang locale="zh_TW" value="交款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[payUnit].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].alias">
+            <lang locale="zh_CN" value="项目名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目名稱" />
+            <lang locale="zh_TW" value="項目名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].description">
+            <lang locale="zh_CN" value="项目名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="項目名稱" />
+            <lang locale="zh_TW" value="項目名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[project].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].alias">
+            <lang locale="zh_CN" value="收款人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款人" />
+            <lang locale="zh_TW" value="收款人" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].description">
+            <lang locale="zh_CN" value="收款人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款人" />
+            <lang locale="zh_TW" value="收款人" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[recPerson].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].alias">
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商" />
+            <lang locale="zh_TW" value="供應商" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].description">
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商" />
+            <lang locale="zh_TW" value="供應商" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.linkProperty[supplier].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].alias">
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].defaultValue">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].description">
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+            <lang locale="en_US" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[Fivouchered].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].alias">
+            <lang locale="zh_CN" value="审批时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審批時間" />
+            <lang locale="zh_TW" value="審批時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].description">
+            <lang locale="zh_CN" value="审批时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審批時間" />
+            <lang locale="zh_TW" value="審批時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+            <lang locale="en_US" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[auditDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].alias">
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].defaultValue">
+            <lang locale="zh_CN" value="addnew" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="addnew" />
+            <lang locale="zh_TW" value="addnew" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].description">
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+            <lang locale="en_US" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].extendedProperty.defaultValue">
+            <lang locale="zh_CN" value="addnew" />
+            <lang locale="zh_TW" value="addnew" />
+            <lang locale="en_US" value="addnew" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[bizState].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].alias">
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].description">
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="備註" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[comment].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].alias">
+            <lang locale="zh_CN" value="交款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交款單位" />
+            <lang locale="zh_TW" value="交款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].description">
+            <lang locale="zh_CN" value="交款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交款單位" />
+            <lang locale="zh_TW" value="交款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[other].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].alias">
+            <lang locale="zh_CN" value="交款单位类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交款單位類型" />
+            <lang locale="zh_TW" value="交款單位類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].defaultValue">
+            <lang locale="zh_CN" value="company" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="company" />
+            <lang locale="zh_TW" value="company" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].description">
+            <lang locale="zh_CN" value="交款单位类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="交款單位類型" />
+            <lang locale="zh_TW" value="交款單位類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+            <lang locale="en_US" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].extendedProperty.defaultValue">
+            <lang locale="zh_CN" value="company" />
+            <lang locale="zh_TW" value="company" />
+            <lang locale="en_US" value="company" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[payUnitType].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].alias">
+            <lang locale="zh_CN" value="合计" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合計" />
+            <lang locale="zh_TW" value="合計" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].description">
+            <lang locale="zh_CN" value="合计" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合計" />
+            <lang locale="zh_TW" value="合計" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+            <lang locale="en_US" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[sum].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].alias">
+            <lang locale="zh_CN" value="大写金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="大寫金額" />
+            <lang locale="zh_TW" value="大寫金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].description">
+            <lang locale="zh_CN" value="大写金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="大寫金額" />
+            <lang locale="zh_TW" value="大寫金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.Receiption].properties.ownProperty[upperAmount].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

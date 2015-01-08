@@ -1,0 +1,1480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.funds.app</package>
+    <name>FundsApplicationEntry</name>
+    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].description</description>
+    <userDefined>false</userDefined>
+    <bosType>EB5050AB</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.funds.FundsApplicationEntry</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.funds.app.FundsApplicationEntryController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].description</description>
+            <innerID>3f7aab0f-5ccc-48e3-b5af-f783062747d9</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].description</description>
+            <innerID>05c18e27-d7e4-4d50-ba01-8fed3ee85175</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].description</description>
+            <innerID>b02c22a7-f14f-4f20-b441-9841476a5752</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].description</description>
+            <innerID>3acb789c-cb0c-4eb1-985b-2fbfcb990d8e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].description</description>
+            <innerID>6e8202ab-9bf8-4c14-ab6d-789840409493</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].description</description>
+            <innerID>fbab2ba2-cb93-453b-ab75-4f0ba1286083</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.funds.FundsApplication</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillEntryBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.funds.app" />
+        <key name="name" value="T_FUN_FundsApplicationEntry" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>parent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[parent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[parent].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FParentID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_FundsApplication_FundsApplicationEntry_entrys" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>payAccount</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FPayAccountID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_FundsApplicationEntry_AccountBank_payAccount" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>recUnit</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FRecUnitID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_FundsApplicationEntry_CompanyOrgUnit_recUnit" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>recAccount</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FRecAccountID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_FundsApplicationEntry_AccountBank_recAccount" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>amount</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>upperAmount</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FUpperAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>recDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FRecDate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>usage</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>200</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FUsage" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>attachAmount</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Integer</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>4</length>
+            <precision>10</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAttachAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>payAccProperty</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPayAccProperty" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>recAccProperty</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FRecAccProperty" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>payBank</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPayBank" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>recBank</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FRecBank" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>entryPayUnit</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FEntryPayUnitID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_FundsApplicationEntry_CompanyOrgUnit_entryPayUnit" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>recAccountText</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FRecAccountText" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].alias">
+            <lang locale="zh_CN" value="分录" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分錄" />
+            <lang locale="zh_TW" value="分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].defaultViewalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].defaultViewdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].logicalKey[id].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].logicalKey[id].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].alias">
+            <lang locale="zh_CN" value="付款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款單位" />
+            <lang locale="zh_TW" value="付款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].description">
+            <lang locale="zh_CN" value="付款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款單位" />
+            <lang locale="zh_TW" value="付款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[entryPayUnit].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[parent].alias">
+            <lang locale="zh_CN" value="单据头" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據頭" />
+            <lang locale="zh_TW" value="單據頭" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[parent].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].alias">
+            <lang locale="zh_CN" value="付款账号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款賬號" />
+            <lang locale="zh_TW" value="付款賬號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].description">
+            <lang locale="zh_CN" value="付款账号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款賬號" />
+            <lang locale="zh_TW" value="付款賬號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].extendedProperty.dataField">
+            <lang locale="zh_CN" value="bankAccountNumber" />
+            <lang locale="zh_TW" value="bankAccountNumber" />
+            <lang locale="en_US" value="bankAccountNumber" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[payAccount].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].alias">
+            <lang locale="zh_CN" value="收款账号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬號" />
+            <lang locale="zh_TW" value="收款賬號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].description">
+            <lang locale="zh_CN" value="收款账号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬號" />
+            <lang locale="zh_TW" value="收款賬號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].extendedProperty.dataField">
+            <lang locale="zh_CN" value="bankAccountNumber" />
+            <lang locale="zh_TW" value="bankAccountNumber" />
+            <lang locale="en_US" value="bankAccountNumber" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recAccount].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].alias">
+            <lang locale="zh_CN" value="收款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款單位" />
+            <lang locale="zh_TW" value="收款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].description">
+            <lang locale="zh_CN" value="收款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款單位" />
+            <lang locale="zh_TW" value="收款單位" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.linkProperty[recUnit].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].alias">
+            <lang locale="zh_CN" value="申请金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請金額" />
+            <lang locale="zh_TW" value="申請金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].description">
+            <lang locale="zh_CN" value="申请金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請金額" />
+            <lang locale="zh_TW" value="申請金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="AMOUNT" />
+            <lang locale="zh_TW" value="AMOUNT" />
+            <lang locale="en_US" value="AMOUNT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[amount].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].alias">
+            <lang locale="zh_CN" value="附件数" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件數" />
+            <lang locale="zh_TW" value="附件數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].description">
+            <lang locale="zh_CN" value="附件数" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件數" />
+            <lang locale="zh_TW" value="附件數" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="INTEGER" />
+            <lang locale="zh_TW" value="INTEGER" />
+            <lang locale="en_US" value="INTEGER" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[attachAmount].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].alias">
+            <lang locale="zh_CN" value="付款账户性质" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款賬戶性質" />
+            <lang locale="zh_TW" value="付款賬戶性質" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].description">
+            <lang locale="zh_CN" value="付款账户性质" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款賬戶性質" />
+            <lang locale="zh_TW" value="付款賬戶性質" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].extendedProperty.DataField">
+            <lang locale="zh_CN" value="entrys.payAccount.description" />
+            <lang locale="zh_TW" value="entrys.payAccount.description" />
+            <lang locale="en_US" value="entrys.payAccount.description" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].extendedProperty.DataSourceType">
+            <lang locale="zh_CN" value="BASEDATAEXT" />
+            <lang locale="zh_TW" value="BASEDATAEXT" />
+            <lang locale="en_US" value="BASEDATAEXT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payAccProperty].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].alias">
+            <lang locale="zh_CN" value="付款行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款行" />
+            <lang locale="zh_TW" value="付款行" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].description">
+            <lang locale="zh_CN" value="付款行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款行" />
+            <lang locale="zh_TW" value="付款行" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].extendedProperty.DataField">
+            <lang locale="zh_CN" value="entrys.payAccount.bank" />
+            <lang locale="zh_TW" value="entrys.payAccount.bank" />
+            <lang locale="en_US" value="entrys.payAccount.bank" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].extendedProperty.DataSourceType">
+            <lang locale="zh_CN" value="BASEDATAEXT" />
+            <lang locale="zh_TW" value="BASEDATAEXT" />
+            <lang locale="en_US" value="BASEDATAEXT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[payBank].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].alias">
+            <lang locale="zh_CN" value="收款账号性质" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬號性質" />
+            <lang locale="zh_TW" value="收款賬號性質" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].description">
+            <lang locale="zh_CN" value="收款账号性质" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬號性質" />
+            <lang locale="zh_TW" value="收款賬號性質" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].extendedProperty.DataField">
+            <lang locale="zh_CN" value="entrys.recAccount.description" />
+            <lang locale="zh_TW" value="entrys.recAccount.description" />
+            <lang locale="en_US" value="entrys.recAccount.description" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].extendedProperty.DataSourceType">
+            <lang locale="zh_CN" value="BASEDATAEXT" />
+            <lang locale="zh_TW" value="BASEDATAEXT" />
+            <lang locale="en_US" value="BASEDATAEXT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccProperty].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].alias">
+            <lang locale="zh_CN" value="收款账号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬號" />
+            <lang locale="zh_TW" value="收款賬號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].description">
+            <lang locale="zh_CN" value="收款账号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬號" />
+            <lang locale="zh_TW" value="收款賬號" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recAccountText].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].alias">
+            <lang locale="zh_CN" value="收款行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款行" />
+            <lang locale="zh_TW" value="收款行" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].description">
+            <lang locale="zh_CN" value="收款行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款行" />
+            <lang locale="zh_TW" value="收款行" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].extendedProperty.DataField">
+            <lang locale="zh_CN" value="entrys.recAccount.bank" />
+            <lang locale="zh_TW" value="entrys.recAccount.bank" />
+            <lang locale="en_US" value="entrys.recAccount.bank" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].extendedProperty.DataSourceType">
+            <lang locale="zh_CN" value="BASEDATAEXT" />
+            <lang locale="zh_TW" value="BASEDATAEXT" />
+            <lang locale="en_US" value="BASEDATAEXT" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recBank].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].alias">
+            <lang locale="zh_CN" value="到帐时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="到帳時間" />
+            <lang locale="zh_TW" value="到帳時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].description">
+            <lang locale="zh_CN" value="到帐时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="到帳時間" />
+            <lang locale="zh_TW" value="到帳時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+            <lang locale="en_US" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[recDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].alias">
+            <lang locale="zh_CN" value="大写金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="大寫金額" />
+            <lang locale="zh_TW" value="大寫金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].description">
+            <lang locale="zh_CN" value="大写金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="大寫金額" />
+            <lang locale="zh_TW" value="大寫金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[upperAmount].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].alias">
+            <lang locale="zh_CN" value="款项用途描述" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="款項用途描述" />
+            <lang locale="zh_TW" value="款項用途描述" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].description">
+            <lang locale="zh_CN" value="款项用途描述" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="款項用途描述" />
+            <lang locale="zh_TW" value="款項用途描述" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationEntry].properties.ownProperty[usage].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

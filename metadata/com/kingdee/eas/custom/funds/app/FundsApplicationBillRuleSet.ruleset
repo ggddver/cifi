@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleSet xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.funds.app</package>
+    <name>FundsApplicationBillRuleSet</name>
+    <alias>ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].alias</alias>
+    <description>ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].description</description>
+    <userDefined>true</userDefined>
+    <expressions>
+        <groupExpression>
+            <id>91712313-89e8-4e98-a64e-d348a7c4aea8</id>
+            <parentID />
+            <source>entrys.payBank=entrys.payAccount.bank.name</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>bcd216ac-c04d-4a74-a68b-69432387d3b2</id>
+            <parentID>91712313-89e8-4e98-a64e-d348a7c4aea8</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>String</valueType>
+            <value />
+            <property>
+                <ownerID>f87248de-8bbf-4a67-8814-79ea9f1c73aa</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>f87248de-8bbf-4a67-8814-79ea9f1c73aa</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>kdtEntrys.getCell(rowIndex,"payBank")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>7b0bea1b-5313-4e48-b7e0-0d2cf039918d</id>
+            <parentID>91712313-89e8-4e98-a64e-d348a7c4aea8</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>String</valueType>
+            <value />
+            <method>
+                <ownerID>fe95f304-17ab-45eb-93b6-e304faff0333</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>3dd837bb-48f4-4a09-9002-fe6c86c61be8</id>
+                        <expressionID>5107deea-dd60-48d5-8c97-c1d90c9b990a</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>6a0c875a-c750-4d94-946d-7ee9813b61a6</id>
+                        <expressionID>0db51455-f141-407b-82cb-789d0382bd56</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>fe95f304-17ab-45eb-93b6-e304faff0333</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>5107deea-dd60-48d5-8c97-c1d90c9b990a</id>
+            <parentID />
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>Object</valueType>
+            <value />
+            <property>
+                <ownerID>5c888412-0935-484f-935d-732b9e0c520b</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>5c888412-0935-484f-935d-732b9e0c520b</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)kdtEntrys.getCell(rowIndex,"payAccount")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>0db51455-f141-407b-82cb-789d0382bd56</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>bank.name</value>
+        </simpleExpression>
+        <groupExpression>
+            <id>a97e018e-b43c-42dd-bbda-e2bf54cd28e5</id>
+            <parentID />
+            <source>entrys.payAccProperty=entrys.payAccount.description</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>889fafbc-2ad0-43ef-b95c-53866f85c6a6</id>
+            <parentID>a97e018e-b43c-42dd-bbda-e2bf54cd28e5</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>String</valueType>
+            <value />
+            <property>
+                <ownerID>30f86fba-3e00-4bd6-ba7a-2ee4262ef48a</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>30f86fba-3e00-4bd6-ba7a-2ee4262ef48a</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>kdtEntrys.getCell(rowIndex,"payAccProperty")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>38a68597-d070-4d0a-bab0-32f4a3a3b3a0</id>
+            <parentID>a97e018e-b43c-42dd-bbda-e2bf54cd28e5</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>String</valueType>
+            <value />
+            <method>
+                <ownerID>eea84d50-5672-408b-9b22-0897e258c147</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>965f7191-2eba-42ad-8e99-f63799eb67d5</id>
+                        <expressionID>94d2298d-9d67-4d9c-9bf1-dd1d600217cd</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>e84d1d81-37cd-43e3-be1c-5b70242dc5a3</id>
+                        <expressionID>5d66283b-48f9-4efb-85d3-46ff36274636</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>eea84d50-5672-408b-9b22-0897e258c147</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>94d2298d-9d67-4d9c-9bf1-dd1d600217cd</id>
+            <parentID />
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>Object</valueType>
+            <value />
+            <property>
+                <ownerID>57067eaf-b998-4b2d-a188-aa74b0076835</ownerID>
+                <name>value</name>
+                <type>Object</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>57067eaf-b998-4b2d-a188-aa74b0076835</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)kdtEntrys.getCell(rowIndex,"payAccount")</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>5d66283b-48f9-4efb-85d3-46ff36274636</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>description</value>
+        </simpleExpression>
+    </expressions>
+    <actions>
+        <action>
+            <id>178b24c2-fa9b-4e6c-9b2c-a6cb2e424fa2</id>
+            <name>entrys_payBank_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].actions.action[entrys_payBank_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].actions.action[entrys_payBank_ActionInfo].description</description>
+            <expressionID>91712313-89e8-4e98-a64e-d348a7c4aea8</expressionID>
+        </action>
+        <action>
+            <id>2019d5a7-b21d-458e-ade1-da1b745fb7aa</id>
+            <name>entrys_payAccProperty_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].actions.action[entrys_payAccProperty_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].actions.action[entrys_payAccProperty_ActionInfo].description</description>
+            <expressionID>a97e018e-b43c-42dd-bbda-e2bf54cd28e5</expressionID>
+        </action>
+    </actions>
+    <rules>
+        <conditionRule>
+            <name>entrys_payBank_RuleInfo</name>
+            <alias>ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payBank_RuleInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payBank_RuleInfo].description</description>
+            <ruleType>withproperty</ruleType>
+            <eventObjectName />
+            <eventType>CHANGE</eventType>
+            <eventName>CHANGE</eventName>
+            <actions>
+                <action>
+                    <key name="id" value="178b24c2-fa9b-4e6c-9b2c-a6cb2e424fa2" />
+                </action>
+            </actions>
+        </conditionRule>
+        <conditionRule>
+            <name>entrys_payAccProperty_RuleInfo</name>
+            <alias>ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payAccProperty_RuleInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payAccProperty_RuleInfo].description</description>
+            <ruleType>withproperty</ruleType>
+            <eventObjectName />
+            <eventType>CHANGE</eventType>
+            <eventName>CHANGE</eventName>
+            <actions>
+                <action>
+                    <key name="id" value="2019d5a7-b21d-458e-ade1-da1b745fb7aa" />
+                </action>
+            </actions>
+        </conditionRule>
+    </rules>
+    <resource>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].actions.action[entrys_payAccProperty_ActionInfo].alias">
+            <lang locale="zh_CN" value="携带字段属性_description" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="攜帶字段屬性_description" />
+            <lang locale="zh_TW" value="攜帶字段屬性_description" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].actions.action[entrys_payAccProperty_ActionInfo].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].actions.action[entrys_payBank_ActionInfo].alias">
+            <lang locale="zh_CN" value="携带字段属性_bank" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="攜帶字段屬性_bank" />
+            <lang locale="zh_TW" value="攜帶字段屬性_bank" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].actions.action[entrys_payBank_ActionInfo].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payAccProperty_RuleInfo].alias">
+            <lang locale="zh_CN" value="携带字段属性_description" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="攜帶字段屬性_description" />
+            <lang locale="zh_TW" value="攜帶字段屬性_description" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payAccProperty_RuleInfo].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payAccProperty_RuleInfo].extendedProperty.columnName">
+            <lang locale="zh_CN" value="payAccount" />
+            <lang locale="zh_TW" value="payAccount" />
+            <lang locale="en_US" value="payAccount" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payAccProperty_RuleInfo].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payBank_RuleInfo].alias">
+            <lang locale="zh_CN" value="携带字段属性_bank" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="攜帶字段屬性_bank" />
+            <lang locale="zh_TW" value="攜帶字段屬性_bank" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payBank_RuleInfo].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payBank_RuleInfo].extendedProperty.columnName">
+            <lang locale="zh_CN" value="payAccount" />
+            <lang locale="zh_TW" value="payAccount" />
+            <lang locale="en_US" value="payAccount" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.custom.funds.app.FundsApplicationBillRuleSet].rules.conditionRule[entrys_payBank_RuleInfo].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+    </resource>
+</ruleSet>
+

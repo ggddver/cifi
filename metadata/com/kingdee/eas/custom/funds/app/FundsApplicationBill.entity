@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.funds.app</package>
+    <name>FundsApplicationBill</name>
+    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].alias</alias>
+    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].description</description>
+    <userDefined>false</userDefined>
+    <bosType>5A2A70AE</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.custom.funds.FundsApplicationBill</businessImplName>
+    <businessControllerName>com.kingdee.eas.custom.funds.app.FundsApplicationBillController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].description</description>
+            <innerID>93cd6443-f0e0-4c9d-9188-b63866bdaf5c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].description</description>
+            <innerID>fbdc9fd3-dccc-4494-ac4d-2e5c844978f9</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].description</description>
+            <innerID>0eafb2ab-4ee7-446e-891a-98d1b1d1d41e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].description</description>
+            <innerID>13246917-1124-414b-a06f-47f12493f794</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].description</description>
+            <innerID>2d0752ec-e968-40c7-91ce-2b06ecb5c845</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].description</description>
+            <innerID>718a23b1-45f0-40e2-aa37-7f37400608bc</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>audit</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[audit].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[audit].description</description>
+            <innerID>0eff0eac-bd1b-4302-a9bc-08b6677a14d8</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[audit].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[audit].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>unAudit</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[unAudit].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[unAudit].description</description>
+            <innerID>89606054-48a9-4551-b24a-0fbc3145db18</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[unAudit].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[unAudit].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.custom.funds.FundsApplicationBill</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.custom.funds.app" />
+        <key name="name" value="T_FUN_FundsApplicationBill" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>entrys</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[entrys].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[entrys].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_FundsApplicationBill_FundsApplicationBillEntry_entrys" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>Fivouchered</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FFivouchered" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>appCompany</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FAppCompanyID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_FundsApplicationBill_PurchaseOrgUnit_appCompany" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>isGroup</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FIsGroup" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>auditDate</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAuditDate" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>auditOrg</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FAuditOrgID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="R_FundsApplicationBill_AdminOrgUnit_auditOrg" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>bizState</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.custom.funds.BizState</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FBizState" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <events>
+        <event>
+            <name>submitEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>dfd2c083-00fa-1000-e000-001fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="submit" />
+                        <key name="innerID" value="dfd2c083-00fa-1000-e000-001fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>deleteEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>be5779dd-00fe-1000-e000-0007c0a813a9</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="delete" />
+                        <key name="innerID" value="be5779dd-00fe-1000-e000-0007c0a813a9" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>passAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000ec0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="passAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000ec0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>unpassAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="unpassAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>auditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>0eff0eac-bd1b-4302-a9bc-08b6677a14d8</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].eventMethods.eventMethod[0eff0eac-bd1b-4302-a9bc-08b6677a14d8].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].eventMethods.eventMethod[0eff0eac-bd1b-4302-a9bc-08b6677a14d8].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="audit" />
+                        <key name="innerID" value="0eff0eac-bd1b-4302-a9bc-08b6677a14d8" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].eventMethods.eventMethod[0eff0eac-bd1b-4302-a9bc-08b6677a14d8].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].eventMethods.eventMethod[0eff0eac-bd1b-4302-a9bc-08b6677a14d8].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>7783ae93-cb00-42b7-90e6-b3e9c3007481evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>7783ae93-cb00-42b7-90e6-b3e9c3007481evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>unAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>89606054-48a9-4551-b24a-0fbc3145db18</name>
+                    <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].eventMethods.eventMethod[89606054-48a9-4551-b24a-0fbc3145db18].alias</alias>
+                    <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].eventMethods.eventMethod[89606054-48a9-4551-b24a-0fbc3145db18].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="unAudit" />
+                        <key name="innerID" value="89606054-48a9-4551-b24a-0fbc3145db18" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].eventMethods.eventMethod[89606054-48a9-4551-b24a-0fbc3145db18].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].eventMethods.eventMethod[89606054-48a9-4551-b24a-0fbc3145db18].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>cbb7870a-6abc-4309-9750-48779d34982eevfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>cbb7870a-6abc-4309-9750-48779d34982eevfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.custom.funds.app.FundsApplicationBill</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+    </events>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].defaultViewdescription</description>
+        <filter>
+            <maskString />
+        </filter>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].alias">
+            <lang locale="zh_CN" value="资金往来单" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="資金往來單" />
+            <lang locale="zh_TW" value="資金往來單" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].defaultView.filterextendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].defaultViewalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].defaultViewdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="多分錄基礎單據範本" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].alias">
+            <lang locale="zh_CN" value="审核事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核事件" />
+            <lang locale="zh_TW" value="審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].eventMethods.eventMethod[0eff0eac-bd1b-4302-a9bc-08b6677a14d8].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].eventMethods.eventMethod[0eff0eac-bd1b-4302-a9bc-08b6677a14d8].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].eventMethods.eventMethod[0eff0eac-bd1b-4302-a9bc-08b6677a14d8].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].eventMethods.eventMethod[0eff0eac-bd1b-4302-a9bc-08b6677a14d8].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[auditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].alias">
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].description">
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].alias">
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].description">
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].alias">
+            <lang locale="zh_CN" value="提交" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="提交" />
+            <lang locale="zh_TW" value="提交" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].alias">
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].eventMethods.eventMethod[89606054-48a9-4551-b24a-0fbc3145db18].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].eventMethods.eventMethod[89606054-48a9-4551-b24a-0fbc3145db18].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].eventMethods.eventMethod[89606054-48a9-4551-b24a-0fbc3145db18].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].eventMethods.eventMethod[89606054-48a9-4551-b24a-0fbc3145db18].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].alias">
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].description">
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+            <lang locale="en_US" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].extendedProperty.defaultDisplayField">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+            <lang locale="en_US" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].extendedProperty.defaultF7Query">
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.funds.app.FundsApplicationBillQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.funds.app.FundsApplicationBillQuery" />
+            <lang locale="en_US" value="com.kingdee.eas.custom.funds.app.FundsApplicationBillQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.funds.client.FundsApplicationBillEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.funds.client.FundsApplicationBillEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.custom.funds.client.FundsApplicationBillEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].extendedProperty.isParamObject">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].extendedProperty.listUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.funds.client.FundsApplicationBillListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.funds.client.FundsApplicationBillListUI" />
+            <lang locale="en_US" value="com.kingdee.eas.custom.funds.client.FundsApplicationBillListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].logicalKey[id].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].logicalKey[id].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[audit].alias">
+            <lang locale="zh_CN" value="审核" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核" />
+            <lang locale="zh_TW" value="審核" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[audit].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[audit].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[audit].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[unAudit].alias">
+            <lang locale="zh_CN" value="反审核" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審核" />
+            <lang locale="zh_TW" value="反審核" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[unAudit].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[unAudit].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].methods.method[unAudit].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].alias">
+            <lang locale="zh_CN" value="申请区域公司" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請區域公司" />
+            <lang locale="zh_TW" value="申請區域公司" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].description">
+            <lang locale="zh_CN" value="申请区域公司" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請區域公司" />
+            <lang locale="zh_TW" value="申請區域公司" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[appCompany].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].alias">
+            <lang locale="zh_CN" value="所属行政组织" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="所屬行政組織" />
+            <lang locale="zh_TW" value="所屬行政組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].description">
+            <lang locale="zh_CN" value="所属行政组织" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="所屬行政組織" />
+            <lang locale="zh_TW" value="所屬行政組織" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[auditOrg].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[entrys].alias">
+            <lang locale="zh_CN" value="分录" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分錄" />
+            <lang locale="zh_TW" value="分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.linkProperty[entrys].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].alias">
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].defaultValue">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].description">
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+            <lang locale="en_US" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[Fivouchered].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].alias">
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核時間" />
+            <lang locale="zh_TW" value="審核時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].description">
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核時間" />
+            <lang locale="zh_TW" value="審核時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+            <lang locale="en_US" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[auditDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].alias">
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].defaultValue">
+            <lang locale="zh_CN" value="addnew" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="addnew" />
+            <lang locale="zh_TW" value="addnew" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].description">
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+            <lang locale="en_US" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].extendedProperty.defaultValue">
+            <lang locale="zh_CN" value="addnew" />
+            <lang locale="zh_TW" value="addnew" />
+            <lang locale="en_US" value="addnew" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[bizState].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].alias">
+            <lang locale="zh_CN" value="是否集团付款" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否集團付款" />
+            <lang locale="zh_TW" value="是否集團付款" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].defaultValue">
+            <lang locale="zh_CN" value="是否集团付款" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否集團付款" />
+            <lang locale="zh_TW" value="是否集團付款" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].description">
+            <lang locale="zh_CN" value="是否集团付款" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否集團付款" />
+            <lang locale="zh_TW" value="是否集團付款" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+            <lang locale="en_US" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.custom.funds.app.FundsApplicationBill].properties.ownProperty[isGroup].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

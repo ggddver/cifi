@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizEnum xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.funds</package>
+    <name>payUnitType</name>
+    <alias>bizEnum[com.kingdee.eas.custom.funds.payUnitType].alias</alias>
+    <description>bizEnum[com.kingdee.eas.custom.funds.payUnitType].description</description>
+    <userDefined>false</userDefined>
+    <className>com.kingdee.eas.custom.funds.payUnitType</className>
+    <enumDataType>STRING</enumDataType>
+    <enumValues>
+        <enumValue>
+            <name>company</name>
+            <alias>bizEnum[com.kingdee.eas.custom.funds.payUnitType].enumValues.enumValue[company].alias</alias>
+            <userDefined>false</userDefined>
+            <value>0</value>
+        </enumValue>
+        <enumValue>
+            <name>customer</name>
+            <alias>bizEnum[com.kingdee.eas.custom.funds.payUnitType].enumValues.enumValue[customer].alias</alias>
+            <userDefined>false</userDefined>
+            <value>1</value>
+        </enumValue>
+        <enumValue>
+            <name>employee</name>
+            <alias>bizEnum[com.kingdee.eas.custom.funds.payUnitType].enumValues.enumValue[employee].alias</alias>
+            <userDefined>false</userDefined>
+            <value>2</value>
+        </enumValue>
+        <enumValue>
+            <name>supplier</name>
+            <alias>bizEnum[com.kingdee.eas.custom.funds.payUnitType].enumValues.enumValue[supplier].alias</alias>
+            <userDefined>false</userDefined>
+            <value>4</value>
+        </enumValue>
+        <enumValue>
+            <name>other</name>
+            <alias>bizEnum[com.kingdee.eas.custom.funds.payUnitType].enumValues.enumValue[other].alias</alias>
+            <userDefined>false</userDefined>
+            <value>3</value>
+        </enumValue>
+    </enumValues>
+    <resource>
+        <rs key="bizEnum[com.kingdee.eas.custom.funds.payUnitType].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="交款单位类型" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.funds.payUnitType].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.funds.payUnitType].enumValues.enumValue[company].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.funds.payUnitType].enumValues.enumValue[customer].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="客户" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.funds.payUnitType].enumValues.enumValue[employee].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="员工" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.funds.payUnitType].enumValues.enumValue[other].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="其他" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizEnum[com.kingdee.eas.custom.funds.payUnitType].enumValues.enumValue[supplier].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</bizEnum>
+

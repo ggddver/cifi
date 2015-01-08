@@ -1,0 +1,3053 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.funds.app</package>
+    <name>FundsApplicationQuery</name>
+    <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].description</description>
+    <userDefined>false</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.custom.funds.FundsApplication</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>FundsApplication</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[FundsApplication].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplication" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entrys</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[entrys].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationEntry" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>handler</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[handler].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>payUnit</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[payUnit].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entrys_payAccount</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[entrys_payAccount].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="AccountBank" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entrys_recUnit</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[entrys_recUnit].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entrys_recAccount</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[entrys_recAccount].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="AccountBank" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditOrg</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[auditOrg].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="AdminOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>entrys_entryPayUnit</name>
+            <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[entrys_entryPayUnit].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CompanyOrgUnit" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit4</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit5</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit7</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit7].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit7" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit6</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit6].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit6" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="parent" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit9</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="handler" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit8</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b94566ca-a9e4-44f5-b263-c1bd63e05f6c</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[b94566ca-a9e4-44f5-b263-c1bd63e05f6c].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>d22d0884-0161-41eb-b11e-4f0874eaff50</key>
+                    <parentUnit>
+                        <key name="name" value="b94566ca-a9e4-44f5-b263-c1bd63e05f6c" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="payUnit" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>b0e990fb-c906-43ef-9c21-8322ea06cf82</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[b0e990fb-c906-43ef-9c21-8322ea06cf82].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>7f2e29fa-edff-4366-aabe-a2d28c9f8119</key>
+                    <parentUnit>
+                        <key name="name" value="b0e990fb-c906-43ef-9c21-8322ea06cf82" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="payUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>appCompany</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[appCompany].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>04c154bd-c4c5-46fd-bca9-4f1bf45e5f84</key>
+                    <parentUnit>
+                        <key name="name" value="appCompany" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="appCompany" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys_entryPayUnit.description</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys_entryPayUnit.description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8928cc95-4547-49a8-80ac-2031c757ee29</key>
+                    <parentUnit>
+                        <key name="name" value="entrys_entryPayUnit.description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_entryPayUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.payBank</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payBank].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>22df4ce0-d405-414a-a561-34f330125deb</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.payBank" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="payBank" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.payAccount.bankAccountNumber</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payAccount.bankAccountNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b9f27650-a885-482b-b47c-5c7a91187d66</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.payAccount.bankAccountNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_payAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bankAccountNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>f81a3cd6-7a3c-4e39-9106-9b6a8702020e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[f81a3cd6-7a3c-4e39-9106-9b6a8702020e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>86c513fc-ab94-4a27-817e-cbe83ad0f556</key>
+                    <parentUnit>
+                        <key name="name" value="f81a3cd6-7a3c-4e39-9106-9b6a8702020e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="payAccount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>f0094922-97b0-4e95-bdcd-4575a3455688</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[f0094922-97b0-4e95-bdcd-4575a3455688].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>f14fbaa6-3ba4-421e-8cca-a9967b360836</key>
+                    <parentUnit>
+                        <key name="name" value="f0094922-97b0-4e95-bdcd-4575a3455688" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_payAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>entrys.payAccProperty</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payAccProperty].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>221c02ea-0e47-4173-8901-4017a173bf83</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.payAccProperty" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="payAccProperty" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys_recUnit.description</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys_recUnit.description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>87d6efe9-4b9b-446c-9a76-646b464a5b59</key>
+                    <parentUnit>
+                        <key name="name" value="entrys_recUnit.description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_recUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.recBank</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recBank].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b266b397-43e9-4449-96e1-a2dda11a3868</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.recBank" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="recBank" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>febc284d-c18b-4831-b8f0-e4a627feed7e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[febc284d-c18b-4831-b8f0-e4a627feed7e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>fb10c7aa-7b43-457b-9c82-3d82eb0789a0</key>
+                    <parentUnit>
+                        <key name="name" value="febc284d-c18b-4831-b8f0-e4a627feed7e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="recUnit" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>401ee2da-531a-4a1a-8daf-b3eb6ceb1413</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[401ee2da-531a-4a1a-8daf-b3eb6ceb1413].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>a066f7c7-c4b1-4728-9f28-260e85d595b5</key>
+                    <parentUnit>
+                        <key name="name" value="401ee2da-531a-4a1a-8daf-b3eb6ceb1413" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_recUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>entrys.recAccount.bankAccountNumber</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccount.bankAccountNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f6cfab62-5071-400e-a46b-8ee533c4c44a</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.recAccount.bankAccountNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_recAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bankAccountNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>a9176cd4-eb97-4c74-9b7c-256199d20c74</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[a9176cd4-eb97-4c74-9b7c-256199d20c74].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>4ed009bb-41d9-4073-a061-e66638305d31</key>
+                    <parentUnit>
+                        <key name="name" value="a9176cd4-eb97-4c74-9b7c-256199d20c74" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="recAccount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>8ca15154-7465-4e70-88ba-fa3ddac947c6</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[8ca15154-7465-4e70-88ba-fa3ddac947c6].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>da5c2ef9-1281-4ac9-88c6-a980777a0aad</key>
+                    <parentUnit>
+                        <key name="name" value="8ca15154-7465-4e70-88ba-fa3ddac947c6" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_recAccount" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>entrys.recAccProperty</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccProperty].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e9a80942-398c-4eab-85c1-fd09e3c3e0e9</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.recAccProperty" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="recAccProperty" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.amount</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.amount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>786dc171-dd13-4a15-a128-2d2537bb4a04</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.amount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="amount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.upperAmount</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.upperAmount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a8bb240d-3f79-4e23-b730-633e0a537ad1</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.upperAmount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="upperAmount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.recDate</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ff5c84aa-ea27-4406-8345-9875f12f1f29</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.recDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="recDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.usage</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.usage].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1769d3e5-eed0-42f5-b279-70881db18316</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.usage" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="usage" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.attachAmount</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.attachAmount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7e3baddb-ba06-4bf3-abc7-921e2996e093</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.attachAmount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="attachAmount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isGroup</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[isGroup].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a74d3d7c-f48b-4295-8fea-73484a2ff7b1</key>
+                    <parentUnit>
+                        <key name="name" value="isGroup" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isGroup" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>singleMaxAmount</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[singleMaxAmount].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Number</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>898f51c6-36f8-4179-8ad6-898c3f9a1f55</key>
+                    <parentUnit>
+                        <key name="name" value="singleMaxAmount" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="singleMaxAmount" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizState</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[bizState].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>897aa917-0790-4918-bcf7-46316e072bb4</key>
+                    <parentUnit>
+                        <key name="name" value="bizState" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizState" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditDate</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[auditDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f0d55474-4381-49b6-8288-84cf7cd54d4a</key>
+                    <parentUnit>
+                        <key name="name" value="auditDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditOrg.name</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[auditOrg.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>534e1b2d-055a-49d2-8401-d22bfd7e77a5</key>
+                    <parentUnit>
+                        <key name="name" value="auditOrg.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditOrg" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateUser.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[lastUpdateUser.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateUser.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>lastUpdateTime</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[lastUpdateTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="lastUpdateTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>description</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[description].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="description" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="description" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>4b307b78-9cd9-48eb-8300-c913891a2982</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[4b307b78-9cd9-48eb-8300-c913891a2982].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>221534ac-0ff4-43dc-8f4d-a207c32ad750</key>
+                    <parentUnit>
+                        <key name="name" value="4b307b78-9cd9-48eb-8300-c913891a2982" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="FundsApplication" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditOrg" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>c71fd90d-eaa3-4bf8-8d9f-70ae49405f8c</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[c71fd90d-eaa3-4bf8-8d9f-70ae49405f8c].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>365da22c-c858-4eb9-9529-2d7c4355dacc</key>
+                    <parentUnit>
+                        <key name="name" value="c71fd90d-eaa3-4bf8-8d9f-70ae49405f8c" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditOrg" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>entrys.entryPayUnit.name</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.entryPayUnit.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a3323448-98a8-4a3e-ac19-772fc8c69502</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.entryPayUnit.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_entryPayUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>8628f8fd-95db-4de8-896f-106292f217f3</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[8628f8fd-95db-4de8-896f-106292f217f3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>1400ac5a-ac65-4570-9c4f-00bc053db34e</key>
+                    <parentUnit>
+                        <key name="name" value="8628f8fd-95db-4de8-896f-106292f217f3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="entryPayUnit" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>402e0a0d-e173-4216-bcfa-3f92c1fb287a</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[402e0a0d-e173-4216-bcfa-3f92c1fb287a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>d40a6c99-8916-4717-b8a1-92566345a630</key>
+                    <parentUnit>
+                        <key name="name" value="402e0a0d-e173-4216-bcfa-3f92c1fb287a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_entryPayUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>entrys.seq</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.seq].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.seq" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="seq" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>payUnit.name</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[payUnit.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4d2df079-49d7-4d3b-b1cc-620ce410a35b</key>
+                    <parentUnit>
+                        <key name="name" value="payUnit.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="payUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.recUnit.name</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recUnit.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c48efa77-87ad-4d32-a6bb-c2b2f1cdc353</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.recUnit.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys_recUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>entrys.recAccountText</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccountText].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bd027f31-2e2c-4ac3-a3da-022735aa6706</key>
+                    <parentUnit>
+                        <key name="name" value="entrys.recAccountText" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="entrys" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="recAccountText" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </queryField>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.custom.funds.app" />
+            <key name="name" value="FundsApplicationQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+        <querySorterItem>
+            <propertyName>entrys.seq</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+            <configured>false</configured>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+            <queryField>
+                <key name="name" value="entrys.id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="FundsApplication" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="FundsApplication" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin1" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin2</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="FundsApplication" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit4" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin2" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin3</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="FundsApplication" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entrys" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit7" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit6" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin3" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="FundsApplication" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="handler" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit9" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit8" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </join>
+        <join>
+            <name>70f00c92-0cb5-4c0d-8078-db3d28c1cc42</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="FundsApplication" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="payUnit" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>7312cd20-73ec-409b-af4a-4155cfb9c4f4</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="b94566ca-a9e4-44f5-b263-c1bd63e05f6c" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="b0e990fb-c906-43ef-9c21-8322ea06cf82" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="70f00c92-0cb5-4c0d-8078-db3d28c1cc42" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </join>
+        <join>
+            <name>a0c6d370-eda0-43db-86c0-e57d8e804d51</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="entrys" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entrys_payAccount" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>20a7e45f-dcd1-4d4e-8013-49aaa6ebd89a</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="f81a3cd6-7a3c-4e39-9106-9b6a8702020e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="f0094922-97b0-4e95-bdcd-4575a3455688" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="a0c6d370-eda0-43db-86c0-e57d8e804d51" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </join>
+        <join>
+            <name>89adbe0a-cfa2-495c-823e-be0d98669aaa</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="entrys" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entrys_recUnit" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>e0ff2efe-0236-4eba-b948-4e778d444f13</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="febc284d-c18b-4831-b8f0-e4a627feed7e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="401ee2da-531a-4a1a-8daf-b3eb6ceb1413" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="89adbe0a-cfa2-495c-823e-be0d98669aaa" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </join>
+        <join>
+            <name>071fe504-cfe1-43aa-bf9c-7517c8c272f7</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="entrys" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entrys_recAccount" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>48750003-fe94-44ec-b984-df2a5cda75ca</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="a9176cd4-eb97-4c74-9b7c-256199d20c74" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="8ca15154-7465-4e70-88ba-fa3ddac947c6" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="071fe504-cfe1-43aa-bf9c-7517c8c272f7" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </join>
+        <join>
+            <name>ff4e4651-05a6-4283-98ae-c7ce8ce210f8</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="FundsApplication" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditOrg" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>916d357a-5a95-4130-b25a-9fc3b761e56c</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="4b307b78-9cd9-48eb-8300-c913891a2982" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="c71fd90d-eaa3-4bf8-8d9f-70ae49405f8c" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="ff4e4651-05a6-4283-98ae-c7ce8ce210f8" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </join>
+        <join>
+            <name>f566d59e-1f13-4834-b7f4-98e04ba17d68</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="entrys" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="entrys_entryPayUnit" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>26c6799c-900e-4b3a-b0b5-33e019724804</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="8628f8fd-95db-4de8-896f-106292f217f3" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="402e0a0d-e173-4216-bcfa-3f92c1fb287a" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="f566d59e-1f13-4834-b7f4-98e04ba17d68" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="FundsApplicationQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].alias">
+            <lang locale="zh_CN" value="资金往来申请单" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="資金往來申請單" />
+            <lang locale="zh_TW" value="資金往來申請單" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="zh_CN" value="多分录基础单据模板" />
+            <lang locale="zh_TW" value="多分录基础单据模板" />
+            <lang locale="en_US" value="多分录基础单据模板" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].description">
+            <lang locale="zh_CN" value="多分录基础单据查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="多分錄基礎單據查詢" />
+            <lang locale="zh_TW" value="多分錄基礎單據查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].extendedProperty.F7WindowTitle">
+            <lang locale="zh_CN" value="com.kingdee.eas.custom.funds.client.FundsResource.FundsApplicationQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.custom.funds.client.FundsResource.FundsApplicationQueryF7WindowTitle" />
+            <lang locale="en_US" value="com.kingdee.eas.custom.funds.client.FundsResource.FundsApplicationQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].extendedProperty.f7WindowTitle">
+            <lang locale="zh_CN" value="资金往来申请单" />
+            <lang locale="zh_TW" value="资金往来申请单" />
+            <lang locale="en_US" value="资金往来申请单" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].queryPK[QueryPK].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].queryPK[QueryPK].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[FundsApplication].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[auditOrg].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[creator].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[entrys].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[entrys_entryPayUnit].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[entrys_payAccount].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[entrys_recAccount].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[entrys_recUnit].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[handler].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].subObjects.subEntity[payUnit].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[401ee2da-531a-4a1a-8daf-b3eb6ceb1413].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[402e0a0d-e173-4216-bcfa-3f92c1fb287a].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[4b307b78-9cd9-48eb-8300-c913891a2982].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[8628f8fd-95db-4de8-896f-106292f217f3].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[8ca15154-7465-4e70-88ba-fa3ddac947c6].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit4].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit5].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit6].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit7].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit8].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[NewUnit9].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[a9176cd4-eb97-4c74-9b7c-256199d20c74].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[b0e990fb-c906-43ef-9c21-8322ea06cf82].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[b94566ca-a9e4-44f5-b263-c1bd63e05f6c].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[c71fd90d-eaa3-4bf8-8d9f-70ae49405f8c].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[f0094922-97b0-4e95-bdcd-4575a3455688].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[f81a3cd6-7a3c-4e39-9106-9b6a8702020e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.propertyUnit[febc284d-c18b-4831-b8f0-e4a627feed7e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[appCompany].displayName">
+            <lang locale="zh_CN" value="申请区域公司" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請區域公司" />
+            <lang locale="zh_TW" value="申請區域公司" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[appCompany].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[appCompany].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[auditDate].displayName">
+            <lang locale="zh_CN" value="审批时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審批時間" />
+            <lang locale="zh_TW" value="審批時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[auditDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[auditDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[auditOrg.name].displayName">
+            <lang locale="zh_CN" value="所属行政组织" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="所屬行政組織" />
+            <lang locale="zh_TW" value="所屬行政組織" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[auditOrg.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[auditOrg.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[auditOrg.name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[auditor.name].displayName">
+            <lang locale="zh_CN" value="审批人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審批人" />
+            <lang locale="zh_TW" value="審批人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[bizDate].displayName">
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[bizDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[bizDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[bizState].displayName">
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[bizState].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[bizState].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[createTime].displayName">
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[creator.name].displayName">
+            <lang locale="zh_CN" value="创建人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建人" />
+            <lang locale="zh_TW" value="創建人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[description].displayName">
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[description].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[description].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.amount].displayName">
+            <lang locale="zh_CN" value="申请金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請金額" />
+            <lang locale="zh_TW" value="申請金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.amount].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.amount].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.attachAmount].displayName">
+            <lang locale="zh_CN" value="附件数" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="附件數" />
+            <lang locale="zh_TW" value="附件數" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.attachAmount].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.attachAmount].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.entryPayUnit.name].displayName">
+            <lang locale="zh_CN" value="付款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款單位" />
+            <lang locale="zh_TW" value="付款單位" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.entryPayUnit.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.entryPayUnit.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.entryPayUnit.name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.id].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payAccProperty].displayName">
+            <lang locale="zh_CN" value="付款账户性质" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款賬戶性質" />
+            <lang locale="zh_TW" value="付款賬戶性質" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payAccProperty].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payAccProperty].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payAccount.bankAccountNumber].displayName">
+            <lang locale="zh_CN" value="付款账号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款賬號" />
+            <lang locale="zh_TW" value="付款賬號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payAccount.bankAccountNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payAccount.bankAccountNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payAccount.bankAccountNumber].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payBank].displayName">
+            <lang locale="zh_CN" value="付款行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款行" />
+            <lang locale="zh_TW" value="付款行" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payBank].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.payBank].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccProperty].displayName">
+            <lang locale="zh_CN" value="收款账号性质" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬號性質" />
+            <lang locale="zh_TW" value="收款賬號性質" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccProperty].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccProperty].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccount.bankAccountNumber].displayName">
+            <lang locale="zh_CN" value="收款账号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬號" />
+            <lang locale="zh_TW" value="收款賬號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccount.bankAccountNumber].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccount.bankAccountNumber].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccount.bankAccountNumber].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccountText].displayName">
+            <lang locale="zh_CN" value="收款账号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬號" />
+            <lang locale="zh_TW" value="收款賬號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccountText].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recAccountText].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recBank].displayName">
+            <lang locale="zh_CN" value="收款行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款行" />
+            <lang locale="zh_TW" value="收款行" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recBank].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recBank].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recDate].displayName">
+            <lang locale="zh_CN" value="到帐时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="到帳時間" />
+            <lang locale="zh_TW" value="到帳時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recUnit.name].displayName">
+            <lang locale="zh_CN" value="收款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款單位" />
+            <lang locale="zh_TW" value="收款單位" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recUnit.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recUnit.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.recUnit.name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.seq].displayName">
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.seq].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.seq].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.upperAmount].displayName">
+            <lang locale="zh_CN" value="大写金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="大寫金額" />
+            <lang locale="zh_TW" value="大寫金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.upperAmount].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.upperAmount].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.usage].displayName">
+            <lang locale="zh_CN" value="款项用途描述" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="款項用途描述" />
+            <lang locale="zh_TW" value="款項用途描述" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.usage].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys.usage].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys_entryPayUnit.description].displayName">
+            <lang locale="zh_CN" value="付款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款單位" />
+            <lang locale="zh_TW" value="付款單位" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys_entryPayUnit.description].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys_entryPayUnit.description].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys_recUnit.description].displayName">
+            <lang locale="zh_CN" value="收款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款單位" />
+            <lang locale="zh_TW" value="收款單位" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys_recUnit.description].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[entrys_recUnit.description].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[id].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[isGroup].displayName">
+            <lang locale="zh_CN" value="是否集团付款" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否集團付款" />
+            <lang locale="zh_TW" value="是否集團付款" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[isGroup].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[isGroup].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[lastUpdateTime].displayName">
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[lastUpdateTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[lastUpdateUser.name].displayName">
+            <lang locale="zh_CN" value="最后修改人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="最後修改人" />
+            <lang locale="zh_TW" value="最後修改人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[number].displayName">
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[payUnit.name].displayName">
+            <lang locale="zh_CN" value="付款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款單位" />
+            <lang locale="zh_TW" value="付款單位" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[payUnit.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[payUnit.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[payUnit.name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[singleMaxAmount].displayName">
+            <lang locale="zh_CN" value="单笔最大金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單筆最大金額" />
+            <lang locale="zh_TW" value="單筆最大金額" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[singleMaxAmount].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.custom.funds.app.FundsApplicationQuery].units.queryField[singleMaxAmount].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

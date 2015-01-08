@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.custom.funds.app</package>
+    <name>T_FUN_FundsABE</name>
+    <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].alias</alias>
+    <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].description</description>
+    <userDefined>false</userDefined>
+    <bizUnitPK />
+    <columns>
+        <column>
+            <name>FSeq</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FSeq].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FSeq].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FParentID</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FParentID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FParentID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FEntryPayUnitID</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FEntryPayUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FEntryPayUnitID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FPayAccountID</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayAccountID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayAccountID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FPayBank</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayBank].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayBank].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FPayAccProperty</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayAccProperty].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayAccProperty].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FRecUnitID</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecUnitID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FRecAccountText</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecAccountText].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecAccountText].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FRecBank</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecBank].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecBank].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FRecAccProperty</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecAccProperty].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecAccProperty].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAmount</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FAmount].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NUMERIC</sqlType>
+            <length>28</length>
+            <scale>2</scale>
+            <precision>28</precision>
+        </column>
+        <column>
+            <name>FUpperAmount</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FUpperAmount].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FUpperAmount].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FRecDate</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecDate].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FUsage</name>
+            <alias>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FUsage].alias</alias>
+            <description>dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FUsage].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>255</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_FUN_FundsABEID</name>
+        <userDefined>false</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>FK_FUN_FundsABEPou</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.custom.funds.app" />
+                <key name="name" value="T_FUN_FundsApplicationBill" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FParentID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_FUN_FundsABENlj</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Company" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FEntryPayUnitID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_FUN_FundsABEAg2</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.assistant" />
+                <key name="name" value="T_BD_AccountBanks" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FPayAccountID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_FUN_FundsABEE61</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Company" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FRecUnitID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].alias">
+            <lang locale="zh_CN" value="分录" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分錄" />
+            <lang locale="zh_TW" value="分錄" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FAmount].alias">
+            <lang locale="zh_CN" value="申请金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請金額" />
+            <lang locale="zh_TW" value="申請金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FAmount].description">
+            <lang locale="zh_CN" value="申请金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="申請金額" />
+            <lang locale="zh_TW" value="申請金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FEntryPayUnitID].alias">
+            <lang locale="zh_CN" value="付款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款單位" />
+            <lang locale="zh_TW" value="付款單位" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FEntryPayUnitID].description">
+            <lang locale="zh_CN" value="付款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款單位" />
+            <lang locale="zh_TW" value="付款單位" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FParentID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FParentID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayAccProperty].alias">
+            <lang locale="zh_CN" value="付款账户性质" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款賬戶性質" />
+            <lang locale="zh_TW" value="付款賬戶性質" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayAccProperty].description">
+            <lang locale="zh_CN" value="付款账户性质" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款賬戶性質" />
+            <lang locale="zh_TW" value="付款賬戶性質" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayAccountID].alias">
+            <lang locale="zh_CN" value="付款账号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款賬號" />
+            <lang locale="zh_TW" value="付款賬號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayAccountID].description">
+            <lang locale="zh_CN" value="付款账号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款賬號" />
+            <lang locale="zh_TW" value="付款賬號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayBank].alias">
+            <lang locale="zh_CN" value="付款行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款行" />
+            <lang locale="zh_TW" value="付款行" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FPayBank].description">
+            <lang locale="zh_CN" value="付款行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款行" />
+            <lang locale="zh_TW" value="付款行" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecAccProperty].alias">
+            <lang locale="zh_CN" value="收款账户性质" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬戶性質" />
+            <lang locale="zh_TW" value="收款賬戶性質" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecAccProperty].description">
+            <lang locale="zh_CN" value="收款账户性质" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬戶性質" />
+            <lang locale="zh_TW" value="收款賬戶性質" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecAccountText].alias">
+            <lang locale="zh_CN" value="收款账户" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款賬戶" />
+            <lang locale="zh_TW" value="收款賬戶" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecAccountText].description">
+            <lang locale="zh_CN" value="付款账户" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="付款賬戶" />
+            <lang locale="zh_TW" value="付款賬戶" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecBank].alias">
+            <lang locale="zh_CN" value="收款行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款行" />
+            <lang locale="zh_TW" value="收款行" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecBank].description">
+            <lang locale="zh_CN" value="收款行" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款行" />
+            <lang locale="zh_TW" value="收款行" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecDate].alias">
+            <lang locale="zh_CN" value="到账日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="到賬日期" />
+            <lang locale="zh_TW" value="到賬日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecDate].description">
+            <lang locale="zh_CN" value="到账日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="到賬日期" />
+            <lang locale="zh_TW" value="到賬日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecUnitID].alias">
+            <lang locale="zh_CN" value="收款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款單位" />
+            <lang locale="zh_TW" value="收款單位" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FRecUnitID].description">
+            <lang locale="zh_CN" value="收款单位" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="收款單位" />
+            <lang locale="zh_TW" value="收款單位" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FSeq].alias">
+            <lang locale="zh_CN" value="单据分录序列号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據分錄序列號" />
+            <lang locale="zh_TW" value="單據分錄序列號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FSeq].description">
+            <lang locale="zh_CN" value="单据分录序列号（定义为序列属性即使用{seq}）" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據分錄序列號（定義為序列屬性即使用{seq}）" />
+            <lang locale="zh_TW" value="單據分錄序列號（定義為序列屬性即使用{seq}）" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FUpperAmount].alias">
+            <lang locale="zh_CN" value="大写金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="大寫金額" />
+            <lang locale="zh_TW" value="大寫金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FUpperAmount].description">
+            <lang locale="zh_CN" value="大写金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="大寫金額" />
+            <lang locale="zh_TW" value="大寫金額" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FUsage].alias">
+            <lang locale="zh_CN" value="款项用途" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="款項用途" />
+            <lang locale="zh_TW" value="款項用途" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].columns.column[FUsage].description">
+            <lang locale="zh_CN" value="款项用途" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="款項用途" />
+            <lang locale="zh_TW" value="款項用途" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.custom.funds.app.T_FUN_FundsABE].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+
