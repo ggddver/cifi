@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.app</package>
+    <name>DesignSelectSupplierDB</name>
+    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].alias</alias>
+    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].description</description>
+    <userDefined>false</userDefined>
+    <bosType>EE370A3E</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.invite.designsupplier.DesignSelectSupplierDB</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDBController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].description</description>
+            <innerID>09831565-ac5d-4a09-9cb2-bc89207f094f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].description</description>
+            <innerID>5fb453e3-2ae8-4db3-a1de-0d21c3941499</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].description</description>
+            <innerID>7375cfd1-9ec2-485b-b1a5-e1053ce336a5</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].description</description>
+            <innerID>3661cc80-5773-4db1-908f-b5e637f54cca</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].description</description>
+            <innerID>71dc142f-6a00-4b9d-a227-eae5bd295fb6</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].description</description>
+            <innerID>3065adfb-2860-4361-9d1e-4178472fecc5</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].description</description>
+            <innerID>5cbfa1d0-9f6f-4be6-a252-66e1deacbd78</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].description</description>
+            <innerID>7161abff-9195-4123-97a2-9c6795712460</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>update</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].description</description>
+            <innerID>fc2bd0fc-6ce7-4986-9260-c2287f94bab5</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>updatePartial</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].description</description>
+            <innerID>2fa00267-7bae-4b06-a5ff-a64aff23fcc1</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>updateBigObject</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].description</description>
+            <innerID>1376e202-23c0-4e9d-aa3d-328025558b11</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].description</description>
+            <innerID>1c5d2901-6fb3-4b99-9f19-9c10955f93b1</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].description</description>
+            <innerID>94e26408-a914-46de-a3e4-14c6c81618f2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].description</description>
+            <innerID>20460a01-c920-434e-9fd0-68a794bbc091</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].description</description>
+            <innerID>bb2513e2-9867-4f6c-9867-e96284209f65</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>sorter</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[sorter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[sorter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SorterItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].description</description>
+            <innerID>910c2f9e-4d4f-4eab-aabd-77a5d23d3d59</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].description</description>
+            <innerID>507f142a-cf13-40a9-882d-452f653d3f94</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].description</description>
+            <innerID>3a1f82d0-1edc-4049-8b9e-6b3f5746e49c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].description</description>
+            <innerID>94db8831-8525-41f8-b1e3-1145b88c498e</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].description</description>
+            <innerID>73054026-3613-4c07-90b5-281838d2bdc6</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].description</description>
+            <innerID>e86044e3-433e-444c-9769-d88c518180f8</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>arrayPK</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[arrayPK].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[arrayPK].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK[]</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK />
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+        <key name="name" value="T_DES_DesignSelectSupplierDB" />
+    </table>
+    <properties>
+        <ownProperty>
+            <name>id</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[id].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[id].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BOSUuid</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[id].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FID" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>ProId</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[ProId].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[ProId].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[ProId].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FProId" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>supplierCompany</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[supplierCompany].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[supplierCompany].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1000</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[supplierCompany].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSupplierCompany" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>peopleCfg</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[peopleCfg].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[peopleCfg].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1000</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[peopleCfg].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPeopleCfg" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>design</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[design].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[design].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1000</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[design].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FDesign" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>PostService</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[PostService].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[PostService].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1000</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[PostService].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPostService" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>Pro</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[Pro].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[Pro].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1000</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[Pro].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPro" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>price</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[price].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[price].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[price].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPrice" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>DesignSupplierId</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[DesignSupplierId].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[DesignSupplierId].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1000</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[DesignSupplierId].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FDesignSupplierId" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[addnew].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[arrayPK].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[arrayPK].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[delete].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[exists].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[filter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[filter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[sorter].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getPKList].parameters.parameter[sorter].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updateBigObject].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[updatePartial].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].parameters.parameter[model].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].parameters.parameter[model].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].methods.method[update].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[DesignSupplierId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[DesignSupplierId].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[DesignSupplierId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[PostService].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="后期服务" />
+            <lang locale="zh_TW" value="後期服務" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[PostService].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[PostService].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[ProId].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="项目分期ID" />
+            <lang locale="zh_TW" value="項目分期ID" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[ProId].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[ProId].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[Pro].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="代表项目" />
+            <lang locale="zh_TW" value="代表項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[Pro].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[Pro].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[design].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="设计质量" />
+            <lang locale="zh_TW" value="設計質量" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[design].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[design].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[id].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[peopleCfg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员配置" />
+            <lang locale="zh_TW" value="人員配置" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[peopleCfg].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[peopleCfg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[price].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="商务报价" />
+            <lang locale="zh_TW" value="商務報價" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[price].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[price].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[supplierCompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司情况" />
+            <lang locale="zh_TW" value="公司情況" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[supplierCompany].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSelectSupplierDB].properties.ownProperty[supplierCompany].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</entityObject>
+

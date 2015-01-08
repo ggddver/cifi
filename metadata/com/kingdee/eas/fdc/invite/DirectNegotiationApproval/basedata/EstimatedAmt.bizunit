@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata</package>
+    <name>EstimatedAmt</name>
+    <alias>bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].alias</alias>
+    <description>bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].description</description>
+    <userDefined>false</userDefined>
+    <bizType>BaseData</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt</entityPK>
+    <queryPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmtQuery</queryPK>
+    <editUIPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>TreeDetail</bimTemplateType>
+    <relatedTablePK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.T_INV_EstimatedAmtTREE</relatedTablePK>
+    <relatedEntityPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmtTree</relatedEntityPK>
+    <relatedEditUIPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtTreeEditUI</relatedEditUIPK>
+    <genImplementCode>true</genImplementCode>
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].alias">
+            <lang locale="zh_CN" value="预估金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="預估金額" />
+            <lang locale="zh_TW" value="預估金額" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.bimRelationObjectPK">
+            <lang locale="zh_CN" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="en_US" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.bimTemplateType">
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="en_US" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.defaultDisplayField">
+            <lang locale="zh_CN" value="" />
+            <lang locale="en_US" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.defaultF7Query">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmtQuery" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmtQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmtQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.isAsstAcctType">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.isParamObject">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.isSimpleEntity">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.listUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtListUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt].extendedProperty.maxFieldIndex">
+            <lang locale="zh_CN" value="2" />
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+    </resource>
+</bizUnit>
+

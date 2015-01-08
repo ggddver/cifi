@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app</package>
+    <name>EstimatedAmt</name>
+    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].alias</alias>
+    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].description</description>
+    <userDefined>false</userDefined>
+    <bosType>617476E2</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmtController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].description</description>
+            <innerID>9b413390-c66f-411e-82f1-4022ad2c09c0</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].description</description>
+            <innerID>dfab528e-85b1-423b-8237-732369390bcb</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].description</description>
+            <innerID>ebb57fdf-7496-4290-b44d-61624155636d</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].description</description>
+            <innerID>c2ee042e-f10d-494e-85d6-88bf6b4df7ed</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].description</description>
+            <innerID>16a12fad-0897-4379-bf25-8fafb8a96864</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].description</description>
+            <innerID>41304df1-ef54-4e1a-b96a-dee3be96db45</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.EstimatedAmt</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="DataBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app" />
+        <key name="name" value="T_INV_EstimatedAmt" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>treeid</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.linkProperty[treeid].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.linkProperty[treeid].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FTreeID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app" />
+                <key name="name" value="EstimatedAmt_EstimatedAmtTree" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>use</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FUse" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].alias">
+            <lang locale="zh_CN" value="预估金额" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="預估金額" />
+            <lang locale="zh_TW" value="預估金額" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="分組基礎資料範本" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+            <lang locale="en_US" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.bimRelationObjectPK">
+            <lang locale="zh_CN" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="zh_TW" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+            <lang locale="en_US" value="com.kingdee.bos.bim.templates.app.BizTreeBase" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.bimTemplateType">
+            <lang locale="zh_CN" value="TreeDetail" />
+            <lang locale="zh_TW" value="TreeDetail" />
+            <lang locale="en_US" value="TreeDetail" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.defaultDisplayField">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+            <lang locale="en_US" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.defaultF7Query">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmtQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmtQuery" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmtQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.isAsstAcctType">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.isParamObject">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.isSimpleEntity">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].extendedProperty.listUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtListUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.client.EstimatedAmtListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].logicalKey[id].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].logicalKey[id].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.linkProperty[treeid].alias">
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="組別" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.linkProperty[treeid].description">
+            <lang locale="zh_CN" value="组别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="組別" />
+            <lang locale="zh_TW" value="組別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.linkProperty[treeid].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.linkProperty[treeid].extendedProperty.isLinkedToGroupEntity">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].alias">
+            <lang locale="zh_CN" value="启用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="啟用" />
+            <lang locale="zh_TW" value="啟用" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].defaultValue">
+            <lang locale="zh_CN" value="启用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="啟用" />
+            <lang locale="zh_TW" value="啟用" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].description">
+            <lang locale="zh_CN" value="布尔" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="布爾" />
+            <lang locale="zh_TW" value="布爾" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+            <lang locale="en_US" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].extendedProperty.isAsstAcctType">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.EstimatedAmt].properties.ownProperty[use].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

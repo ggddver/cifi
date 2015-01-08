@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.subill.app</package>
+    <name>DesignSupplierEvaluationEntry</name>
+    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].alias</alias>
+    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].description</description>
+    <userDefined>false</userDefined>
+    <bosType>95E15AC7</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierEvaluationEntry</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntryController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].description</description>
+            <innerID>d3468d49-d96b-458e-9cce-229ce92c865c</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].description</description>
+            <innerID>25f68bbf-7ddf-4470-8752-9324c57ad322</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].description</description>
+            <innerID>ceab6405-5ba7-4314-9300-c6c520bcb2a8</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].description</description>
+            <innerID>e8dafbde-4dfc-46c1-b570-c44f3c83d1ba</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].description</description>
+            <innerID>eb69412b-784f-4ed8-aa5b-5d3cd5885ded</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].description</description>
+            <innerID>07295729-7e46-4a2a-9919-b61d09b03add</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierEvaluation</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillEntryBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+        <key name="name" value="T_DES_DesignSEE" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>parent</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[parent].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[parent].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FParentID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="R_DesignSupplierEvaluation_DesignSupplierEvaluationEntry_entrys" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>Review</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FReview" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>IndexName</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FIndexNameID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="R_DesignSupplierEvaluationEntry_DesignAuditIndex_IndexName" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>Casedescription</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>255</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FCasedescription" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>IsQualified</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.fdc.invite.supplier.IsGradeEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FIsQualified" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].alias">
+            <lang locale="zh_CN" value="分录" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分錄" />
+            <lang locale="zh_TW" value="分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].defaultViewalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].defaultViewdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].logicalKey[id].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].logicalKey[id].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].alias">
+            <lang locale="zh_CN" value="指标名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="指標名稱" />
+            <lang locale="zh_TW" value="指標名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].description">
+            <lang locale="zh_CN" value="指标名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="指標名稱" />
+            <lang locale="zh_TW" value="指標名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[IndexName].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[parent].alias">
+            <lang locale="zh_CN" value="单据头" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據頭" />
+            <lang locale="zh_TW" value="單據頭" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.linkProperty[parent].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].alias">
+            <lang locale="zh_CN" value="情况描述" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="情況描述" />
+            <lang locale="zh_TW" value="情況描述" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].description">
+            <lang locale="zh_CN" value="情况描述" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="情況描述" />
+            <lang locale="zh_TW" value="情況描述" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="NOTE" />
+            <lang locale="zh_TW" value="NOTE" />
+            <lang locale="en_US" value="NOTE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Casedescription].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].alias">
+            <lang locale="zh_CN" value="合格与否" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合格與否" />
+            <lang locale="zh_TW" value="合格與否" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].defaultValue">
+            <lang locale="zh_CN" value="ELIGIBILITY" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ELIGIBILITY" />
+            <lang locale="zh_TW" value="ELIGIBILITY" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].description">
+            <lang locale="zh_CN" value="合格与否" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合格與否" />
+            <lang locale="zh_TW" value="合格與否" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+            <lang locale="en_US" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].extendedProperty.defaultValue">
+            <lang locale="zh_CN" value="ELIGIBILITY" />
+            <lang locale="zh_TW" value="ELIGIBILITY" />
+            <lang locale="en_US" value="ELIGIBILITY" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[IsQualified].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].alias">
+            <lang locale="zh_CN" value="评审维度" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="評審維度" />
+            <lang locale="zh_TW" value="評審維度" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].description">
+            <lang locale="zh_CN" value="评审维度" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="評審維度" />
+            <lang locale="zh_TW" value="評審維度" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationEntry].properties.ownProperty[Review].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

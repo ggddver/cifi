@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.DirectNegotiationApproval</package>
+    <name>DirectNegotiationApproval</name>
+    <alias>bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].alias</alias>
+    <description>bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].description</description>
+    <userDefined>false</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApproval</entityPK>
+    <queryPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalQuery</queryPK>
+    <editUIPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.client.DirectNegotiationApprovalEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.client.DirectNegotiationApprovalListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>MCoreBillBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].alias">
+            <lang locale="zh_CN" value="直接议标审批" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="直接議標審批" />
+            <lang locale="zh_TW" value="直接議標審批" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].description">
+            <lang locale="zh_CN" value="直接委托审批" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="直接委託審批" />
+            <lang locale="zh_TW" value="直接委託審批" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].extendedProperty.CRDHMaintain">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].extendedProperty.CRDHRefuse">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].extendedProperty.CRNumberAddView">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].extendedProperty.CRNumberEdit">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="CostCenter" />
+            <lang locale="en_US" value="CostCenter" />
+            <lang locale="zh_TW" value="CostCenter" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.client.DirectAccepterResultEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.client.DirectAccepterResultEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.client.DirectAccepterResultEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].extendedProperty.isParamObject">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval].extendedProperty.listUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.client.DirectAccepterResultListUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.client.DirectAccepterResultListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.client.DirectAccepterResultListUI" />
+        </rs>
+    </resource>
+</bizUnit>
+

@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataTable xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.subill.app</package>
+    <name>T_DES_DesignSupplierSelect</name>
+    <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].alias</alias>
+    <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].description</description>
+    <userDefined>false</userDefined>
+    <bizUnitPK>com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierSelect</bizUnitPK>
+    <columns>
+        <column>
+            <name>FCreatorID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FCreatorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FCreatorID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FCreateTime</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FCreateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FCreateTime].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FLastUpdateUserID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FLastUpdateUserID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FLastUpdateUserID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FLastUpdateTime</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FLastUpdateTime].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FLastUpdateTime].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FControlUnitID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FControlUnitID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FControlUnitID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FNumber</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FNumber].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FNumber].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FBizDate</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FBizDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FBizDate].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>8</precision>
+        </column>
+        <column>
+            <name>FHandlerID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FHandlerID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FHandlerID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FDescription</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDescription].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDescription].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FHasEffected</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FHasEffected].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FHasEffected].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>4</length>
+            <scale>0</scale>
+            <precision>4</precision>
+        </column>
+        <column>
+            <name>FAuditorID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuditorID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuditorID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSourceBillID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSourceBillID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSourceBillID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FSourceFunction</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSourceFunction].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSourceFunction].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>80</precision>
+        </column>
+        <column>
+            <name>FID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>false</isNullable>
+            <defaultValue>''</defaultValue>
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>44</precision>
+        </column>
+        <column>
+            <name>FFivouchered</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FFivouchered].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FFivouchered].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>1</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSupplierNumberID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierNumberID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierNumberID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSupplierName</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierName].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierName].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>80</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FDesignType</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDesignType].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDesignType].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FDesignTypeID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDesignTypeID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDesignTypeID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FServiceArea</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FServiceArea].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FServiceArea].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FJob</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FJob].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FJob].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAuthorizedPer</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuthorizedPer].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuthorizedPer].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAuthorizedTel</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuthorizedTel].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuthorizedTel].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>100</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FProID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FProID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FProID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FSupplierLvID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierLvID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierLvID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FRemake</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FRemake].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FRemake].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>NVARCHAR</sqlType>
+            <length>1000</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FAuditDate</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuditDate].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuditDate].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>DATETIME</sqlType>
+            <length>8</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FState</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FState].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FState].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>INT</sqlType>
+            <length>0</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FOrgID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FOrgID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FOrgID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FInvTyepID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FInvTyepID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FInvTyepID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+        <column>
+            <name>FPusOrgID</name>
+            <alias>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FPusOrgID].alias</alias>
+            <description>dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FPusOrgID].description</description>
+            <userDefined>false</userDefined>
+            <isMultilingual>false</isMultilingual>
+            <isEncoded>false</isEncoded>
+            <isNullable>true</isNullable>
+            <defaultValue />
+            <sqlType>VARCHAR</sqlType>
+            <length>44</length>
+            <scale>0</scale>
+            <precision>0</precision>
+        </column>
+    </columns>
+    <primaryKey>
+        <name>PK_DES_DesignEDS</name>
+        <userDefined>false</userDefined>
+        <primaryKeyColumns>
+            <primaryKeyColumn>
+                <indexID>0</indexID>
+                <sortType>ASC</sortType>
+                <column>
+                    <key name="name" value="FID" />
+                </column>
+            </primaryKeyColumn>
+        </primaryKeyColumns>
+    </primaryKey>
+    <foreignKeys>
+        <foreignKey>
+            <name>FK_DES_DsnSSCrtrdp</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FCreatorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_DES_DsnSSLsUUep</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FLastUpdateUserID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_DES_DsnSSCntUep</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_OUPartCtrl" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FUnitID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FControlUnitID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_DES_DsnSSHndlep</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FHandlerID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_DES_DsnSSAdtrfp</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="T_PM_User" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FAuditorID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_DES_DsnSSUplrdk</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="T_DES_DesignSupplierStock" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FSupplierNumberID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_DES_DesignSSRng</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.designbase.app" />
+                <key name="name" value="T_DES_DesignQuaLevel" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FProID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_DES_DsnSSUplr37</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.designbase.app" />
+                <key name="name" value="T_DES_DesignLevelSetUp" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FSupplierLvID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_DES_DesignSSRka</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Purchase" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FOrgID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_DES_DesignSSN9v</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Purchase" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FInvTyepID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+        <foreignKey>
+            <name>FK_DES_DesignSSUig</name>
+            <userDefined>false</userDefined>
+            <refTable>
+                <key name="package" value="com.kingdee.eas.basedata.org" />
+                <key name="name" value="T_ORG_Purchase" />
+            </refTable>
+            <fkColumnPairs>
+                <fkColumnPair>
+                    <sequence>0</sequence>
+                    <refColumn>
+                        <key name="name" value="FID" />
+                    </refColumn>
+                    <fkColumn>
+                        <key name="name" value="FPusOrgID" />
+                    </fkColumn>
+                </fkColumnPair>
+            </fkColumnPairs>
+        </foreignKey>
+    </foreignKeys>
+    <resource>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].alias">
+            <lang locale="zh_CN" value="供应商选用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商選用" />
+            <lang locale="zh_TW" value="供應商選用" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuditDate].alias">
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核時間" />
+            <lang locale="zh_TW" value="審核時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuditDate].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuditorID].alias">
+            <lang locale="zh_CN" value="审核人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核人" />
+            <lang locale="zh_TW" value="審核人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuditorID].description">
+            <lang locale="zh_CN" value="审核人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核人" />
+            <lang locale="zh_TW" value="審核人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuthorizedPer].alias">
+            <lang locale="zh_CN" value="授权联系人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="授權聯繫人" />
+            <lang locale="zh_TW" value="授權聯繫人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuthorizedPer].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuthorizedTel].alias">
+            <lang locale="zh_CN" value="授权联系人电话" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="授權聯繫人電話" />
+            <lang locale="zh_TW" value="授權聯繫人電話" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FAuthorizedTel].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FBizDate].alias">
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FBizDate].description">
+            <lang locale="zh_CN" value="业务日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務日期" />
+            <lang locale="zh_TW" value="業務日期" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FControlUnitID].alias">
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="控制單元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FControlUnitID].description">
+            <lang locale="zh_CN" value="控制单元" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="控制單元" />
+            <lang locale="zh_TW" value="控制單元" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FCreateTime].alias">
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FCreateTime].description">
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FCreatorID].alias">
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FCreatorID].description">
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDescription].alias">
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDescription].description">
+            <lang locale="zh_CN" value="参考信息" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="參考信息" />
+            <lang locale="zh_TW" value="參考信息" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDesignTypeID].alias">
+            <lang locale="zh_CN" value="设计类别ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="設計類別ID" />
+            <lang locale="zh_TW" value="設計類別ID" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDesignTypeID].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDesignType].alias">
+            <lang locale="zh_CN" value="设计类别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="設計類別" />
+            <lang locale="zh_TW" value="設計類別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FDesignType].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FFivouchered].alias">
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FFivouchered].description">
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FHandlerID].alias">
+            <lang locale="zh_CN" value="经手人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="經手人" />
+            <lang locale="zh_TW" value="經手人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FHandlerID].description">
+            <lang locale="zh_CN" value="经手人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="經手人" />
+            <lang locale="zh_TW" value="經手人" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FHasEffected].alias">
+            <lang locale="zh_CN" value="是否曾经生效" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否曾經生效" />
+            <lang locale="zh_TW" value="是否曾經生效" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FHasEffected].description">
+            <lang locale="zh_CN" value="是否曾经生效" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否曾經生效" />
+            <lang locale="zh_TW" value="是否曾經生效" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FID].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FID].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FInvTyepID].alias">
+            <lang locale="zh_CN" value="设计类别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="設計類別" />
+            <lang locale="zh_TW" value="設計類別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FInvTyepID].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FJob].alias">
+            <lang locale="zh_CN" value="职务" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="職務" />
+            <lang locale="zh_TW" value="職務" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FJob].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FLastUpdateTime].alias">
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FLastUpdateTime].description">
+            <lang locale="zh_CN" value="最后修改时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="最後修改時間" />
+            <lang locale="zh_TW" value="最後修改時間" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FLastUpdateUserID].alias">
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FLastUpdateUserID].description">
+            <lang locale="zh_CN" value="最后修改者" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="最後修改者" />
+            <lang locale="zh_TW" value="最後修改者" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FNumber].alias">
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FNumber].description">
+            <lang locale="zh_CN" value="单据编号" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據編號" />
+            <lang locale="zh_TW" value="單據編號" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FOrgID].alias">
+            <lang locale="zh_CN" value="所属事业部" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="所屬事業部" />
+            <lang locale="zh_TW" value="所屬事業部" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FOrgID].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FProID].alias">
+            <lang locale="zh_CN" value="拟合作项目" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="擬合作項目" />
+            <lang locale="zh_TW" value="擬合作項目" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FProID].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FPusOrgID].alias">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FPusOrgID].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FRemake].alias">
+            <lang locale="zh_CN" value="选用说明：" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="選用說明：" />
+            <lang locale="zh_TW" value="選用說明：" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FRemake].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FServiceArea].alias">
+            <lang locale="zh_CN" value="服务区域" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="服務區域" />
+            <lang locale="zh_TW" value="服務區域" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FServiceArea].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSourceBillID].alias">
+            <lang locale="zh_CN" value="原始单据ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="原始單據ID" />
+            <lang locale="zh_TW" value="原始單據ID" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSourceBillID].description">
+            <lang locale="zh_CN" value="原始单据ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="原始單據ID" />
+            <lang locale="zh_TW" value="原始單據ID" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSourceFunction].alias">
+            <lang locale="zh_CN" value="来源功能" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="來源功能" />
+            <lang locale="zh_TW" value="來源功能" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSourceFunction].description">
+            <lang locale="zh_CN" value="来源功能" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="來源功能" />
+            <lang locale="zh_TW" value="來源功能" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FState].alias">
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FState].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierLvID].alias">
+            <lang locale="zh_CN" value="供应商级别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商級別" />
+            <lang locale="zh_TW" value="供應商級別" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierLvID].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierName].alias">
+            <lang locale="zh_CN" value="供应商名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商名稱" />
+            <lang locale="zh_TW" value="供應商名稱" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierName].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierNumberID].alias">
+            <lang locale="zh_CN" value="供应商编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商編碼" />
+            <lang locale="zh_TW" value="供應商編碼" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].columns.column[FSupplierNumberID].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="dataTable[com.kingdee.eas.fdc.invite.designsupplier.subill.app.T_DES_DesignSupplierSelect].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="多分錄基礎單據範本" />
+            <lang locale="en_US" value="null" />
+        </rs>
+    </resource>
+</dataTable>
+

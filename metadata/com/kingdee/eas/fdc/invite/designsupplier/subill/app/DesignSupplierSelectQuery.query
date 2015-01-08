@@ -1,0 +1,2216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.subill.app</package>
+    <name>DesignSupplierSelectQuery</name>
+    <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].description</description>
+    <userDefined>false</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierSelect</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>DesignSupplierSelect</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[DesignSupplierSelect].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelect" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>auditor</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[auditor].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>lastUpdateUser</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[lastUpdateUser].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>handler</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[handler].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>supplierNumber</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[supplierNumber].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStock" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>Org</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[Org].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="PurchaseOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>InvTyep</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[InvTyep].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.app" />
+                <key name="name" value="InviteType" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>Pro</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[Pro].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.basedata.app" />
+                <key name="name" value="OperationPhases" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>supplierLv</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[supplierLv].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.designbase.app" />
+                <key name="name" value="DesignGradeSetUp" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>PusOrg</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[PusOrg].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="PurchaseOrgUnit" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <propertyUnit>
+            <name>NewUnit0</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit0].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit0" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditor" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit1</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit2</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit3</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit4</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="lastUpdateUser" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit5</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit5].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit5" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="lastUpdateUser" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>bizDate</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[bizDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="bizDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="bizDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>NewUnit9</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="handler" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>NewUnit8</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="NewUnit8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="handler" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>supplierNumber.number</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierNumber.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>201c6cb9-d12b-4cd5-b824-ea0610af3749</key>
+                    <parentUnit>
+                        <key name="name" value="supplierNumber.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="supplierNumber" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>9e6188f4-e3cc-4113-b89f-172861d8628e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[9e6188f4-e3cc-4113-b89f-172861d8628e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>7391cf98-49fc-4dac-aa9a-c4e3eb2c952b</key>
+                    <parentUnit>
+                        <key name="name" value="9e6188f4-e3cc-4113-b89f-172861d8628e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="supplierNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>7d8675a1-f810-43da-bf83-9b28ca16d5b9</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[7d8675a1-f810-43da-bf83-9b28ca16d5b9].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>d7670c5e-a1fc-4e5f-9ca7-d134a87d3dd8</key>
+                    <parentUnit>
+                        <key name="name" value="7d8675a1-f810-43da-bf83-9b28ca16d5b9" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="supplierNumber" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>supplierName</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>cfc7b540-35d0-4c68-b78c-fd1945c252d7</key>
+                    <parentUnit>
+                        <key name="name" value="supplierName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="supplierName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>InvTyep.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[InvTyep.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e2b72dcb-b44d-4db3-ad6c-88c8773a3c2b</key>
+                    <parentUnit>
+                        <key name="name" value="InvTyep.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="InvTyep" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Org.name</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Org.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>ba3d235c-d77d-4035-b3b7-9d1539fe3f2e</key>
+                    <parentUnit>
+                        <key name="name" value="Org.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Org" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>ServiceArea</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[ServiceArea].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>2dbe2e65-cb9b-44cd-89e9-92e0a520d355</key>
+                    <parentUnit>
+                        <key name="name" value="ServiceArea" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="ServiceArea" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>Job</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Job].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c3f6cb56-894c-4980-9416-24387d27e8fb</key>
+                    <parentUnit>
+                        <key name="name" value="Job" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Job" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>AuthorizedPer</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[AuthorizedPer].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>4718047d-d76d-471f-92e6-8d5c23df1b86</key>
+                    <parentUnit>
+                        <key name="name" value="AuthorizedPer" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="AuthorizedPer" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>AuthorizedTel</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[AuthorizedTel].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1bc028e1-61ed-4dad-b3ba-3065e24e05d1</key>
+                    <parentUnit>
+                        <key name="name" value="AuthorizedTel" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="AuthorizedTel" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>state</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[state].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d647ae63-adcf-4e3f-9ff5-04bf65f5a550</key>
+                    <parentUnit>
+                        <key name="name" value="state" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="state" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>a14be3fb-0523-4ba1-b291-7f78e7ec0903</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[a14be3fb-0523-4ba1-b291-7f78e7ec0903].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>b677c335-95ac-4335-8dfb-cdcac7ea656a</key>
+                    <parentUnit>
+                        <key name="name" value="a14be3fb-0523-4ba1-b291-7f78e7ec0903" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Org" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>4d2f72f2-37e0-439c-a33a-a052c7d9ed21</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[4d2f72f2-37e0-439c-a33a-a052c7d9ed21].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>23d04ca5-ba7e-4589-8ec2-ecf48d02a1af</key>
+                    <parentUnit>
+                        <key name="name" value="4d2f72f2-37e0-439c-a33a-a052c7d9ed21" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Org" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>ac07b59c-bd49-4d85-a7f6-bc4d6881434f</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[ac07b59c-bd49-4d85-a7f6-bc4d6881434f].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>eac897a0-f1fd-4029-bebb-1fcc2e9194f0</key>
+                    <parentUnit>
+                        <key name="name" value="ac07b59c-bd49-4d85-a7f6-bc4d6881434f" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="InvTyep" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>5b5117c1-82a1-4c6a-a242-5524f4bd72d7</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[5b5117c1-82a1-4c6a-a242-5524f4bd72d7].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e8ef3531-7cdf-4ea2-a500-bed5d9b022db</key>
+                    <parentUnit>
+                        <key name="name" value="5b5117c1-82a1-4c6a-a242-5524f4bd72d7" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="InvTyep" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>createTime</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[createTime].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Timestamp</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="createTime" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="createTime" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditor.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[auditor.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0</key>
+                    <parentUnit>
+                        <key name="name" value="auditor.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="auditor" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>auditDate</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[auditDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>265ec196-2dee-4245-8499-a730d3091eaa</key>
+                    <parentUnit>
+                        <key name="name" value="auditDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="auditDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>ee149005-dad4-4375-8fad-f6d031bfb7b3</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[ee149005-dad4-4375-8fad-f6d031bfb7b3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1ecebd56-00a4-48cc-8827-e9f7e18a5772</key>
+                    <parentUnit>
+                        <key name="name" value="ee149005-dad4-4375-8fad-f6d031bfb7b3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="Pro" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>1438c410-20ec-4ef5-996a-d135d340fb5b</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[1438c410-20ec-4ef5-996a-d135d340fb5b].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3fe64384-bb1b-4960-a1b7-2e8bc95562ca</key>
+                    <parentUnit>
+                        <key name="name" value="1438c410-20ec-4ef5-996a-d135d340fb5b" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Pro" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>Pro.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Pro.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3f9ca250-6bf0-4df6-ae1b-19cb72ace20f</key>
+                    <parentUnit>
+                        <key name="name" value="Pro.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="Pro" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>4f171b87-75b6-4e58-8fe1-89697d44dd08</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[4f171b87-75b6-4e58-8fe1-89697d44dd08].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5a05ca02-f958-4efa-9cc9-2e5cfc8cca8f</key>
+                    <parentUnit>
+                        <key name="name" value="4f171b87-75b6-4e58-8fe1-89697d44dd08" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="supplierLv" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>2fc0f671-1872-498d-8f00-9ec4cd3dc1f4</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[2fc0f671-1872-498d-8f00-9ec4cd3dc1f4].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>edec26bc-d358-4a15-a56b-ccbd2c4aae7d</key>
+                    <parentUnit>
+                        <key name="name" value="2fc0f671-1872-498d-8f00-9ec4cd3dc1f4" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="supplierLv" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>supplierLv.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierLv.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>64d5cea5-33db-43d2-8108-d5f3e02865df</key>
+                    <parentUnit>
+                        <key name="name" value="supplierLv.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="supplierLv" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>PusOrg.name</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[PusOrg.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f666a783-6d6c-424b-802f-99e81a1b2010</key>
+                    <parentUnit>
+                        <key name="name" value="PusOrg.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PusOrg" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>a493735a-2747-45bd-9673-f08d7c616ba1</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[a493735a-2747-45bd-9673-f08d7c616ba1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>096e1ac0-5be6-4e1d-a583-879ec613d32f</key>
+                    <parentUnit>
+                        <key name="name" value="a493735a-2747-45bd-9673-f08d7c616ba1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierSelect" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="PusOrg" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>a50ba061-0b94-4ddb-a3d1-7439d9a7b1f7</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[a50ba061-0b94-4ddb-a3d1-7439d9a7b1f7].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>40503e5a-d261-48fa-bbe3-a40bb24ae69a</key>
+                    <parentUnit>
+                        <key name="name" value="a50ba061-0b94-4ddb-a3d1-7439d9a7b1f7" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="PusOrg" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </propertyUnit>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString />
+        <query>
+            <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+            <key name="name" value="DesignSupplierSelectQuery" />
+        </query>
+    </defaultFilter>
+    <defaultSorters>
+        <querySorterItem>
+            <propertyName>number</propertyName>
+            <sortType>ASC</sortType>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </querySorterItem>
+    </defaultSorters>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>NewJoin0</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierSelect" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="auditor" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit0" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin0" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin1</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierSelect" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin1" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin2</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierSelect" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="lastUpdateUser" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit4" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit5" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin2" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </join>
+        <join>
+            <name>NewJoin4</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierSelect" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="handler" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>0</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="NewUnit9" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="NewUnit8" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="NewJoin4" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </join>
+        <join>
+            <name>59a0f3bb-6d7e-4143-b99d-5f19008fc140</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierSelect" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="supplierNumber" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>9337807f-32ae-4a24-a87f-43e88eff2cec</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="9e6188f4-e3cc-4113-b89f-172861d8628e" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="7d8675a1-f810-43da-bf83-9b28ca16d5b9" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="59a0f3bb-6d7e-4143-b99d-5f19008fc140" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </join>
+        <join>
+            <name>1b79be9d-8dce-4070-93ed-8efd5a5fe0ee</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierSelect" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="Org" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>40011a94-c5ae-4e67-8e8c-30e29c15e181</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="a14be3fb-0523-4ba1-b291-7f78e7ec0903" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="4d2f72f2-37e0-439c-a33a-a052c7d9ed21" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="1b79be9d-8dce-4070-93ed-8efd5a5fe0ee" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </join>
+        <join>
+            <name>eb568f9d-1c5b-44cd-b889-6206ff3de9a7</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierSelect" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="InvTyep" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>2946597a-9666-4a21-9aa5-91bc8c80efbd</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="ac07b59c-bd49-4d85-a7f6-bc4d6881434f" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="5b5117c1-82a1-4c6a-a242-5524f4bd72d7" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="eb568f9d-1c5b-44cd-b889-6206ff3de9a7" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </join>
+        <join>
+            <name>42a09887-98f2-40d9-a42b-eb3ef683c8be</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierSelect" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="Pro" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>6db1ed66-f52a-430e-963a-2698fb9fdd97</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="ee149005-dad4-4375-8fad-f6d031bfb7b3" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="1438c410-20ec-4ef5-996a-d135d340fb5b" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="42a09887-98f2-40d9-a42b-eb3ef683c8be" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </join>
+        <join>
+            <name>7318199e-e6a8-48f0-b065-96135b2d7a74</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierSelect" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="supplierLv" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>8ec44f9c-f65e-4517-b4a4-82279bc195e6</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="4f171b87-75b6-4e58-8fe1-89697d44dd08" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="2fc0f671-1872-498d-8f00-9ec4cd3dc1f4" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="7318199e-e6a8-48f0-b065-96135b2d7a74" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </join>
+        <join>
+            <name>ad503b9a-1129-4cca-9154-770fd6508f47</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierSelect" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="PusOrg" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>69e70462-496e-4281-a2a1-4af4ea02dad8</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="a493735a-2747-45bd-9673-f08d7c616ba1" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="a50ba061-0b94-4ddb-a3d1-7439d9a7b1f7" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="ad503b9a-1129-4cca-9154-770fd6508f47" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierSelectQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].alias">
+            <lang locale="zh_CN" value="供应商选用" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商選用" />
+            <lang locale="zh_TW" value="供應商選用" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].defaultSorters.querySorterItemextendedProperty.f7WindowTitle">
+            <lang locale="zh_CN" value="多分录基础单据模板" />
+            <lang locale="zh_TW" value="多分录基础单据模板" />
+            <lang locale="en_US" value="多分录基础单据模板" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].description">
+            <lang locale="zh_CN" value="多分录基础单据查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="多分錄基礎單據查詢" />
+            <lang locale="zh_TW" value="多分錄基礎單據查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].extendedProperty.F7WindowTitle">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client.SubillResource.DesignSupplierSelectQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client.SubillResource.DesignSupplierSelectQueryF7WindowTitle" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client.SubillResource.DesignSupplierSelectQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].extendedProperty.f7WindowTitle">
+            <lang locale="zh_CN" value="供应商选用" />
+            <lang locale="zh_TW" value="供应商选用" />
+            <lang locale="en_US" value="供应商选用" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].queryPK[QueryPK].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].queryPK[QueryPK].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[DesignSupplierSelect].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[InvTyep].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[Org].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[Pro].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[PusOrg].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[auditor].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[creator].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[handler].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[lastUpdateUser].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[supplierLv].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].subObjects.subEntity[supplierNumber].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[1438c410-20ec-4ef5-996a-d135d340fb5b].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[2fc0f671-1872-498d-8f00-9ec4cd3dc1f4].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[4d2f72f2-37e0-439c-a33a-a052c7d9ed21].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[4f171b87-75b6-4e58-8fe1-89697d44dd08].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[5b5117c1-82a1-4c6a-a242-5524f4bd72d7].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[7d8675a1-f810-43da-bf83-9b28ca16d5b9].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[9e6188f4-e3cc-4113-b89f-172861d8628e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit0].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit1].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit2].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit3].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit4].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit5].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit8].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[NewUnit9].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[a14be3fb-0523-4ba1-b291-7f78e7ec0903].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[a493735a-2747-45bd-9673-f08d7c616ba1].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[a50ba061-0b94-4ddb-a3d1-7439d9a7b1f7].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[ac07b59c-bd49-4d85-a7f6-bc4d6881434f].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.propertyUnit[ee149005-dad4-4375-8fad-f6d031bfb7b3].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[AuthorizedPer].displayName">
+            <lang locale="zh_CN" value="授权联系人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="授權聯繫人" />
+            <lang locale="zh_TW" value="授權聯繫人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[AuthorizedPer].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[AuthorizedPer].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[AuthorizedTel].displayName">
+            <lang locale="zh_CN" value="授权联系人电话" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="授權聯繫人電話" />
+            <lang locale="zh_TW" value="授權聯繫人電話" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[AuthorizedTel].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[AuthorizedTel].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[InvTyep.name].displayName">
+            <lang locale="zh_CN" value="设计类别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="設計類別" />
+            <lang locale="zh_TW" value="設計類別" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[InvTyep.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[InvTyep.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Job].displayName">
+            <lang locale="zh_CN" value="职务" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="職務" />
+            <lang locale="zh_TW" value="職務" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Job].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Job].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Org.name].displayName">
+            <lang locale="zh_CN" value="所属事业部" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="所屬事業部" />
+            <lang locale="zh_TW" value="所屬事業部" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Org.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Org.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Org.name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Pro.name].displayName">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Pro.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[Pro.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[PusOrg.name].displayName">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[PusOrg.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[PusOrg.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[PusOrg.name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[ServiceArea].displayName">
+            <lang locale="zh_CN" value="服务区域" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="服務區域" />
+            <lang locale="zh_TW" value="服務區域" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[ServiceArea].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[ServiceArea].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[auditDate].displayName">
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核時間" />
+            <lang locale="zh_TW" value="審核時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[auditDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[auditDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[auditor.name].displayName">
+            <lang locale="zh_CN" value="审核人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核人" />
+            <lang locale="zh_TW" value="審核人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[bizDate].displayName">
+            <lang locale="zh_CN" value="选用日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="選用日期" />
+            <lang locale="zh_TW" value="選用日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[bizDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[bizDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[createTime].displayName">
+            <lang locale="zh_CN" value="创建时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建時間" />
+            <lang locale="zh_TW" value="創建時間" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[createTime].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[createTime].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[creator.name].displayName">
+            <lang locale="zh_CN" value="创建人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="創建人" />
+            <lang locale="zh_TW" value="創建人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[id].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[number].displayName">
+            <lang locale="zh_CN" value="单据编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據編碼" />
+            <lang locale="zh_TW" value="單據編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[state].displayName">
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[state].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[state].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierLv.name].displayName">
+            <lang locale="zh_CN" value="供应商级别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商級別" />
+            <lang locale="zh_TW" value="供應商級別" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierLv.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierLv.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierName].displayName">
+            <lang locale="zh_CN" value="供应商名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商名稱" />
+            <lang locale="zh_TW" value="供應商名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierName].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierName].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierNumber.number].displayName">
+            <lang locale="zh_CN" value="供应商编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商編碼" />
+            <lang locale="zh_TW" value="供應商編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierNumber.number].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierNumber.number].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectQuery].units.queryField[supplierNumber.number].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

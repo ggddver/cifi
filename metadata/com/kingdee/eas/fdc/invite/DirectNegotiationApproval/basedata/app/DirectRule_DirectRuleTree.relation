@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app</package>
+    <name>DirectRule_DirectRuleTree</name>
+    <alias>relationship[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.DirectRule_DirectRuleTree].alias</alias>
+    <description>relationship[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.DirectRule_DirectRuleTree].description</description>
+    <userDefined>false</userDefined>
+    <type>Association</type>
+    <clientCardinality>1</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app" />
+        <key name="name" value="DirectRule" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app" />
+        <key name="name" value="DirectRuleTree" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.DirectRule_DirectRuleTree].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基础资料分组关系" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.basedata.app.DirectRule_DirectRuleTree].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="基础资料分组关系" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</relationship>
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.subill</package>
+    <name>DesignSupplierAppraise</name>
+    <alias>bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].alias</alias>
+    <description>bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].description</description>
+    <userDefined>false</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierAppraise</entityPK>
+    <queryPK>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierAppraiseQuery</queryPK>
+    <editUIPK>com.kingdee.eas.fdc.invite.designsupplier.subill.client.DesignSupplierAppraiseEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.fdc.invite.designsupplier.subill.client.DesignSupplierAppraiseListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierAppraiseEditUIFunction</editUIFunctionPK>
+    <listUIFunctionPK>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierAppraiseListUIFunction</listUIFunctionPK>
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>MCoreBillBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].alias">
+            <lang locale="zh_CN" value="供应商后评估" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商後評估" />
+            <lang locale="zh_TW" value="供應商後評估" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.configured">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.defaultDisplayField">
+            <lang locale="zh_CN" value="" />
+            <lang locale="en_US" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.defaultF7Query">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierAppraiseQuery" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierAppraiseQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierAppraiseQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client.DesignSupplierAppraiseEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client.DesignSupplierAppraiseEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client.DesignSupplierAppraiseEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.isAsstAcctType">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.isParamObject">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.isUseCodeRule">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.listUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client.DesignSupplierAppraiseListUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client.DesignSupplierAppraiseListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client.DesignSupplierAppraiseListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.maxFieldIndex">
+            <lang locale="zh_CN" value="51" />
+            <lang locale="en_US" value="51" />
+            <lang locale="zh_TW" value="51" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierAppraise].extendedProperty.useTableEditUI">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+    </resource>
+</bizUnit>
+

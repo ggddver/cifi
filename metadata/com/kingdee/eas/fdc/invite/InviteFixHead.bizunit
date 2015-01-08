@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite</package>
+    <name>InviteFixHead</name>
+    <alias>bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].alias</alias>
+    <description>bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].description</description>
+    <userDefined>false</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.fdc.invite.app.InviteFixHead</entityPK>
+    <queryPK>com.kingdee.eas.fdc.invite.app.InviteFixQuery</queryPK>
+    <editUIPK>com.kingdee.eas.fdc.invite.client.InviteFixEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.fdc.invite.client.InviteFixListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK />
+    <listUIFunctionPK />
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>MCoreBillBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].alias">
+            <lang locale="zh_CN" value="修正系数" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="修正係數" />
+            <lang locale="zh_TW" value="修正係數" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].description">
+            <lang locale="zh_CN" value="修正系数" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="修正係數" />
+            <lang locale="zh_TW" value="修正係數" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.CRDHMaintain">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.CRDHRefuse">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.CRNumberAddView">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.CRNumberEdit">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="CostCenter" />
+            <lang locale="zh_TW" value="CostCenter" />
+            <lang locale="en_US" value="CostCenter" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.client.InviteFixEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.client.InviteFixEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.client.InviteFixEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.isAsstAcctType">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.isParamObject">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.listUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.client.InviteFixListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.client.InviteFixListUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.client.InviteFixListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.InviteFixHead].extendedProperty.maxFieldIndex">
+            <lang locale="zh_CN" value="1" />
+            <lang locale="zh_TW" value="1" />
+            <lang locale="en_US" value="1" />
+        </rs>
+    </resource>
+</bizUnit>
+

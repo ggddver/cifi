@@ -1,0 +1,2791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.demotion.app</package>
+    <name>Demotion</name>
+    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].alias</alias>
+    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].description</description>
+    <userDefined>false</userDefined>
+    <bosType>EC7E914E</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.DemotionController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].description</description>
+            <innerID>733b5713-db26-4e0e-a39d-96d121f0c446</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].description</description>
+            <innerID>d4f06395-354d-40cb-8f6a-d2c23e4f4a04</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].description</description>
+            <innerID>7dfe1d6d-4cd2-478f-90a9-6ca18de4bb27</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].description</description>
+            <innerID>e291bf4e-22da-424c-b62c-feb09956d4a1</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].description</description>
+            <innerID>17b62af4-d568-466c-a77c-d52fdd3d4a83</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].description</description>
+            <innerID>63363126-6212-4988-aa99-0088c95f9037</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>audit</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[audit].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[audit].description</description>
+            <innerID>e78b8c4b-f106-447b-8674-a4da61fbd895</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[audit].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[audit].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>unAudit</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[unAudit].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[unAudit].description</description>
+            <innerID>3e351d76-ba43-4f0b-a78c-26b51263ccf3</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[unAudit].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[unAudit].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app" />
+        <key name="name" value="T_DEM_Demotion" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>entrys</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[entrys].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[entrys].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app" />
+                <key name="name" value="R_Demotion_DemotionEntry_entrys" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>Fivouchered</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FFivouchered" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>supplierNumber</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FSupplierNumberID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app" />
+                <key name="name" value="R_Demotion_DesignSupplierStock_supplierNumber" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>supplierName</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSupplierName" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>DesignType</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FDesignType" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>DesignTypeID</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FDesignTypeID" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>ServiceArea</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FServiceArea" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>job</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FJob" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>AuthorizedPer</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAuthorizedPer" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>AuthorizedTel</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAuthorizedTel" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>EvaluationType</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FEvaluationTypeID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app" />
+                <key name="name" value="R_Demotion_DesignAccreditationType_EvaluationType" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>supplierTemple</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FSupplierTempleID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app" />
+                <key name="name" value="R_Demotion_DesignAppraiseTemplate_supplierTemple" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>auditDate</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Date</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>8</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FAuditDate" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>remkae</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>1000</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FRemkae" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>Pro</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FProID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app" />
+                <key name="name" value="R_Demotion_DesignGradeSetUp_Pro" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>supplierClas</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FSupplierClasID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app" />
+                <key name="name" value="R_Demotion_DesignGradeSetUp_supplierClas" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>supplierlastClas</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FSupplierlastClasI" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app" />
+                <key name="name" value="R_Demotion_DesignGradeSetUp_supplierlastClas" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>Ishg</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.fdc.invite.supplier.IsGradeEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FIshg" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>state</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.fdc.invite.supplier.SupplierStateEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FState" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>Org</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FOrgID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app" />
+                <key name="name" value="R_Demotion_PurchaseOrgUnit_Org" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>InvTyep</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FInvTyepID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app" />
+                <key name="name" value="R_Demotion_InviteType_InvTyep" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>resuitl</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Enum</dataType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.designbase.ResultsEnum</metadataRef>
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>80</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FResuitl" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>PusOrg</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FPusOrgID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app" />
+                <key name="name" value="R_Demotion_PurchaseOrgUnit_PusOrg" />
+            </relationship>
+        </linkProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <events>
+        <event>
+            <name>submitEvent</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>dfd2c083-00fa-1000-e000-001fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="submit" />
+                        <key name="innerID" value="dfd2c083-00fa-1000-e000-001fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-0096c0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>deleteEvent</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>be5779dd-00fe-1000-e000-0007c0a813a9</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="delete" />
+                        <key name="innerID" value="be5779dd-00fe-1000-e000-0007c0a813a9" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ac0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>passAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000ec0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="passAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000ec0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009dc0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-009ec0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>unpassAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>bbce8906-00fa-1000-e000-000fc0a813e6</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="unpassAudit" />
+                        <key name="innerID" value="bbce8906-00fa-1000-e000-000fc0a813e6" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</formalParameterInnerID>
+                            <actualParameterIndex>1</actualParameterIndex>
+                            <isBOPK>false</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a5c0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>pk</name>
+                        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias</alias>
+                        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description</description>
+                        <direction>in</direction>
+                        <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                        <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+                <formalParameter>
+                    <innerID>50cf5dac-0105-1000-e000-00a6c0a813a4evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>auditEvent</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>e2ae9596-4772-497a-ac33-4c216a9157a5</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].eventMethods.eventMethod[e2ae9596-4772-497a-ac33-4c216a9157a5].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].eventMethods.eventMethod[e2ae9596-4772-497a-ac33-4c216a9157a5].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="audit" />
+                        <key name="innerID" value="e78b8c4b-f106-447b-8674-a4da61fbd895" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].eventMethods.eventMethod[e2ae9596-4772-497a-ac33-4c216a9157a5].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].eventMethods.eventMethod[e2ae9596-4772-497a-ac33-4c216a9157a5].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>2b25f096-d50e-4599-9fe8-7ab3000bb84bevfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>2b25f096-d50e-4599-9fe8-7ab3000bb84bevfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+        <event>
+            <name>unAuditEvent</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].description</description>
+            <userDefined>false</userDefined>
+            <eventMethods>
+                <eventMethod>
+                    <name>c169b2ec-82a8-47e8-8172-b4545d3640b2</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].eventMethods.eventMethod[c169b2ec-82a8-47e8-8172-b4545d3640b2].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].eventMethods.eventMethod[c169b2ec-82a8-47e8-8172-b4545d3640b2].description</description>
+                    <entityMethodRef>
+                        <key name="name" value="unAudit" />
+                        <key name="innerID" value="3e351d76-ba43-4f0b-a78c-26b51263ccf3" />
+                    </entityMethodRef>
+                    <parameterMappings>
+                        <parameterMapping>
+                            <name />
+                            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].eventMethods.eventMethod[c169b2ec-82a8-47e8-8172-b4545d3640b2].parameterMappings.parameterMappingalias</alias>
+                            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].eventMethods.eventMethod[c169b2ec-82a8-47e8-8172-b4545d3640b2].parameterMappings.parameterMappingdescription</description>
+                            <formalParameterInnerID>68220fea-8cf3-4e8f-9b90-9f215332e141evfp</formalParameterInnerID>
+                            <actualParameterIndex>0</actualParameterIndex>
+                            <isBOPK>true</isBOPK>
+                        </parameterMapping>
+                    </parameterMappings>
+                </eventMethod>
+            </eventMethods>
+            <formalParameters>
+                <formalParameter>
+                    <innerID>68220fea-8cf3-4e8f-9b90-9f215332e141evfp</innerID>
+                    <userDefined>false</userDefined>
+                    <parameter>
+                        <name>model</name>
+                        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].alias</alias>
+                        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].description</description>
+                        <direction>in</direction>
+                        <dataType>ObjectValue</dataType>
+                        <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</metadataRef>
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </formalParameter>
+            </formalParameters>
+        </event>
+    </events>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].defaultViewdescription</description>
+        <filter>
+            <maskString />
+        </filter>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].alias">
+            <lang locale="zh_CN" value="供应商升降级" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商升降級" />
+            <lang locale="zh_TW" value="供應商升降級" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].defaultView.filterextendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].defaultViewalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].defaultViewdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].defaultViewextendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="多分錄基礎單據範本" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].alias">
+            <lang locale="zh_CN" value="审核事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核事件" />
+            <lang locale="zh_TW" value="審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].eventMethods.eventMethod[e2ae9596-4772-497a-ac33-4c216a9157a5].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].eventMethods.eventMethod[e2ae9596-4772-497a-ac33-4c216a9157a5].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].eventMethods.eventMethod[e2ae9596-4772-497a-ac33-4c216a9157a5].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].eventMethods.eventMethod[e2ae9596-4772-497a-ac33-4c216a9157a5].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[auditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].alias">
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].description">
+            <lang locale="zh_CN" value="删除事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除事件" />
+            <lang locale="zh_TW" value="刪除事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].eventMethods.eventMethod[be5779dd-00fe-1000-e000-0007c0a813a9].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[deleteEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="zh_CN" value="主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="主鍵" />
+            <lang locale="zh_TW" value="主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].alias">
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].description">
+            <lang locale="zh_CN" value="审核通过事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核通過事件" />
+            <lang locale="zh_TW" value="審核通過事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000ec0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[passAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].alias">
+            <lang locale="zh_CN" value="提交" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="提交" />
+            <lang locale="zh_TW" value="提交" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].eventMethods.eventMethod[dfd2c083-00fa-1000-e000-001fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[submitEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].alias">
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].eventMethods.eventMethod[c169b2ec-82a8-47e8-8172-b4545d3640b2].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].eventMethods.eventMethod[c169b2ec-82a8-47e8-8172-b4545d3640b2].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].eventMethods.eventMethod[c169b2ec-82a8-47e8-8172-b4545d3640b2].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].eventMethods.eventMethod[c169b2ec-82a8-47e8-8172-b4545d3640b2].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].alias">
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].description">
+            <lang locale="zh_CN" value="反审核事件" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審核事件" />
+            <lang locale="zh_TW" value="反審核事件" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingalias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].eventMethods.eventMethod[bbce8906-00fa-1000-e000-000fc0a813e6].parameterMappings.parameterMappingdescription">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].alias">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[model].description">
+            <lang locale="zh_CN" value="值对象" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="值對象" />
+            <lang locale="zh_TW" value="值對象" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].alias">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].events.event[unpassAuditEvent].formalParameters.formalParameter.parameter[pk].description">
+            <lang locale="zh_CN" value="对象主键" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="對象主鍵" />
+            <lang locale="zh_TW" value="對象主鍵" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+            <lang locale="en_US" value="NONE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].extendedProperty.defaultDisplayField">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="" />
+            <lang locale="en_US" value="" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].extendedProperty.defaultF7Query">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app.DemotionQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app.DemotionQuery" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app.DemotionQuery" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionEditUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].extendedProperty.isParamObject">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].extendedProperty.listUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionListUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionListUI" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].logicalKey[id].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].logicalKey[id].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[audit].alias">
+            <lang locale="zh_CN" value="审核" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核" />
+            <lang locale="zh_TW" value="審核" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[audit].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[audit].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[audit].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_HK" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_HK" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[unAudit].alias">
+            <lang locale="zh_CN" value="反审核" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審核" />
+            <lang locale="zh_TW" value="反審核" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[unAudit].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[unAudit].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].methods.method[unAudit].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].alias">
+            <lang locale="zh_CN" value="评审类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="評審類型" />
+            <lang locale="zh_TW" value="評審類型" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[EvaluationType].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].alias">
+            <lang locale="zh_CN" value="设计类别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="設計類別" />
+            <lang locale="zh_TW" value="設計類別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[InvTyep].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].alias">
+            <lang locale="zh_CN" value="所属事业部" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="所屬事業部" />
+            <lang locale="zh_TW" value="所屬事業部" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Org].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].alias">
+            <lang locale="zh_CN" value="拟合作项目" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="擬合作項目" />
+            <lang locale="zh_TW" value="擬合作項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[Pro].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].alias">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[PusOrg].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[entrys].alias">
+            <lang locale="zh_CN" value="分录" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分錄" />
+            <lang locale="zh_TW" value="分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[entrys].description">
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+            <lang locale="en_US" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].alias">
+            <lang locale="zh_CN" value="评审前等级" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="評審前等級" />
+            <lang locale="zh_TW" value="評審前等級" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierClas].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].alias">
+            <lang locale="zh_CN" value="供应商编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商編碼" />
+            <lang locale="zh_TW" value="供應商編碼" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].extendedProperty.dataField">
+            <lang locale="zh_CN" value="number" />
+            <lang locale="zh_TW" value="number" />
+            <lang locale="en_US" value="number" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierNumber].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].alias">
+            <lang locale="zh_CN" value="评审模板" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="評審範本" />
+            <lang locale="zh_TW" value="評審範本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierTemple].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].alias">
+            <lang locale="zh_CN" value="供应商等级" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商等級" />
+            <lang locale="zh_TW" value="供應商等級" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].extendedProperty.dataField">
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+            <lang locale="en_US" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.linkProperty[supplierlastClas].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].alias">
+            <lang locale="zh_CN" value="授权联系人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="授權聯繫人" />
+            <lang locale="zh_TW" value="授權聯繫人" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedPer].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].alias">
+            <lang locale="zh_CN" value="授权联系人电话" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="授權聯繫人電話" />
+            <lang locale="zh_TW" value="授權聯繫人電話" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[AuthorizedTel].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].alias">
+            <lang locale="zh_CN" value="设计类别ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="設計類別ID" />
+            <lang locale="zh_TW" value="設計類別ID" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignTypeID].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].alias">
+            <lang locale="zh_CN" value="设计类别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="設計類別" />
+            <lang locale="zh_TW" value="設計類別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[DesignType].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].alias">
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].defaultValue">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].description">
+            <lang locale="zh_CN" value="是否生成凭证" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否生成憑證" />
+            <lang locale="zh_TW" value="是否生成憑證" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="BOOLEAN" />
+            <lang locale="zh_TW" value="BOOLEAN" />
+            <lang locale="en_US" value="BOOLEAN" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Fivouchered].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].alias">
+            <lang locale="zh_CN" value="是否合格" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否合格" />
+            <lang locale="zh_TW" value="是否合格" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].defaultValue">
+            <lang locale="zh_CN" value="ELIGIBILITY" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ELIGIBILITY" />
+            <lang locale="zh_TW" value="ELIGIBILITY" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+            <lang locale="en_US" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].extendedProperty.defaultValue">
+            <lang locale="zh_CN" value="ELIGIBILITY" />
+            <lang locale="zh_TW" value="ELIGIBILITY" />
+            <lang locale="en_US" value="ELIGIBILITY" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[Ishg].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].alias">
+            <lang locale="zh_CN" value="服务区域" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="服務區域" />
+            <lang locale="zh_TW" value="服務區域" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[ServiceArea].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].alias">
+            <lang locale="zh_CN" value="审核时间" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核時間" />
+            <lang locale="zh_TW" value="審核時間" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="DATE" />
+            <lang locale="zh_TW" value="DATE" />
+            <lang locale="en_US" value="DATE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[auditDate].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].alias">
+            <lang locale="zh_CN" value="职务" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="職務" />
+            <lang locale="zh_TW" value="職務" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[job].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].alias">
+            <lang locale="zh_CN" value="情况说明：" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="情況說明：" />
+            <lang locale="zh_TW" value="情況說明：" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="NOTE" />
+            <lang locale="zh_TW" value="NOTE" />
+            <lang locale="en_US" value="NOTE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[remkae].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].alias">
+            <lang locale="zh_CN" value="是否合格" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否合格" />
+            <lang locale="zh_TW" value="是否合格" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].defaultValue">
+            <lang locale="zh_CN" value="yl" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="yl" />
+            <lang locale="zh_TW" value="yl" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+            <lang locale="en_US" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].extendedProperty.defaultValue">
+            <lang locale="zh_CN" value="yl" />
+            <lang locale="zh_TW" value="yl" />
+            <lang locale="en_US" value="yl" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[resuitl].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].alias">
+            <lang locale="zh_CN" value="单据状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據狀態" />
+            <lang locale="zh_TW" value="單據狀態" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].defaultValue">
+            <lang locale="zh_CN" value="SAVE" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="SAVE" />
+            <lang locale="zh_TW" value="SAVE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="ENUM" />
+            <lang locale="zh_TW" value="ENUM" />
+            <lang locale="en_US" value="ENUM" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].extendedProperty.defaultValue">
+            <lang locale="zh_CN" value="SAVE" />
+            <lang locale="zh_TW" value="SAVE" />
+            <lang locale="en_US" value="SAVE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[state].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].alias">
+            <lang locale="zh_CN" value="供应商名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商名稱" />
+            <lang locale="zh_TW" value="供應商名稱" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].description">
+            <lang locale="zh_CN" value="文本" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="文本" />
+            <lang locale="zh_TW" value="文本" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].extendedProperty.ColWidthInKDTable">
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+            <lang locale="en_US" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].extendedProperty.bizDataType">
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+            <lang locale="en_US" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].extendedProperty.isForGrouping">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].extendedProperty.isForMapping">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].extendedProperty.isForMatching">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].extendedProperty.isForWrittenBack">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].extendedProperty.isInCode">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion].properties.ownProperty[supplierName].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+

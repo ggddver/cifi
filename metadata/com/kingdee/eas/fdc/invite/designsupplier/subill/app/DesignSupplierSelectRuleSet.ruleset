@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleSet xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.subill.app</package>
+    <name>DesignSupplierSelectRuleSet</name>
+    <alias>ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].alias</alias>
+    <description>ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].description</description>
+    <userDefined>true</userDefined>
+    <expressions>
+        <groupExpression>
+            <id>f59d44db-ee40-431b-8f3b-7db7865946fe</id>
+            <parentID />
+            <source>supplierName=supplierNumber.name</source>
+            <operator>=</operator>
+        </groupExpression>
+        <simpleExpression>
+            <id>ac1a15be-176f-47f5-aede-4002aebe743f</id>
+            <parentID>f59d44db-ee40-431b-8f3b-7db7865946fe</parentID>
+            <source />
+            <type>PROPERTYACCESS</type>
+            <valueType>String</valueType>
+            <value />
+            <property>
+                <ownerID>2157cb2a-7cef-4297-ac7a-bd303948b683</ownerID>
+                <name>text</name>
+                <type>java.lang.String</type>
+            </property>
+        </simpleExpression>
+        <simpleExpression>
+            <id>2157cb2a-7cef-4297-ac7a-bd303948b683</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>txtsupplierName</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>97e222de-0e56-4a8d-af51-93fa543b239f</id>
+            <parentID>f59d44db-ee40-431b-8f3b-7db7865946fe</parentID>
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>String</valueType>
+            <value />
+            <method>
+                <ownerID>d2f4b8dd-9361-4767-84d5-c3903faf8a36</ownerID>
+                <name>getProperty</name>
+                <type>Object</type>
+                <parameters>
+                    <parameter>
+                        <id>0a0edce5-6370-4823-8863-893f4325d199</id>
+                        <expressionID>eea6d7d1-63cd-49f8-af90-9f7172b8b54d</expressionID>
+                    </parameter>
+                    <parameter>
+                        <id>21dc3fa3-651c-471d-80cb-8a4f66e37a1e</id>
+                        <expressionID>4a5b765e-359e-45b9-add4-db729ea5db37</expressionID>
+                    </parameter>
+                </parameters>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>d2f4b8dd-9361-4767-84d5-c3903faf8a36</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>com.kingdee.bos.ui.face.UIRuleUtil</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>eea6d7d1-63cd-49f8-af90-9f7172b8b54d</id>
+            <parentID />
+            <source />
+            <type>METHODINVOKE</type>
+            <valueType>Object</valueType>
+            <value />
+            <method>
+                <ownerID>3030c6ce-1b43-427f-b58d-8a4376a86567</ownerID>
+                <name>getData</name>
+                <type>Object</type>
+            </method>
+        </simpleExpression>
+        <simpleExpression>
+            <id>3030c6ce-1b43-427f-b58d-8a4376a86567</id>
+            <parentID />
+            <source />
+            <type>VARIANT</type>
+            <valueType>UNKOWN</valueType>
+            <value>(com.kingdee.bos.dao.IObjectValue)prmtsupplierNumber</value>
+        </simpleExpression>
+        <simpleExpression>
+            <id>4a5b765e-359e-45b9-add4-db729ea5db37</id>
+            <parentID />
+            <source />
+            <type>CONST</type>
+            <valueType>String</valueType>
+            <value>name</value>
+        </simpleExpression>
+    </expressions>
+    <actions>
+        <action>
+            <id>d07c4ba1-3201-4377-b1e6-174b95e4f9c1</id>
+            <name>DesignSupplierSelect_supplierName_ActionInfo</name>
+            <alias>ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].actions.action[DesignSupplierSelect_supplierName_ActionInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].actions.action[DesignSupplierSelect_supplierName_ActionInfo].description</description>
+            <expressionID>f59d44db-ee40-431b-8f3b-7db7865946fe</expressionID>
+        </action>
+    </actions>
+    <rules>
+        <conditionRule>
+            <name>DesignSupplierSelect_supplierName_RuleInfo</name>
+            <alias>ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].rules.conditionRule[DesignSupplierSelect_supplierName_RuleInfo].alias</alias>
+            <description>ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].rules.conditionRule[DesignSupplierSelect_supplierName_RuleInfo].description</description>
+            <ruleType>withproperty</ruleType>
+            <eventObjectName />
+            <eventType>CHANGE</eventType>
+            <eventName>CHANGE</eventName>
+            <actions>
+                <action>
+                    <key name="id" value="d07c4ba1-3201-4377-b1e6-174b95e4f9c1" />
+                </action>
+            </actions>
+        </conditionRule>
+    </rules>
+    <resource>
+        <rs key="ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].actions.action[DesignSupplierSelect_supplierName_ActionInfo].alias">
+            <lang locale="zh_CN" value="携带字段属性_name" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="攜帶字段屬性_name" />
+            <lang locale="zh_TW" value="攜帶字段屬性_name" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].actions.action[DesignSupplierSelect_supplierName_ActionInfo].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].rules.conditionRule[DesignSupplierSelect_supplierName_RuleInfo].alias">
+            <lang locale="zh_CN" value="携带字段属性_name" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="攜帶字段屬性_name" />
+            <lang locale="zh_TW" value="攜帶字段屬性_name" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].rules.conditionRule[DesignSupplierSelect_supplierName_RuleInfo].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].rules.conditionRule[DesignSupplierSelect_supplierName_RuleInfo].extendedProperty.columnName">
+            <lang locale="zh_CN" value="supplierNumber" />
+            <lang locale="zh_TW" value="supplierNumber" />
+            <lang locale="en_US" value="supplierNumber" />
+        </rs>
+        <rs key="ruleSet[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectRuleSet].rules.conditionRule[DesignSupplierSelect_supplierName_RuleInfo].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+    </resource>
+</ruleSet>
+

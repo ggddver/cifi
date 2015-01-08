@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.designbase.client</package>
+    <name>QzEditUI</name>
+    <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].description</description>
+    <userDefined>false</userDefined>
+    <releasePackage>com.kingdee.eas.fdc.invite.designsupplier.designbase.client</releasePackage>
+    <releaseClass>QzEditUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK>com.kingdee.eas.fdc.invite.designsupplier.designbase.Qz</bizUnitPK>
+    <ruleSet>
+        <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.designbase.app" />
+        <key name="name" value="QzRuleSet" />
+    </ruleSet>
+    <parent>
+        <key name="package" value="com.kingdee.eas.fdc.basedata.client" />
+        <key name="name" value="FDCBaseDataEditUI" />
+    </parent>
+    <components>
+        <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>1,1,290,280</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>kDLayout1</name>
+                <type>KDLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maximumSize</name>
+                    <type>java.awt.Dimension</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[CoreUI].properties.property[maximumSize].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>preferredSize</name>
+                    <type>java.awt.Dimension</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[CoreUI].properties.property[preferredSize].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>minimumSize</name>
+                    <type>java.awt.Dimension</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[CoreUI].properties.property[minimumSize].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+        </component>
+        <component>
+            <name>contName</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contName].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,54,270,19,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contName].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contName].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contName].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contNumber</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contNumber].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,22,270,19,325</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contNumber].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contNumber].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contNumber].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contDescription</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contDescription].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,139,270,113,325</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contDescription].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contDescription].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contDescription].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contDescription].properties.property[boundLabelAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contjtqz</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contjtqz].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,84,270,19,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contjtqz].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contjtqz].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contjtqz].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contjtqz].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>contsybqz</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contsybqz].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,115,270,19,0</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contsybqz].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contsybqz].properties.property[boundLabelLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>boundLabelUnderline</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contsybqz].properties.property[boundLabelUnderline].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contsybqz].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>txtName</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtName].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.extendcontrols.KDBizMultiLangBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtName].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtName].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contName" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>_multiLangItem</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>name</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType />
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtNumber</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtNumber].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtNumber].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtNumber].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contNumber" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>number</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>kDScrollPane1</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[kDScrollPane1].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDScrollPane</classType>
+            <isContainer>true</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>SameGridLayout</type>
+                <value>1,1,0,0,0,0</value>
+            </layoutInfo>
+            <parent>
+                <key name="name" value="contDescription" />
+            </parent>
+        </component>
+        <component>
+            <name>txtDescription</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtDescription].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextArea</classType>
+            <isContainer>false</isContainer>
+            <constraints>0,0,1,1</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>maxLength</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtDescription].properties.property[maxLength].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDScrollPane1" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>text</propertyName>
+                    <propertyType>java.lang.String</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>description</bindingField>
+                    <fieldType>String</fieldType>
+                    <accessType />
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtjtqz</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>minimumValue</name>
+                    <type>java.math.BigDecimal</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[minimumValue].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>maximumValue</name>
+                    <type>java.math.BigDecimal</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[maximumValue].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>precision</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[precision].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contjtqz" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>jtqz</bindingField>
+                    <fieldType>java.math.BigDecimal</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+        <component>
+            <name>txtsybqz</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDFormattedTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <properties>
+                <property>
+                    <name>visible</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[visible].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>horizontalAlignment</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[horizontalAlignment].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>dataType</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[dataType].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>supportedEmpty</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[supportedEmpty].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>minimumValue</name>
+                    <type>java.math.BigDecimal</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[minimumValue].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>maximumValue</name>
+                    <type>java.math.BigDecimal</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[maximumValue].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>precision</name>
+                    <type>int</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[precision].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+                <property>
+                    <name>required</name>
+                    <type>boolean</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[required].value</value>
+                    <isMultiLan>false</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="contsybqz" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>value</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>editData</bindingObject>
+                    <bindingField>sybqz</bindingField>
+                    <fieldType>java.math.BigDecimal</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+        </component>
+    </components>
+    <dataObjects>
+        <dataObject>
+            <name>editData</name>
+            <type>com.kingdee.eas.fdc.invite.designsupplier.designbase.app.Qz</type>
+            <objectType>enty</objectType>
+            <herited>true</herited>
+            <userDefined>false</userDefined>
+        </dataObject>
+    </dataObjects>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].alias">
+            <lang locale="zh_CN" value="权重设置" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="權重設置" />
+            <lang locale="zh_TW" value="權重設置" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[CoreUI].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[CoreUI].properties.property[maximumSize].value">
+            <lang locale="zh_CN" value="290,280" />
+            <lang locale="en_US" value="290,280" />
+            <lang locale="zh_HK" value="290,280" />
+            <lang locale="zh_TW" value="290,280" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[CoreUI].properties.property[minimumSize].value">
+            <lang locale="zh_CN" value="290,280" />
+            <lang locale="en_US" value="290,280" />
+            <lang locale="zh_HK" value="290,280" />
+            <lang locale="zh_TW" value="290,280" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[CoreUI].properties.property[preferredSize].value">
+            <lang locale="zh_CN" value="290,280" />
+            <lang locale="en_US" value="290,280" />
+            <lang locale="zh_HK" value="290,280" />
+            <lang locale="zh_TW" value="290,280" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contDescription].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contDescription].properties.property[boundLabelAlignment].value">
+            <lang locale="zh_CN" value="8" />
+            <lang locale="en_US" value="8" />
+            <lang locale="zh_HK" value="8" />
+            <lang locale="zh_TW" value="8" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contDescription].properties.property[boundLabelLength].value">
+            <lang locale="zh_CN" value="16" />
+            <lang locale="en_US" value="16" />
+            <lang locale="zh_HK" value="16" />
+            <lang locale="zh_TW" value="16" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contDescription].properties.property[boundLabelText].value">
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="en_US" value="描述" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contDescription].properties.property[boundLabelUnderline].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contName].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contName].properties.property[boundLabelLength].value">
+            <lang locale="zh_CN" value="100" />
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contName].properties.property[boundLabelText].value">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="名称" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contName].properties.property[boundLabelUnderline].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contNumber].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contNumber].properties.property[boundLabelLength].value">
+            <lang locale="zh_CN" value="100" />
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contNumber].properties.property[boundLabelText].value">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="编码" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contNumber].properties.property[boundLabelUnderline].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contjtqz].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contjtqz].properties.property[boundLabelLength].value">
+            <lang locale="zh_CN" value="100" />
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contjtqz].properties.property[boundLabelText].value">
+            <lang locale="zh_CN" value="集团权重比(%)" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="集團權重比(%)" />
+            <lang locale="zh_TW" value="集團權重比(%)" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contjtqz].properties.property[boundLabelUnderline].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contjtqz].properties.property[visible].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contsybqz].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contsybqz].properties.property[boundLabelLength].value">
+            <lang locale="zh_CN" value="100" />
+            <lang locale="en_US" value="100" />
+            <lang locale="zh_HK" value="100" />
+            <lang locale="zh_TW" value="100" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contsybqz].properties.property[boundLabelText].value">
+            <lang locale="zh_CN" value="分公司权重比(%)" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分公司權重比(%)" />
+            <lang locale="zh_TW" value="分公司權重比(%)" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contsybqz].properties.property[boundLabelUnderline].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[contsybqz].properties.property[visible].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[kDScrollPane1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtDescription].alias">
+            <lang locale="zh_CN" value="描述" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="描述" />
+            <lang locale="zh_TW" value="描述" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtDescription].properties.property[maxLength].value">
+            <lang locale="zh_CN" value="500" />
+            <lang locale="en_US" value="500" />
+            <lang locale="zh_HK" value="500" />
+            <lang locale="zh_TW" value="500" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtName].alias">
+            <lang locale="zh_CN" value="名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="名稱" />
+            <lang locale="zh_TW" value="名稱" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtName].properties.property[maxLength].value">
+            <lang locale="zh_CN" value="80" />
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtName].properties.property[required].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtNumber].alias">
+            <lang locale="zh_CN" value="编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="編碼" />
+            <lang locale="zh_TW" value="編碼" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtNumber].properties.property[maxLength].value">
+            <lang locale="zh_CN" value="80" />
+            <lang locale="en_US" value="80" />
+            <lang locale="zh_HK" value="80" />
+            <lang locale="zh_TW" value="80" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtNumber].properties.property[required].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].alias">
+            <lang locale="zh_CN" value="集团权重比(%)" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="集團權重比(%)" />
+            <lang locale="zh_TW" value="集團權重比(%)" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[dataType].value">
+            <lang locale="zh_CN" value="1" />
+            <lang locale="en_US" value="1" />
+            <lang locale="zh_HK" value="1" />
+            <lang locale="zh_TW" value="1" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[horizontalAlignment].value">
+            <lang locale="zh_CN" value="2" />
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[maximumValue].value">
+            <lang locale="zh_CN" value="&quot;1.0E26&quot;" />
+            <lang locale="en_US" value="&quot;1.0E26&quot;" />
+            <lang locale="zh_HK" value="&quot;1.0E26&quot;" />
+            <lang locale="zh_TW" value="&quot;1.0E26&quot;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[minimumValue].value">
+            <lang locale="zh_CN" value="&quot;-1.0E26&quot;" />
+            <lang locale="en_US" value="&quot;-1.0E26&quot;" />
+            <lang locale="zh_HK" value="&quot;-1.0E26&quot;" />
+            <lang locale="zh_TW" value="&quot;-1.0E26&quot;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[precision].value">
+            <lang locale="zh_CN" value="2" />
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[required].value">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[supportedEmpty].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtjtqz].properties.property[visible].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].alias">
+            <lang locale="zh_CN" value="分公司权重比(%)" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="分公司權重比(%)" />
+            <lang locale="zh_TW" value="分公司權重比(%)" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[dataType].value">
+            <lang locale="zh_CN" value="1" />
+            <lang locale="en_US" value="1" />
+            <lang locale="zh_HK" value="1" />
+            <lang locale="zh_TW" value="1" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[horizontalAlignment].value">
+            <lang locale="zh_CN" value="2" />
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[maximumValue].value">
+            <lang locale="zh_CN" value="&quot;1.0E26&quot;" />
+            <lang locale="en_US" value="&quot;1.0E26&quot;" />
+            <lang locale="zh_HK" value="&quot;1.0E26&quot;" />
+            <lang locale="zh_TW" value="&quot;1.0E26&quot;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[minimumValue].value">
+            <lang locale="zh_CN" value="&quot;-1.0E26&quot;" />
+            <lang locale="en_US" value="&quot;-1.0E26&quot;" />
+            <lang locale="zh_HK" value="&quot;-1.0E26&quot;" />
+            <lang locale="zh_TW" value="&quot;-1.0E26&quot;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[precision].value">
+            <lang locale="zh_CN" value="2" />
+            <lang locale="en_US" value="2" />
+            <lang locale="zh_HK" value="2" />
+            <lang locale="zh_TW" value="2" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[required].value">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_HK" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[supportedEmpty].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].components.component[txtsybqz].properties.property[visible].value">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_HK" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].description">
+            <lang locale="zh_CN" value="区域设置" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="區域設置" />
+            <lang locale="zh_TW" value="區域設置" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.designsupplier.designbase.client.QzEditUI].title">
+            <lang locale="zh_CN" value="权重设置" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="權重設置" />
+            <lang locale="zh_TW" value="權重設置" />
+        </rs>
+    </resource>
+</uiObject>
+

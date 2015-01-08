@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uiObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.markesupplier.client</package>
+    <name>SelectContractUI</name>
+    <alias>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].alias</alias>
+    <description>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].description</description>
+    <userDefined>false</userDefined>
+    <releasePackage>com.kingdee.eas.fdc.invite.markesupplier.client</releasePackage>
+    <releaseClass>SelectContractUI</releaseClass>
+    <title>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].title</title>
+    <uitype />
+    <defaultbutton />
+    <bizUnitPK />
+    <parent>
+        <key name="package" value="com.kingdee.eas.framework.client" />
+        <key name="name" value="CoreUI" />
+    </parent>
+    <components>
+        <component>
+            <name>CoreUI</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[CoreUI].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDPanel</classType>
+            <isContainer>true</isContainer>
+            <constraints>10,10,750,400</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+        </component>
+        <component>
+            <name>kDContainer1</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDContainer1].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>6,30,735,332</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name>borderLayout1</name>
+                <type>BorderLayout</type>
+                <value>0,0</value>
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>title</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDContainer1].properties.property[title].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>btnOk</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnOk].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>488,370,81,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnOk].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>btnOk_actionPerformed</methodName>
+                    <code>//write your code here1</code>
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>btnCancel</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnCancel].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDWorkButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>588,370,81,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnCancel].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>btnCancel_actionPerformed</methodName>
+                    <code>//write your code here11</code>
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>btnQuery</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnQuery].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDButton</classType>
+            <isContainer>false</isContainer>
+            <constraints>469,4,73,21</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>text</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnQuery].properties.property[text].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+            <eventBindings>
+                <eventBinding>
+                    <name>actionPerformed</name>
+                    <eventType>java.awt.event.ActionEvent</eventType>
+                    <scene />
+                    <listenerType>java.awt.event.ActionListener</listenerType>
+                    <listenerAdapter>java.awt.event.ActionListener</listenerAdapter>
+                    <methodName>btnQuery_actionPerformed</methodName>
+                    <code>//write your code here1</code>
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>kDLabelContainer1</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDLabelContainer1].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDLabelContainer</classType>
+            <isContainer>true</isContainer>
+            <constraints>8,6,185,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>LabelContainerLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>boundLabelText</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDTextField1</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDTextField1].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDTextField</classType>
+            <isContainer>false</isContainer>
+            <constraints>202,6,262,19</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="CoreUI" />
+            </parent>
+        </component>
+        <component>
+            <name>kDTable1</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDTable1].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.kdf.table.KDTable</classType>
+            <isContainer>false</isContainer>
+            <constraints>Center</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <properties>
+                <property>
+                    <name>formatXml</name>
+                    <type>java.lang.String</type>
+                    <value>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDTable1].properties.property[formatXml].value</value>
+                    <isMultiLan>true</isMultiLan>
+                    <userDefined>false</userDefined>
+                </property>
+            </properties>
+            <parent>
+                <key name="name" value="kDContainer1" />
+            </parent>
+            <propertyBindings>
+                <propertyBinding>
+                    <propertyName>id.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>id</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>number.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>number</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>name.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>name</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>contractType.name.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>contractType.name</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>partB.name.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>partB.name</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>curProject.name.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>curProject.name</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>signDate.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>signDate</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>respDept.name.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>respDept.name</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>respPerson.name.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>respPerson.name</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>state.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>state</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>hasSettled.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>hasSettled</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>amount.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>amount</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>curProject.id.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>curProject.id</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>curProject.isEnabled.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>curProject.isEnabled</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>isAmtWithoutCost.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>isAmtWithoutCost</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+                <propertyBinding>
+                    <propertyName>contractType.longNumber.text</propertyName>
+                    <propertyType>java.lang.Object</propertyType>
+                    <bindingObject>queryF7ContractBillQuery</bindingObject>
+                    <bindingField>contractType.longNumber</bindingField>
+                    <fieldType>java.lang.String</fieldType>
+                    <accessType>2</accessType>
+                    <autoMode>false</autoMode>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </propertyBinding>
+            </propertyBindings>
+            <eventBindings>
+                <eventBinding>
+                    <name>tableClicked</name>
+                    <eventType>com.kingdee.bos.ctrl.kdf.table.event.KDTMouseEvent</eventType>
+                    <scene />
+                    <listenerType>com.kingdee.bos.ctrl.kdf.table.event.KDTMouseListener</listenerType>
+                    <listenerAdapter>com.kingdee.bos.ctrl.kdf.table.event.KDTMouseListener</listenerAdapter>
+                    <methodName>kDTable1_tableClicked</methodName>
+                    <code>
+      //write your code here1
+</code>
+                    <isBindWorkFlow>false</isBindWorkFlow>
+                    <herited>false</herited>
+                    <userDefined>false</userDefined>
+                </eventBinding>
+            </eventBindings>
+        </component>
+        <component>
+            <name>kDComboBox1</name>
+            <alias>uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDComboBox1].alias</alias>
+            <userDefined>false</userDefined>
+            <classType>com.kingdee.bos.ctrl.swing.KDComboBox</classType>
+            <isContainer>false</isContainer>
+            <constraints>7</constraints>
+            <tabIndex>0</tabIndex>
+            <herited>false</herited>
+            <bimUIObjectPK />
+            <layoutInfo>
+                <name />
+                <type>XYLayout</type>
+                <value />
+            </layoutInfo>
+            <parent>
+                <key name="name" value="kDLabelContainer1" />
+            </parent>
+        </component>
+    </components>
+    <dataObjects>
+        <dataObject>
+            <name>queryF7ContractBillQuery</name>
+            <type>com.kingdee.eas.fdc.invite.markesupplier.app.F7ContractBillQuery</type>
+            <objectType>jqye</objectType>
+            <herited>false</herited>
+            <userDefined>false</userDefined>
+        </dataObject>
+    </dataObjects>
+    <resource>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].alias">
+            <lang locale="zh_CN" value="合同选择" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合同選擇" />
+            <lang locale="zh_TW" value="合同選擇" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[CoreUI].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnCancel].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnCancel].properties.property[text].value">
+            <lang locale="zh_CN" value="取消" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="取消" />
+            <lang locale="zh_TW" value="取消" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnOk].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnOk].properties.property[text].value">
+            <lang locale="zh_CN" value="确定" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="確定" />
+            <lang locale="zh_TW" value="確定" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnQuery].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[btnQuery].properties.property[text].value">
+            <lang locale="zh_CN" value="查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查詢" />
+            <lang locale="zh_TW" value="查詢" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDComboBox1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDContainer1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDContainer1].properties.property[title].value">
+            <lang locale="zh_CN" value="合同选择" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合同選擇" />
+            <lang locale="zh_TW" value="合同選擇" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDLabelContainer1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDLabelContainer1].properties.property[boundLabelText].value">
+            <lang locale="zh_CN" value="查询类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="查詢類型" />
+            <lang locale="zh_TW" value="查詢類型" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDTable1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDTable1].properties.property[formatXml].value">
+            <lang locale="zh_CN" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol12&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol15&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;number&quot; t:width=&quot;150&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;name&quot; t:width=&quot;200&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;contractType.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;partB.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;curProject.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;signDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;respDept.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;respPerson.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;state&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;hasSettled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;amount&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;curProject.id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; t:styleID=&quot;sCol12&quot; /&gt;&lt;t:Column t:key=&quot;curProject.isEnabled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;isAmtWithoutCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;contractType.longNumber&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; t:styleID=&quot;sCol15&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:configured=&quot;false&quot;&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;ID&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同编码&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同名称&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同类型&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;签约乙方&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;工程项目&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;签约日期&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;责任部门&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;责任人&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;单据状态&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;是否结算&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同金额&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;ID&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;启用&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;是否不计成本的金额&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;长编码&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+            <lang locale="en_US" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles /&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;number&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;contractType.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;partB.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;curProject.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;signDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;respDept.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;respPerson.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;state&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;hasSettled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;amount&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;curProject.id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;curProject.isEnabled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;isAmtWithoutCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;contractType.longNumber&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:configured=&quot;false&quot;&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;id&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;number&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;name&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;contractType.name&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;partB.name&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;curProject.name&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;signDate&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;respDept.name&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;respPerson.name&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;state&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;hasSettled&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;amount&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;curProject.id&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;curProject.isEnabled&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;isAmtWithoutCost&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;contractType.longNumber&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+            <lang locale="zh_HK" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol12&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol15&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;number&quot; t:width=&quot;150&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;name&quot; t:width=&quot;200&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;contractType.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;partB.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;curProject.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;signDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;respDept.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;respPerson.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;state&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;hasSettled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;amount&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;curProject.id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; t:styleID=&quot;sCol12&quot; /&gt;&lt;t:Column t:key=&quot;curProject.isEnabled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;isAmtWithoutCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;contractType.longNumber&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; t:styleID=&quot;sCol15&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:configured=&quot;false&quot;&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;ID&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同編碼&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同名稱&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同類型&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;簽約乙方&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;工程項目&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;簽約日期&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;責任部門&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;責任人&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;單據狀態&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;是否結算&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同金額&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;ID&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;啟用&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;是否不計成本的金額&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;長編碼&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+            <lang locale="zh_TW" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;DocRoot xmlns:c=&quot;http://www.kingdee.com/Common&quot; xmlns:f=&quot;http://www.kingdee.com/Form&quot; xmlns:t=&quot;http://www.kingdee.com/Table&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://www.kingdee.com/KDF KDFSchema.xsd&quot; version=&quot;0.0&quot;&gt;&lt;Styles&gt;&lt;c:Style id=&quot;sCol0&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol12&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;c:Style id=&quot;sCol15&quot;&gt;&lt;c:Protection hidden=&quot;true&quot; /&gt;&lt;/c:Style&gt;&lt;/Styles&gt;&lt;Table id=&quot;KDTable&quot;&gt;&lt;t:Sheet name=&quot;sheet1&quot;&gt;&lt;t:Table t:selectMode=&quot;15&quot; t:mergeMode=&quot;0&quot; t:dataRequestMode=&quot;0&quot; t:pageRowCount=&quot;100&quot;&gt;&lt;t:ColumnGroup&gt;&lt;t:Column t:key=&quot;id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; t:styleID=&quot;sCol0&quot; /&gt;&lt;t:Column t:key=&quot;number&quot; t:width=&quot;150&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;name&quot; t:width=&quot;200&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;contractType.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;partB.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;curProject.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;signDate&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;respDept.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;respPerson.name&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;state&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;hasSettled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;amount&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;curProject.id&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; t:styleID=&quot;sCol12&quot; /&gt;&lt;t:Column t:key=&quot;curProject.isEnabled&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;isAmtWithoutCost&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; /&gt;&lt;t:Column t:key=&quot;contractType.longNumber&quot; t:width=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:moveable=&quot;true&quot; t:group=&quot;false&quot; t:required=&quot;false&quot; t:index=&quot;-1&quot; t:configured=&quot;false&quot; t:styleID=&quot;sCol15&quot; /&gt;&lt;/t:ColumnGroup&gt;&lt;t:Head&gt;&lt;t:Row t:name=&quot;header&quot; t:height=&quot;-1&quot; t:mergeable=&quot;true&quot; t:resizeable=&quot;true&quot; t:configured=&quot;false&quot;&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;ID&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同編碼&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同名稱&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同類型&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;簽約乙方&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;工程項目&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;簽約日期&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;責任部門&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;責任人&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;單據狀態&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;是否結算&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;合同金額&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;ID&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;啟用&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;是否不計成本的金額&lt;/t:Cell&gt;&lt;t:Cell t:configured=&quot;false&quot;&gt;長編碼&lt;/t:Cell&gt;&lt;/t:Row&gt;&lt;/t:Head&gt;&lt;/t:Table&gt;&lt;t:SheetOptions&gt;&lt;t:MergeBlocks&gt;&lt;t:Head /&gt;&lt;/t:MergeBlocks&gt;&lt;/t:SheetOptions&gt;&lt;/t:Sheet&gt;&lt;/Table&gt;&lt;/DocRoot&gt;" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].components.component[kDTextField1].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="uiObject[com.kingdee.eas.fdc.invite.markesupplier.client.SelectContractUI].title">
+            <lang locale="zh_CN" value="合同选择" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="合同選擇" />
+            <lang locale="zh_TW" value="合同選擇" />
+        </rs>
+    </resource>
+</uiObject>
+

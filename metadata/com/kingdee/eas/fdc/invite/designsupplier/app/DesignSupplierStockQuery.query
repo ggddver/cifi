@@ -1,0 +1,3044 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joinQuery xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.app</package>
+    <name>DesignSupplierStockQuery</name>
+    <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].alias</alias>
+    <description>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].description</description>
+    <userDefined>false</userDefined>
+    <reportDataSource />
+    <bizUnitPK>com.kingdee.eas.fdc.invite.designsupplier.DesignSupplierStock</bizUnitPK>
+    <connectionProvider />
+    <subObjects>
+        <subEntity>
+            <name>DesignSupplierStock</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[DesignSupplierStock].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStock" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>CU</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[CU].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="CtrlUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>inviteType</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[inviteType].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.app" />
+                <key name="name" value="InviteType" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>province</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[province].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="Province" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>city</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[city].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.assistant.app" />
+                <key name="name" value="City" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>purchaseOrgUnit</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[purchaseOrgUnit].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.org.app" />
+                <key name="name" value="PurchaseOrgUnit" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>SupplierStock</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[SupplierStock].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.basedata.master.cssp.app" />
+                <key name="name" value="Supplier" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>creator</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[creator].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.base.permission.app" />
+                <key name="name" value="User" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>linkPerson</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[linkPerson].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockLinkPerson" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>designPhase</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[designPhase].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.designbase.app" />
+                <key name="name" value="DesignPhase" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>productType</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[productType].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.designbase.app" />
+                <key name="name" value="ProductType" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>level</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[level].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.designbase.app" />
+                <key name="name" value="DesignLevelSetUp" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>quaLevel</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[quaLevel].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.designbase.app" />
+                <key name="name" value="DesignQuaLevel" />
+            </entityRef>
+        </subEntity>
+        <subEntity>
+            <name>gatadeLv</name>
+            <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[gatadeLv].alias</alias>
+            <userDefined>false</userDefined>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+            <entityRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.designbase.app" />
+                <key name="name" value="DesignGradeSetUp" />
+            </entityRef>
+        </subEntity>
+    </subObjects>
+    <units>
+        <queryField>
+            <name>id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>833a5c3c-08d8-4838-a15a-2e593c43fb90</key>
+                    <parentUnit>
+                        <key name="name" value="id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>67e5e680-858e-416f-b7bc-292e154137b5</key>
+                    <parentUnit>
+                        <key name="name" value="number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6af72b1b-8f5e-4d14-adac-e5eca1b92e51</key>
+                    <parentUnit>
+                        <key name="name" value="name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>isPass</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[isPass].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>51613567-c6a7-4efd-9e4a-67a33d3503c1</key>
+                    <parentUnit>
+                        <key name="name" value="isPass" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isPass" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>purchaseOrgUnit.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[purchaseOrgUnit.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>0de8f5d6-34f7-44c2-9294-25ec922d69ea</key>
+                    <parentUnit>
+                        <key name="name" value="purchaseOrgUnit.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="purchaseOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>linkPerson.personName</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.personName].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>46be5b2a-149d-4019-a044-9ab9a2c037b9</key>
+                    <parentUnit>
+                        <key name="name" value="linkPerson.personName" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="linkPerson" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="personName" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>linkPerson.phone</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.phone].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>824f71f4-5eb4-43d6-8019-ed340bfe1a4f</key>
+                    <parentUnit>
+                        <key name="name" value="linkPerson.phone" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="linkPerson" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="phone" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>linkPerson.workPhone</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.workPhone].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b1f31f74-e125-47b2-a861-4c0b8a5cc5d0</key>
+                    <parentUnit>
+                        <key name="name" value="linkPerson.workPhone" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="linkPerson" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="workPhone" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>linkPerson.personFax</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.personFax].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>570316fc-a1d7-42ca-9c26-fb1cc6716a04</key>
+                    <parentUnit>
+                        <key name="name" value="linkPerson.personFax" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="linkPerson" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="personFax" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>state</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[state].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Int</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c04c51a0-6087-47e6-aff4-34962e83ba17</key>
+                    <parentUnit>
+                        <key name="name" value="state" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="state" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>creator.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[creator.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>78c66cd5-e5d1-40a9-86ad-3e850d2da26a</key>
+                    <parentUnit>
+                        <key name="name" value="creator.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>buildDate</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[buildDate].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Date</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>98f0438e-9e2b-45bf-8453-52c553d88e09</key>
+                    <parentUnit>
+                        <key name="name" value="buildDate" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="buildDate" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>SupplierStock.number</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[SupplierStock.number].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>7a780017-04c5-4b40-a0ce-be9a6d77ecf1</key>
+                    <parentUnit>
+                        <key name="name" value="SupplierStock.number" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="number" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>6ee3c00e-f506-495a-a78c-6cbc9fab8283</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[6ee3c00e-f506-495a-a78c-6cbc9fab8283].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b3c3c847-05a9-4d3e-8cc0-bd1dc3df376e</key>
+                    <parentUnit>
+                        <key name="name" value="6ee3c00e-f506-495a-a78c-6cbc9fab8283" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="CU" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>544bea4b-924d-4482-9332-9a0187a62c7f</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[544bea4b-924d-4482-9332-9a0187a62c7f].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>f91358af-8d8c-43bb-899b-94f94a929efc</key>
+                    <parentUnit>
+                        <key name="name" value="544bea4b-924d-4482-9332-9a0187a62c7f" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>SupplierStock.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[SupplierStock.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>41cd6f20-324a-4ced-91b4-17f04455e400</key>
+                    <parentUnit>
+                        <key name="name" value="SupplierStock.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>CU.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[CU.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>cc08a67c-65df-4a9a-9d4b-3542fe6ce32b</key>
+                    <parentUnit>
+                        <key name="name" value="CU.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="CU" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>b6bc5b2d-86f9-4baf-9d8c-43c0b8c55ebd</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[b6bc5b2d-86f9-4baf-9d8c-43c0b8c55ebd].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c30af9bd-9247-4a30-9427-7b5682b2de7e</key>
+                    <parentUnit>
+                        <key name="name" value="b6bc5b2d-86f9-4baf-9d8c-43c0b8c55ebd" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="inviteType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>3a4043ae-8bb2-438d-a866-b06a4a456c7f</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[3a4043ae-8bb2-438d-a866-b06a4a456c7f].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5d40ceb5-60fa-4fb2-9b90-59205906d1f6</key>
+                    <parentUnit>
+                        <key name="name" value="3a4043ae-8bb2-438d-a866-b06a4a456c7f" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="inviteType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>4f0d9a25-3b21-4338-8fda-4592116b910c</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[4f0d9a25-3b21-4338-8fda-4592116b910c].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b06d4dd9-d97c-4030-a1eb-053fdeec4406</key>
+                    <parentUnit>
+                        <key name="name" value="4f0d9a25-3b21-4338-8fda-4592116b910c" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="province" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>57dc6e93-3450-4fe3-a1fb-52da03409d1a</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[57dc6e93-3450-4fe3-a1fb-52da03409d1a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>69ad6c67-e0c5-4502-b30b-3a73f65a4f33</key>
+                    <parentUnit>
+                        <key name="name" value="57dc6e93-3450-4fe3-a1fb-52da03409d1a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="province" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>91be63da-1beb-4784-b8bf-8c54c07b41e8</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[91be63da-1beb-4784-b8bf-8c54c07b41e8].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>dd380fb5-4a8d-4d9f-867d-3d4a6896c41a</key>
+                    <parentUnit>
+                        <key name="name" value="91be63da-1beb-4784-b8bf-8c54c07b41e8" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="city" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>5aa18655-4d40-4f7b-ae15-ad7fafbf748e</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[5aa18655-4d40-4f7b-ae15-ad7fafbf748e].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>adf0595a-2e31-41ae-838e-afd0ceedf605</key>
+                    <parentUnit>
+                        <key name="name" value="5aa18655-4d40-4f7b-ae15-ad7fafbf748e" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="city" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>2f811aa2-5c9c-4e5a-950e-3ff2d8baa584</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[2f811aa2-5c9c-4e5a-950e-3ff2d8baa584].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1ede8af4-64f3-4e23-b144-99daf4746f17</key>
+                    <parentUnit>
+                        <key name="name" value="2f811aa2-5c9c-4e5a-950e-3ff2d8baa584" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="purchaseOrgUnit" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>390e42c7-d43a-4d99-a7b7-59dfd332b135</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[390e42c7-d43a-4d99-a7b7-59dfd332b135].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>bf09f0a9-6651-41a0-a0fa-87c45d9455a9</key>
+                    <parentUnit>
+                        <key name="name" value="390e42c7-d43a-4d99-a7b7-59dfd332b135" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="purchaseOrgUnit" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>283980a4-6224-4d65-9e38-065695317c92</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[283980a4-6224-4d65-9e38-065695317c92].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>d368f51a-884c-4076-b46e-324ab7bbea1f</key>
+                    <parentUnit>
+                        <key name="name" value="283980a4-6224-4d65-9e38-065695317c92" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="sysSupplier" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>a6e1720f-39e6-45c2-8b62-17dd966ba352</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[a6e1720f-39e6-45c2-8b62-17dd966ba352].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>1504bb8e-30cd-4991-9141-e19942137254</key>
+                    <parentUnit>
+                        <key name="name" value="a6e1720f-39e6-45c2-8b62-17dd966ba352" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="sysSupplier" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>3f18c3e1-3e63-405f-9280-5d7db388776c</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[3f18c3e1-3e63-405f-9280-5d7db388776c].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>5b584d31-26ad-4c4c-b134-ecb77e3617d2</key>
+                    <parentUnit>
+                        <key name="name" value="3f18c3e1-3e63-405f-9280-5d7db388776c" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="SupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>inviteType.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[inviteType.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>644116e2-55ad-4f78-b77a-e85aa23f7832</key>
+                    <parentUnit>
+                        <key name="name" value="inviteType.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="inviteType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>inviteType.id</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[inviteType.id].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>fd594834-367f-45bc-8b09-db70dca01833</key>
+                    <parentUnit>
+                        <key name="name" value="inviteType.id" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="inviteType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>inviteType.longNumber</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[inviteType.longNumber].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>9cab104f-2ade-4eef-ab41-8ae45cc46ab1</key>
+                    <parentUnit>
+                        <key name="name" value="inviteType.longNumber" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="inviteType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="longNumber" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>ddf48a00-e949-4df3-b30f-5aa195ee8094</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[ddf48a00-e949-4df3-b30f-5aa195ee8094].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b23601c1-bba0-4a09-a28d-ff0b79e3e785</key>
+                    <parentUnit>
+                        <key name="name" value="ddf48a00-e949-4df3-b30f-5aa195ee8094" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="creator" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>e8a0881f-5826-4327-819f-60d97b6ff1af</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[e8a0881f-5826-4327-819f-60d97b6ff1af].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a1f4126f-7966-4cee-b1c7-9249eb3cc55b</key>
+                    <parentUnit>
+                        <key name="name" value="e8a0881f-5826-4327-819f-60d97b6ff1af" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="creator" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>4f10bb95-884d-46ae-a617-bade3f920fe6</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[4f10bb95-884d-46ae-a617-bade3f920fe6].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>562405f9-965d-4246-b257-0262e56c2b45</key>
+                    <parentUnit>
+                        <key name="name" value="4f10bb95-884d-46ae-a617-bade3f920fe6" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>a679a3a0-2f34-4fdd-9f4c-c6df4a84c5e3</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[a679a3a0-2f34-4fdd-9f4c-c6df4a84c5e3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>3f3bdc34-fcf9-4841-aedc-30657e4d1855</key>
+                    <parentUnit>
+                        <key name="name" value="a679a3a0-2f34-4fdd-9f4c-c6df4a84c5e3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="linkPerson" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="parent" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>companyScale</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[companyScale].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>a04a9406-c78c-4b50-b4ec-db8e1424eae1</key>
+                    <parentUnit>
+                        <key name="name" value="companyScale" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="companyScale" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>expertise</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[expertise].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>e9a78d45-c79d-4b46-b92e-2e77f7b07916</key>
+                    <parentUnit>
+                        <key name="name" value="expertise" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="expertise" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>designPhase.name</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[designPhase.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>eb4e7a1b-6e9f-4797-aadb-8078ddc2c16d</key>
+                    <parentUnit>
+                        <key name="name" value="designPhase.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="designPhase" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>d0e0c065-05a5-42a3-b2a3-d854256061d3</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[d0e0c065-05a5-42a3-b2a3-d854256061d3].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>f055a0e8-81af-4654-a628-a4c40fb18e95</key>
+                    <parentUnit>
+                        <key name="name" value="d0e0c065-05a5-42a3-b2a3-d854256061d3" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="designPhase" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>30552e9b-9e7e-44c9-a9e4-3e47dfa9dc12</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[30552e9b-9e7e-44c9-a9e4-3e47dfa9dc12].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>4583a946-47d0-456d-b1cd-f4e36fb05c14</key>
+                    <parentUnit>
+                        <key name="name" value="30552e9b-9e7e-44c9-a9e4-3e47dfa9dc12" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="designPhase" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>productType.name</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[productType.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>cc93791b-0885-449d-8232-0a8f7be16ba8</key>
+                    <parentUnit>
+                        <key name="name" value="productType.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="productType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>1a3a95f0-072d-42e2-a9b5-5bb96f25f17a</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[1a3a95f0-072d-42e2-a9b5-5bb96f25f17a].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>9d004b16-f29e-486f-b394-2c5e24d0ddc4</key>
+                    <parentUnit>
+                        <key name="name" value="1a3a95f0-072d-42e2-a9b5-5bb96f25f17a" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="productType" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>3bb754d6-216b-450f-9a5a-794baa19c2e1</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[3bb754d6-216b-450f-9a5a-794baa19c2e1].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>215dff49-616f-4596-88ad-104e57e31763</key>
+                    <parentUnit>
+                        <key name="name" value="3bb754d6-216b-450f-9a5a-794baa19c2e1" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="productType" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>linkPerson.isDefault</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.isDefault].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>Boolean</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c97fc7bd-b46c-437b-9bff-c2a8f6addf5a</key>
+                    <parentUnit>
+                        <key name="name" value="linkPerson.isDefault" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="linkPerson" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="isDefault" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>ac0bf9e0-e095-48ac-88e4-fcb21a53977b</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[ac0bf9e0-e095-48ac-88e4-fcb21a53977b].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c4a34f05-3a86-4bd6-871e-7f38401bc274</key>
+                    <parentUnit>
+                        <key name="name" value="ac0bf9e0-e095-48ac-88e4-fcb21a53977b" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="level" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>4a6c4430-5d6e-4768-9680-164808300443</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[4a6c4430-5d6e-4768-9680-164808300443].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>92d0f1ce-fd18-42a2-920e-343b7509ac3a</key>
+                    <parentUnit>
+                        <key name="name" value="4a6c4430-5d6e-4768-9680-164808300443" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="level" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>48c7645f-7cbb-4591-a5b6-83e0eeb1dd39</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[48c7645f-7cbb-4591-a5b6-83e0eeb1dd39].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>b20cc1ba-3db4-476c-9fca-30e68ec7c02d</key>
+                    <parentUnit>
+                        <key name="name" value="48c7645f-7cbb-4591-a5b6-83e0eeb1dd39" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="quaLevel" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>7f3948a5-200c-4eff-99f1-6295a4f79704</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[7f3948a5-200c-4eff-99f1-6295a4f79704].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>211d256b-fcef-4264-bfc5-148967dc3933</key>
+                    <parentUnit>
+                        <key name="name" value="7f3948a5-200c-4eff-99f1-6295a4f79704" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="quaLevel" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <queryField>
+            <name>level.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[level.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>13e64ab7-d6ab-468b-82f4-7ded0a73279a</key>
+                    <parentUnit>
+                        <key name="name" value="level.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="level" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>quaLevel.name</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[quaLevel.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>8e97cf24-b52a-4bc0-8f6d-acc229bba7df</key>
+                    <parentUnit>
+                        <key name="name" value="quaLevel.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="quaLevel" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>podutId</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[podutId].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>6dd9ffa1-16f3-4e42-b271-c73544c73502</key>
+                    <parentUnit>
+                        <key name="name" value="podutId" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="podutId" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>DesignJD</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[DesignJD].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>15c7f25f-b374-441a-be3f-2d4ee3ee2db8</key>
+                    <parentUnit>
+                        <key name="name" value="DesignJD" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="DesignJD" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <queryField>
+            <name>gatadeLv.name</name>
+            <userDefined>false</userDefined>
+            <formulaString>#0</formulaString>
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[gatadeLv.name].displayName</displayName>
+            <groupType />
+            <isSelector>true</isSelector>
+            <isFilter>true</isFilter>
+            <isSorter>true</isSorter>
+            <isParameter>false</isParameter>
+            <returnType>String</returnType>
+            <propertyRefs>
+                <propertyRef>
+                    <key>c18b2ab3-ac9a-4958-b256-231c5134052a</key>
+                    <parentUnit>
+                        <key name="name" value="gatadeLv.name" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="gatadeLv" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="name" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </queryField>
+        <propertyUnit>
+            <name>00f606cb-2e4e-4b6c-b731-1a961eda9ff2</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[00f606cb-2e4e-4b6c-b731-1a961eda9ff2].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>4c87052e-90b4-4c21-9ded-f50421eaafb8</key>
+                    <parentUnit>
+                        <key name="name" value="00f606cb-2e4e-4b6c-b731-1a961eda9ff2" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="DesignSupplierStock" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="gatadeLv" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+        <propertyUnit>
+            <name>980505e9-f5d0-4c40-afa5-92bcd461c34d</name>
+            <userDefined>false</userDefined>
+            <formulaString />
+            <constString />
+            <displayName>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[980505e9-f5d0-4c40-afa5-92bcd461c34d].displayName</displayName>
+            <groupType />
+            <isSelector>false</isSelector>
+            <isFilter>false</isFilter>
+            <isSorter>false</isSorter>
+            <isParameter>false</isParameter>
+            <returnType />
+            <propertyRefs>
+                <propertyRef>
+                    <key>22130126-e3a1-4071-b588-4a61493c54d7</key>
+                    <parentUnit>
+                        <key name="name" value="980505e9-f5d0-4c40-afa5-92bcd461c34d" />
+                    </parentUnit>
+                    <subEntity>
+                        <key name="name" value="gatadeLv" />
+                    </subEntity>
+                    <refProperty>
+                        <key name="name" value="id" />
+                    </refProperty>
+                </propertyRef>
+            </propertyRefs>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </propertyUnit>
+    </units>
+    <defaultFilter>
+        <name>defaultFilter</name>
+        <formulaString>#0 or #1</formulaString>
+        <filterItems>
+            <queryFilterItem>
+                <propertyName>linkPerson.isDefault</propertyName>
+                <compareType>=</compareType>
+                <compareValue>null</compareValue>
+                <userDefined>false</userDefined>
+                <filter>
+                    <key name="name" value="defaultFilter" />
+                </filter>
+            </queryFilterItem>
+            <queryFilterItem>
+                <propertyName>linkPerson.isDefault</propertyName>
+                <compareType>=</compareType>
+                <compareValue>1</compareValue>
+                <userDefined>false</userDefined>
+                <filter>
+                    <key name="name" value="defaultFilter" />
+                </filter>
+            </queryFilterItem>
+        </filterItems>
+        <query>
+            <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+            <key name="name" value="DesignSupplierStockQuery" />
+        </query>
+    </defaultFilter>
+    <queryPK>
+        <name>QueryPK</name>
+        <alias>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].queryPK[QueryPK].alias</alias>
+        <description>joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].queryPK[QueryPK].description</description>
+        <keyProperties>
+            <queryField>
+                <key name="name" value="id" />
+            </queryField>
+        </keyProperties>
+    </queryPK>
+    <isDistinct>false</isDistinct>
+    <joins>
+        <join>
+            <name>e41e9a69-df7e-4d3d-8554-59b5e36533d8</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="CU" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>29e35000-8673-4cc3-99c0-72081d5b141a</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="6ee3c00e-f506-495a-a78c-6cbc9fab8283" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="544bea4b-924d-4482-9332-9a0187a62c7f" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="e41e9a69-df7e-4d3d-8554-59b5e36533d8" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>5210341a-ba7c-4299-ad98-4db2733f6037</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="inviteType" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>e85feb30-83ba-4dff-a9ad-6b485c55c904</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="b6bc5b2d-86f9-4baf-9d8c-43c0b8c55ebd" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="3a4043ae-8bb2-438d-a866-b06a4a456c7f" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="5210341a-ba7c-4299-ad98-4db2733f6037" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>83a84f1c-1889-4613-93a0-a475af72e00c</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="province" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>c9796728-bc61-46c2-9533-4a18c8c97e83</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="4f0d9a25-3b21-4338-8fda-4592116b910c" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="57dc6e93-3450-4fe3-a1fb-52da03409d1a" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="83a84f1c-1889-4613-93a0-a475af72e00c" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>5a75ce86-320f-4a26-b962-9f7fd4237f8c</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="city" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>c3e40f86-1488-4e57-8ebc-3c2f7c127d3e</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="91be63da-1beb-4784-b8bf-8c54c07b41e8" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="5aa18655-4d40-4f7b-ae15-ad7fafbf748e" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="5a75ce86-320f-4a26-b962-9f7fd4237f8c" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>8f63d549-cd61-4c31-bfaf-3786ddf07bdc</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="purchaseOrgUnit" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>8c7d2975-1a66-493c-812b-5324e0f391af</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="2f811aa2-5c9c-4e5a-950e-3ff2d8baa584" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="390e42c7-d43a-4d99-a7b7-59dfd332b135" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="8f63d549-cd61-4c31-bfaf-3786ddf07bdc" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>53e2c0ff-4efe-4288-975d-52e9a03c44b7</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="SupplierStock" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>da108376-eeec-4a72-98eb-258e0e0c51be</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="a6e1720f-39e6-45c2-8b62-17dd966ba352" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="3f18c3e1-3e63-405f-9280-5d7db388776c" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="53e2c0ff-4efe-4288-975d-52e9a03c44b7" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>1c13c3c4-705c-4163-a507-e0936899fb94</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="creator" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>6ddecff5-c88f-4e8d-99a5-434c821e1cd3</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="ddf48a00-e949-4df3-b30f-5aa195ee8094" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="e8a0881f-5826-4327-819f-60d97b6ff1af" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="1c13c3c4-705c-4163-a507-e0936899fb94" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>9fa29630-b1c8-4190-b97c-0c829b06e0f9</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="linkPerson" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>55c69785-c138-493d-844c-0e5333c1b88c</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="4f10bb95-884d-46ae-a617-bade3f920fe6" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="a679a3a0-2f34-4fdd-9f4c-c6df4a84c5e3" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="9fa29630-b1c8-4190-b97c-0c829b06e0f9" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>097ac7c2-5e01-40af-bd8a-ca381966dc8f</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="designPhase" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>c3872ec4-cf32-4df4-b769-9d5a2c99e3d5</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="d0e0c065-05a5-42a3-b2a3-d854256061d3" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="30552e9b-9e7e-44c9-a9e4-3e47dfa9dc12" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="097ac7c2-5e01-40af-bd8a-ca381966dc8f" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>28c6700a-eb5a-4032-b50e-c04bdd8682f6</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="productType" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>07de84b5-9b83-4a75-9716-43b3a5a777e9</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="1a3a95f0-072d-42e2-a9b5-5bb96f25f17a" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="3bb754d6-216b-450f-9a5a-794baa19c2e1" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="28c6700a-eb5a-4032-b50e-c04bdd8682f6" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>10558a54-6ba2-43b2-87d1-6981e7664e33</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="level" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>f74024e1-c4f0-4063-8784-69ecc2408437</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="ac0bf9e0-e095-48ac-88e4-fcb21a53977b" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="4a6c4430-5d6e-4768-9680-164808300443" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="10558a54-6ba2-43b2-87d1-6981e7664e33" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>1489ea95-fe66-4306-b2d3-ca50d43bf9f6</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="quaLevel" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>96f585d6-5466-40b1-b55f-8611ead17230</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="48c7645f-7cbb-4591-a5b6-83e0eeb1dd39" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="7f3948a5-200c-4eff-99f1-6295a4f79704" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="1489ea95-fe66-4306-b2d3-ca50d43bf9f6" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+        <join>
+            <name>fed4db2f-340d-4738-a8ff-5135ed07c396</name>
+            <formulaString>#0</formulaString>
+            <type>LEFT OUTER JOIN</type>
+            <leftObject>
+                <key name="name" value="DesignSupplierStock" />
+            </leftObject>
+            <rightObject>
+                <key name="name" value="gatadeLv" />
+            </rightObject>
+            <joinItems>
+                <joinItem>
+                    <name>aacfe8f7-8ee3-46a2-8505-e96d36b73567</name>
+                    <compareType>=</compareType>
+                    <leftField>
+                        <key name="name" value="00f606cb-2e4e-4b6c-b731-1a961eda9ff2" />
+                    </leftField>
+                    <rightField>
+                        <key name="name" value="980505e9-f5d0-4c40-afa5-92bcd461c34d" />
+                    </rightField>
+                    <join>
+                        <key name="name" value="fed4db2f-340d-4738-a8ff-5135ed07c396" />
+                    </join>
+                </joinItem>
+            </joinItems>
+            <query>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.app" />
+                <key name="name" value="DesignSupplierStockQuery" />
+            </query>
+        </join>
+    </joins>
+    <resource>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].alias">
+            <lang locale="zh_CN" value="供应商档案登记" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商檔案登記" />
+            <lang locale="zh_TW" value="供應商檔案登記" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].description">
+            <lang locale="zh_CN" value="通过审核的供应商查询" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="通過審核的供應商查詢" />
+            <lang locale="zh_TW" value="通過審核的供應商查詢" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].extendedProperty.F7WindowTitle">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.designsupplier.client.DesignsupplierResource.DesignSupplierStockQueryF7WindowTitle" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.designsupplier.client.DesignsupplierResource.DesignSupplierStockQueryF7WindowTitle" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.designsupplier.client.DesignsupplierResource.DesignSupplierStockQueryF7WindowTitle" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].extendedProperty.f7WindowTitle">
+            <lang locale="zh_CN" value="供应商档案登记" />
+            <lang locale="zh_TW" value="供应商档案登记" />
+            <lang locale="en_US" value="供应商档案登记" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].queryPK[QueryPK].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].queryPK[QueryPK].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[CU].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[DesignSupplierStock].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[SupplierStock].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[city].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[creator].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[designPhase].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[gatadeLv].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[inviteType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[level].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[linkPerson].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[productType].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[province].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[purchaseOrgUnit].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].subObjects.subEntity[quaLevel].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[00f606cb-2e4e-4b6c-b731-1a961eda9ff2].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[1a3a95f0-072d-42e2-a9b5-5bb96f25f17a].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[283980a4-6224-4d65-9e38-065695317c92].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[2f811aa2-5c9c-4e5a-950e-3ff2d8baa584].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[30552e9b-9e7e-44c9-a9e4-3e47dfa9dc12].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[390e42c7-d43a-4d99-a7b7-59dfd332b135].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[3a4043ae-8bb2-438d-a866-b06a4a456c7f].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[3bb754d6-216b-450f-9a5a-794baa19c2e1].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[3f18c3e1-3e63-405f-9280-5d7db388776c].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[48c7645f-7cbb-4591-a5b6-83e0eeb1dd39].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[4a6c4430-5d6e-4768-9680-164808300443].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[4f0d9a25-3b21-4338-8fda-4592116b910c].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[4f10bb95-884d-46ae-a617-bade3f920fe6].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[544bea4b-924d-4482-9332-9a0187a62c7f].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[57dc6e93-3450-4fe3-a1fb-52da03409d1a].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[5aa18655-4d40-4f7b-ae15-ad7fafbf748e].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[6ee3c00e-f506-495a-a78c-6cbc9fab8283].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[7f3948a5-200c-4eff-99f1-6295a4f79704].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[91be63da-1beb-4784-b8bf-8c54c07b41e8].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[980505e9-f5d0-4c40-afa5-92bcd461c34d].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[a679a3a0-2f34-4fdd-9f4c-c6df4a84c5e3].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[a6e1720f-39e6-45c2-8b62-17dd966ba352].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[ac0bf9e0-e095-48ac-88e4-fcb21a53977b].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[b6bc5b2d-86f9-4baf-9d8c-43c0b8c55ebd].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[d0e0c065-05a5-42a3-b2a3-d854256061d3].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[ddf48a00-e949-4df3-b30f-5aa195ee8094].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.propertyUnit[e8a0881f-5826-4327-819f-60d97b6ff1af].displayName">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[CU.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[CU.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[DesignJD].displayName">
+            <lang locale="zh_CN" value="设计阶段ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="設計階段ID" />
+            <lang locale="zh_TW" value="設計階段ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[DesignJD].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[DesignJD].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[DesignJD].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[SupplierStock.name].displayName">
+            <lang locale="zh_CN" value="主数据供应商名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="主數據供應商名稱" />
+            <lang locale="zh_TW" value="主數據供應商名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[SupplierStock.number].displayName">
+            <lang locale="zh_CN" value="主数据供应商编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="主數據供應商編碼" />
+            <lang locale="zh_TW" value="主數據供應商編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[SupplierStock.number].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[buildDate].displayName">
+            <lang locale="zh_CN" value="成立日期" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="成立日期" />
+            <lang locale="zh_TW" value="成立日期" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[buildDate].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[buildDate].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[companyScale].displayName">
+            <lang locale="zh_CN" value="公司规模" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="公司規模" />
+            <lang locale="zh_TW" value="公司規模" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[companyScale].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[companyScale].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[creator.name].displayName">
+            <lang locale="zh_CN" value="创建者" />
+            <lang locale="en_US" value="用户别名" />
+            <lang locale="zh_HK" value="創建者" />
+            <lang locale="zh_TW" value="創建者" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[creator.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[designPhase.name].displayName">
+            <lang locale="zh_CN" value="设计阶段" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="設計階段" />
+            <lang locale="zh_TW" value="設計階段" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[designPhase.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[designPhase.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[designPhase.name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[designPhase.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[expertise].displayName">
+            <lang locale="zh_CN" value="业务特长" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="業務特長" />
+            <lang locale="zh_TW" value="業務特長" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[expertise].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[expertise].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[gatadeLv.name].displayName">
+            <lang locale="zh_CN" value="供应商级别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商級別" />
+            <lang locale="zh_TW" value="供應商級別" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[gatadeLv.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[gatadeLv.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[gatadeLv.name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[inviteType.id].displayName">
+            <lang locale="zh_CN" value="ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="ID" />
+            <lang locale="zh_TW" value="ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[inviteType.id].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[inviteType.longNumber].displayName">
+            <lang locale="zh_CN" value="长编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="長編碼" />
+            <lang locale="zh_TW" value="長編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[inviteType.longNumber].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[inviteType.name].displayName">
+            <lang locale="zh_CN" value="采购类别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="採購類別" />
+            <lang locale="zh_TW" value="採購類別" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[inviteType.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[isPass].displayName">
+            <lang locale="zh_CN" value="是否合格" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否合格" />
+            <lang locale="zh_TW" value="是否合格" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[isPass].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[isPass].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[isPass].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[level.name].displayName">
+            <lang locale="zh_CN" value="供应商等级" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商等級" />
+            <lang locale="zh_TW" value="供應商等級" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[level.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.isDefault].displayName">
+            <lang locale="zh_CN" value="是否为授权联系人" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="是否為授權聯繫人" />
+            <lang locale="zh_TW" value="是否為授權聯繫人" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.isDefault].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.isDefault].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.personFax].displayName">
+            <lang locale="zh_CN" value="传真" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="傳真" />
+            <lang locale="zh_TW" value="傳真" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.personFax].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.personFax].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.personName].displayName">
+            <lang locale="zh_CN" value="联系人姓名" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="聯繫人姓名" />
+            <lang locale="zh_TW" value="聯繫人姓名" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.personName].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.personName].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.phone].displayName">
+            <lang locale="zh_CN" value="手机" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="手機" />
+            <lang locale="zh_TW" value="手機" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.phone].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.phone].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.workPhone].displayName">
+            <lang locale="zh_CN" value="办公电话" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="辦公電話" />
+            <lang locale="zh_TW" value="辦公電話" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.workPhone].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[linkPerson.workPhone].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[name].displayName">
+            <lang locale="zh_CN" value="供应商名称" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商名稱" />
+            <lang locale="zh_TW" value="供應商名稱" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[number].displayName">
+            <lang locale="zh_CN" value="供应商编码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商編碼" />
+            <lang locale="zh_TW" value="供應商編碼" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[number].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[number].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[podutId].displayName">
+            <lang locale="zh_CN" value="适用产品类型ID" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="適用產品類型ID" />
+            <lang locale="zh_TW" value="適用產品類型ID" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[podutId].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[podutId].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[podutId].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[productType.name].displayName">
+            <lang locale="zh_CN" value="适用产品类型" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="適用產品類型" />
+            <lang locale="zh_TW" value="適用產品類型" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[productType.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[productType.name].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[productType.name].extendedProperty.isUsingF7">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[productType.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[purchaseOrgUnit.name].displayName">
+            <lang locale="zh_CN" value="所属组织" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="所屬組織" />
+            <lang locale="zh_TW" value="所屬組織" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[purchaseOrgUnit.name].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[quaLevel.name].displayName">
+            <lang locale="zh_CN" value="供应商级别" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商級別" />
+            <lang locale="zh_TW" value="供應商級別" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[quaLevel.name].extendedProperty.isVisibleForKDTable">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[state].displayName">
+            <lang locale="zh_CN" value="状态" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="狀態" />
+            <lang locale="zh_TW" value="狀態" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[state].extendedProperty.isCommonQueryFilter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+        <rs key="joinQuery[com.kingdee.eas.fdc.invite.designsupplier.app.DesignSupplierStockQuery].units.queryField[state].extendedProperty.isCommonQuerySorter">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+            <lang locale="en_US" value="true" />
+        </rs>
+    </resource>
+</joinQuery>
+

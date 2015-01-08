@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<relationship xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app</package>
+    <name>R_DirectNegotiationApprovalEntry_SupplierStock_supplier</name>
+    <alias>relationship[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.R_DirectNegotiationApprovalEntry_SupplierStock_supplier].alias</alias>
+    <description>relationship[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.R_DirectNegotiationApprovalEntry_SupplierStock_supplier].description</description>
+    <userDefined>false</userDefined>
+    <type>Association</type>
+    <clientCardinality>0..*</clientCardinality>
+    <supplierCardinality>0..1</supplierCardinality>
+    <xmlNodeRelationship />
+    <clientObject>
+        <key name="package" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app" />
+        <key name="name" value="DirectNegotiationApprovalEntry" />
+    </clientObject>
+    <supplierObject>
+        <key name="package" value="com.kingdee.eas.fdc.invite.supplier.app" />
+        <key name="name" value="SupplierStock" />
+    </supplierObject>
+    <resource>
+        <rs key="relationship[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.R_DirectNegotiationApprovalEntry_SupplierStock_supplier].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="直接委托审批分录-供应商" />
+            <lang locale="zh_TW" value="直接委託審批分錄-供應商" />
+        </rs>
+        <rs key="relationship[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.R_DirectNegotiationApprovalEntry_SupplierStock_supplier].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="直接委托审批分录-供应商" />
+            <lang locale="zh_TW" value="直接委託審批分錄-供應商" />
+        </rs>
+    </resource>
+</relationship>
+

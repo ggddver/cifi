@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bizUnit xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.demotion</package>
+    <name>Demotion</name>
+    <alias>bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].alias</alias>
+    <description>bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].description</description>
+    <userDefined>false</userDefined>
+    <bizType>BusinessBill</bizType>
+    <template>false</template>
+    <entityPK>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.Demotion</entityPK>
+    <queryPK>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.DemotionQuery</queryPK>
+    <editUIPK>com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionEditUI</editUIPK>
+    <listUIPK>com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionListUI</listUIPK>
+    <webEditUIPK />
+    <webListUIPK />
+    <entityFunctionPK />
+    <editUIFunctionPK>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.DemotionEditUIFunction</editUIFunctionPK>
+    <listUIFunctionPK>com.kingdee.eas.fdc.invite.designsupplier.demotion.app.DemotionListUIFunction</listUIFunctionPK>
+    <entryUIPK />
+    <versionDate />
+    <versionNumber />
+    <extendTablePKs />
+    <extendEntityPKs />
+    <extendQueryPKs />
+    <extendEditUIPKs />
+    <extendListUIPKs />
+    <menuPKList />
+    <bimTemplateType>MCoreBillBase</bimTemplateType>
+    <relatedTablePK />
+    <relatedEntityPK />
+    <relatedEditUIPK />
+    <genImplementCode>true</genImplementCode>
+    <resource>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].alias">
+            <lang locale="zh_CN" value="供应商升降级" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商升降級" />
+            <lang locale="zh_TW" value="供應商升降級" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].extendedProperty.OrgType">
+            <lang locale="zh_CN" value="NONE" />
+            <lang locale="en_US" value="NONE" />
+            <lang locale="zh_TW" value="NONE" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].extendedProperty.codingRuleEnabled">
+            <lang locale="zh_CN" value="true" />
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].extendedProperty.defaultDisplayField">
+            <lang locale="zh_CN" value="" />
+            <lang locale="en_US" value="" />
+            <lang locale="zh_TW" value="" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].extendedProperty.defaultF7Query">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app.DemotionQuery" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app.DemotionQuery" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.app.DemotionQuery" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].extendedProperty.editUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionEditUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionEditUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionEditUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].extendedProperty.enableFieldPermission">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].extendedProperty.isAsstAcctType">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].extendedProperty.isParamObject">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].extendedProperty.listUI">
+            <lang locale="zh_CN" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionListUI" />
+            <lang locale="en_US" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionListUI" />
+            <lang locale="zh_TW" value="com.kingdee.eas.fdc.invite.designsupplier.demotion.client.DemotionListUI" />
+        </rs>
+        <rs key="bizUnit[com.kingdee.eas.fdc.invite.designsupplier.demotion.Demotion].extendedProperty.maxFieldIndex">
+            <lang locale="zh_CN" value="48" />
+            <lang locale="en_US" value="48" />
+            <lang locale="zh_TW" value="48" />
+        </rs>
+    </resource>
+</bizUnit>
+
