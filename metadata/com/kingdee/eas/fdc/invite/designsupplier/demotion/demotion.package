@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.demotion</package>
+    <name>demotion</name>
+    <alias>package[com.kingdee.eas.fdc.invite.designsupplier.demotion.demotion].alias</alias>
+    <description>package[com.kingdee.eas.fdc.invite.designsupplier.demotion.demotion].description</description>
+    <basicCode>DEM</basicCode>
+    <resource>
+        <rs key="package[com.kingdee.eas.fdc.invite.designsupplier.demotion.demotion].alias">
+            <lang locale="zh_CN" value="供应商升降级" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商升降級" />
+            <lang locale="zh_TW" value="供應商升降級" />
+        </rs>
+        <rs key="package[com.kingdee.eas.fdc.invite.designsupplier.demotion.demotion].description">
+            <lang locale="zh_CN" value="供应商升降级" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商升降級" />
+            <lang locale="zh_TW" value="供應商升降級" />
+        </rs>
+    </resource>
+</package>
+

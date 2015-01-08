@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.appraise</package>
+    <name>appraise</name>
+    <alias>package[com.kingdee.eas.fdc.invite.designsupplier.appraise.appraise].alias</alias>
+    <description>package[com.kingdee.eas.fdc.invite.designsupplier.appraise.appraise].description</description>
+    <basicCode />
+    <resource>
+        <rs key="package[com.kingdee.eas.fdc.invite.designsupplier.appraise.appraise].alias">
+            <lang locale="zh_CN" value="供应商评定" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商評定" />
+            <lang locale="zh_TW" value="供應商評定" />
+        </rs>
+        <rs key="package[com.kingdee.eas.fdc.invite.designsupplier.appraise.appraise].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+    </resource>
+</package>
+

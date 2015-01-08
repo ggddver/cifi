@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app</package>
+    <name>DirectNegotiationApprovalEntry</name>
+    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].alias</alias>
+    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].description</description>
+    <userDefined>false</userDefined>
+    <bosType>4AE3BC4E</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApprovalEntry</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntryController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].description</description>
+            <innerID>4cceea99-8ffa-43a1-a98d-ff0b565c59b8</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].description</description>
+            <innerID>fb018b42-60ac-405e-a5ff-2ba4bcfdb9fe</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>exists</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].description</description>
+            <innerID>c5c5cb7a-e6a1-4065-83c2-5056c29cf922</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>Boolean</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].description</description>
+            <innerID>c3b45c76-ab66-4bc2-8817-0dac7b29f016</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].description</description>
+            <innerID>8cb669d7-7749-4c5b-979c-06c9bc066959</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].description</description>
+            <innerID>ffd6489a-0f02-427a-bc26-8ce69c1c3367</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].description</description>
+            <innerID>044eb376-28c8-47fa-b6c5-a07141641e36</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>addnew</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].description</description>
+            <innerID>6e34a969-502e-44df-9492-d88dd7402e63</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>update</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].description</description>
+            <innerID>32cbc159-9eee-4e2d-84c0-b0d3ca7eef53</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>updatePartial</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].description</description>
+            <innerID>efcf9065-f4bd-4f38-9f31-905eb4935ccc</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>updateBigObject</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].description</description>
+            <innerID>84eedc27-4e84-4e81-9ca5-87be3641718f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>model</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].parameters.parameter[model].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].parameters.parameter[model].description</description>
+                    <direction>in</direction>
+                    <dataType>ObjectValue</dataType>
+                    <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry</metadataRef>
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].description</description>
+            <innerID>0d8b388f-4529-4054-ba54-bfe21bf9fa59</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].description</description>
+            <innerID>614f0b85-b20c-402e-aeba-0ad9b0257917</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].description</description>
+            <innerID>9920726b-3d36-44d3-9007-0520f19c58cf</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getPKList</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].description</description>
+            <innerID>4ac1861e-a569-4857-ba7e-a8329d8ab735</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>sorter</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[sorter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[sorter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SorterItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].description</description>
+            <innerID>4c84566b-c389-4f73-8ea3-874a5e4b2dda</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].description</description>
+            <innerID>9fe9f15d-0906-4832-8f26-1a1b0e32b4a8</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].description</description>
+            <innerID>f1bcda85-3c8c-4467-a769-eb3d16082340</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].description</description>
+            <innerID>b9161ea3-3962-455b-b921-403a59f47e4f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>filter</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[filter].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[filter].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.FilterInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].description</description>
+            <innerID>8aebb834-e45e-4be9-b8c0-1889bd93575f</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>com.kingdee.bos.dao.IObjectPK[]</returnValueType>
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+        <method>
+            <name>delete</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].description</description>
+            <innerID>4ec4ef45-6c47-4649-8039-35da52383c5a</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType />
+            <metadataRef />
+            <transactionAttribute>Required</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>arrayPK</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[arrayPK].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[arrayPK].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK[]</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+            <configured>false</configured>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.fdc.invite.DirectNegotiationApproval.DirectNegotiationApproval</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillEntryBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app" />
+        <key name="name" value="T_INV_DirectNAE" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>parent</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.linkProperty[parent].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.linkProperty[parent].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FParentID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app" />
+                <key name="name" value="R_DirectNegotiationApproval_DirectNegotiationApprovalEntry_entrys" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>hit</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[hit].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[hit].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>Boolean</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>0</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[hit].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FHit" />
+            </mappingField>
+        </ownProperty>
+        <linkProperty>
+            <name>supplier</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.linkProperty[supplier].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.linkProperty[supplier].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FSupplierID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app" />
+                <key name="name" value="R_DirectNegotiationApprovalEntry_SupplierStock_supplier" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>bidAmount</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[bidAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[bidAmount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[bidAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FBidAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>chooseReason</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[chooseReason].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[chooseReason].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>2000</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[chooseReason].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FChooseReason" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>firstAmount</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[firstAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[firstAmount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[firstAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FIrstAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>secondAmount</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[secondAmount].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[secondAmount].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[secondAmount].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSecondAmount" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>purchaseDoneAmountEx</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[purchaseDoneAmountEx].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[purchaseDoneAmountEx].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>13</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[purchaseDoneAmountEx].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FpurchaseDoneAmountEx" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].alias">
+            <lang locale="zh_CN" value="直接议标审批分录" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="直接議標審批分錄" />
+            <lang locale="zh_TW" value="直接議標審批分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].description">
+            <lang locale="zh_CN" value="直接议标审批分录" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="直接議標審批分錄" />
+            <lang locale="zh_TW" value="直接議標審批分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].logicalKey[id].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].logicalKey[id].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[addnew].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[arrayPK].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[arrayPK].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[filter].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[filter].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[delete].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[filter].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[filter].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[exists].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[filter].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[filter].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[sorter].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getPKList].parameters.parameter[sorter].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updateBigObject].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].parameters.parameter[selector].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[updatePartial].parameters.parameter[selector].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].parameters.parameter[model].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].parameters.parameter[model].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].parameters.parameter[pk].alias">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].methods.method[update].parameters.parameter[pk].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.linkProperty[parent].alias">
+            <lang locale="zh_CN" value="中标审批" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="中標審批" />
+            <lang locale="zh_TW" value="中標審批" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.linkProperty[parent].description">
+            <lang locale="zh_CN" value="中标审批" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="中標審批" />
+            <lang locale="zh_TW" value="中標審批" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.linkProperty[supplier].alias">
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商" />
+            <lang locale="zh_TW" value="供應商" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.linkProperty[supplier].description">
+            <lang locale="zh_CN" value="供应商" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商" />
+            <lang locale="zh_TW" value="供應商" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[bidAmount].alias">
+            <lang locale="zh_CN" value="中标价" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="中標價" />
+            <lang locale="zh_TW" value="中標價" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[bidAmount].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[bidAmount].description">
+            <lang locale="zh_CN" value="中标价" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="中標價" />
+            <lang locale="zh_TW" value="中標價" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[chooseReason].alias">
+            <lang locale="zh_CN" value="选择该单位理由" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="選擇該單位理由" />
+            <lang locale="zh_TW" value="選擇該單位理由" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[chooseReason].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[chooseReason].description">
+            <lang locale="zh_CN" value="选择该单位理由" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="選擇該單位理由" />
+            <lang locale="zh_TW" value="選擇該單位理由" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[firstAmount].alias">
+            <lang locale="zh_CN" value="第一次报价" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="第一次報價" />
+            <lang locale="zh_TW" value="第一次報價" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[firstAmount].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[firstAmount].description">
+            <lang locale="zh_CN" value="第一次报价" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="第一次報價" />
+            <lang locale="zh_TW" value="第一次報價" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[hit].alias">
+            <lang locale="zh_CN" value="中标" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="中標" />
+            <lang locale="zh_TW" value="中標" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[hit].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[hit].description">
+            <lang locale="zh_CN" value="中标" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="中標" />
+            <lang locale="zh_TW" value="中標" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[purchaseDoneAmountEx].alias">
+            <lang locale="zh_CN" value="已完成采购的单方造价" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="已完成採購的單方造價" />
+            <lang locale="zh_TW" value="已完成採購的單方造價" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[purchaseDoneAmountEx].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[purchaseDoneAmountEx].description">
+            <lang locale="zh_CN" value="现场开发:已完成采购的单方造价" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="現場開發:已完成採購的單方造價" />
+            <lang locale="zh_TW" value="現場開發:已完成採購的單方造價" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[secondAmount].alias">
+            <lang locale="zh_CN" value="第二次报价" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="第二次報價" />
+            <lang locale="zh_TW" value="第二次報價" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[secondAmount].defaultValue">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.DirectNegotiationApproval.app.DirectNegotiationApprovalEntry].properties.ownProperty[secondAmount].description">
+            <lang locale="zh_CN" value="第二次报价" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="第二次報價" />
+            <lang locale="zh_TW" value="第二次報價" />
+        </rs>
+    </resource>
+</entityObject>
+

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<functionObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.subill.app</package>
+    <name>DesignSupplierEvaluationListUIFunction</name>
+    <alias>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].alias</alias>
+    <description>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].description</description>
+    <userDefined>false</userDefined>
+    <isBindSingleBizObject>false</isBindSingleBizObject>
+    <operations>
+        <operation>
+            <name>ActionRemove</name>
+            <alias>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[ActionRemove].alias</alias>
+            <description>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[ActionRemove].description</description>
+            <reverseOperation />
+            <eventMethod>be5779dd-00fe-1000-e000-0007c0a813a9</eventMethod>
+            <event>deleteEvent</event>
+            <userDefined>false</userDefined>
+            <uiActionRef>
+                <id>74b6f5a7-0105-1000-e000-00f1c0a813a4uiaf</id>
+                <uiStatus />
+                <userDefined>false</userDefined>
+                <uiObjectRef>
+                    <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client" />
+                    <key name="name" value="DesignSupplierEvaluationListUI" />
+                </uiObjectRef>
+                <actionRefName>ActionRemove</actionRefName>
+                <parameters>
+                    <parameter>
+                        <name>billid</name>
+                        <alias>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[ActionRemove].uiActionRef.parameters.parameter[billid].alias</alias>
+                        <description>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[ActionRemove].uiActionRef.parameters.parameter[billid].description</description>
+                        <direction>in</direction>
+                        <dataType>BOSUuid</dataType>
+                        <metadataRef />
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </parameters>
+            </uiActionRef>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierEvaluation" />
+            </entityObjectRef>
+        </operation>
+        <operation>
+            <name>audit</name>
+            <alias>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[audit].alias</alias>
+            <description>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[audit].description</description>
+            <reverseOperation />
+            <eventMethod>e2ae9596-4772-497a-ac33-4c216a9157a5</eventMethod>
+            <event>auditEvent</event>
+            <userDefined>false</userDefined>
+            <uiActionRef>
+                <id>40196d0c-bf7e-4451-b4cb-d840d6282559uiaf</id>
+                <uiStatus />
+                <userDefined>false</userDefined>
+                <uiObjectRef>
+                    <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client" />
+                    <key name="name" value="DesignSupplierEvaluationListUI" />
+                </uiObjectRef>
+                <actionRefName>ActionAudit</actionRefName>
+                <parameters>
+                    <parameter>
+                        <name>billID</name>
+                        <alias>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[audit].uiActionRef.parameters.parameter[billID].alias</alias>
+                        <description>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[audit].uiActionRef.parameters.parameter[billID].description</description>
+                        <direction>in</direction>
+                        <dataType>BOSUuid</dataType>
+                        <metadataRef />
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </parameters>
+            </uiActionRef>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierEvaluation" />
+            </entityObjectRef>
+        </operation>
+        <operation>
+            <name>unAudit</name>
+            <alias>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[unAudit].alias</alias>
+            <description>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[unAudit].description</description>
+            <reverseOperation />
+            <eventMethod>c169b2ec-82a8-47e8-8172-b4545d3640b2</eventMethod>
+            <event>unAuditEvent</event>
+            <userDefined>false</userDefined>
+            <uiActionRef>
+                <id>855b21ed-7f99-468e-8d7e-753260aa8481uiaf</id>
+                <uiStatus />
+                <userDefined>false</userDefined>
+                <uiObjectRef>
+                    <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.client" />
+                    <key name="name" value="DesignSupplierEvaluationListUI" />
+                </uiObjectRef>
+                <actionRefName>ActionUnAudit</actionRefName>
+                <parameters>
+                    <parameter>
+                        <name>billID</name>
+                        <alias>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[unAudit].uiActionRef.parameters.parameter[billID].alias</alias>
+                        <description>functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[unAudit].uiActionRef.parameters.parameter[billID].description</description>
+                        <direction>in</direction>
+                        <dataType>BOSUuid</dataType>
+                        <metadataRef />
+                        <userDefined>false</userDefined>
+                    </parameter>
+                </parameters>
+            </uiActionRef>
+            <entityObjectRef>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="DesignSupplierEvaluation" />
+            </entityObjectRef>
+        </operation>
+    </operations>
+    <resource>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].alias">
+            <lang locale="zh_CN" value="供应商评定列表功能" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="供應商評定列表功能" />
+            <lang locale="zh_TW" value="供應商評定列表功能" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[ActionRemove].alias">
+            <lang locale="zh_CN" value="删除" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除" />
+            <lang locale="zh_TW" value="刪除" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[ActionRemove].description">
+            <lang locale="zh_CN" value="删除" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="刪除" />
+            <lang locale="zh_TW" value="刪除" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[ActionRemove].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[ActionRemove].uiActionRef.parameters.parameter[billid].alias">
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[ActionRemove].uiActionRef.parameters.parameter[billid].description">
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[audit].alias">
+            <lang locale="zh_CN" value="审核" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="審核" />
+            <lang locale="zh_TW" value="審核" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[audit].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[audit].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[audit].uiActionRef.parameters.parameter[billID].alias">
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[audit].uiActionRef.parameters.parameter[billID].description">
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[unAudit].alias">
+            <lang locale="zh_CN" value="反审核" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="反審核" />
+            <lang locale="zh_TW" value="反審核" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[unAudit].description">
+            <lang locale="zh_CN" value="null" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[unAudit].extendedProperty.userDefined">
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+            <lang locale="en_US" value="false" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[unAudit].uiActionRef.parameters.parameter[billID].alias">
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+        <rs key="functionObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierEvaluationListUIFunction].operations.operation[unAudit].uiActionRef.parameters.parameter[billID].description">
+            <lang locale="zh_CN" value="单据内码" />
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_HK" value="單據內碼" />
+            <lang locale="zh_TW" value="單據內碼" />
+        </rs>
+    </resource>
+</functionObject>
+

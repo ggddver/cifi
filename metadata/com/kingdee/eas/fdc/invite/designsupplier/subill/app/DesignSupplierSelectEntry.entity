@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entityObject xmlns="com.kingdee.bos.metadata">
+    <package>com.kingdee.eas.fdc.invite.designsupplier.subill.app</package>
+    <name>DesignSupplierSelectEntry</name>
+    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].alias</alias>
+    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].description</description>
+    <userDefined>false</userDefined>
+    <bosType>B6788587</bosType>
+    <stereoType>false</stereoType>
+    <businessImplName>com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierSelectEntry</businessImplName>
+    <businessControllerName>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntryController</businessControllerName>
+    <accessLevel>public</accessLevel>
+    <subClassingMode>normal</subClassingMode>
+    <methods>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].description</description>
+            <innerID>ff64c540-04e4-45f6-8ba5-e7c8f8eb15e6</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].description</description>
+            <innerID>21d13b5d-d9b8-4a59-a38d-0c76fbdfdeda</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>pk</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[pk].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[pk].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.dao.IObjectPK</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+                <parameter>
+                    <name>selector</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[selector].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[selector].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.SelectorItemCollection</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getValue</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].description</description>
+            <innerID>47c9428b-582e-48b1-ae5d-1ac523fae0bd</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectValue</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].description</description>
+            <innerID>561a67a7-cdc6-4b58-a6e1-dac39d76eba2</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].description</description>
+            <innerID>eaad2d4c-431a-4a13-9785-fdae35ca2b48</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>view</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].parameters.parameter[view].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].parameters.parameter[view].description</description>
+                    <direction>in</direction>
+                    <dataType>com.kingdee.bos.metadata.entity.EntityViewInfo</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+        <method>
+            <name>getCollection</name>
+            <isListenerMethod>false</isListenerMethod>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].description</description>
+            <innerID>cac2292f-6868-4bd5-9967-59ac8582fd41</innerID>
+            <accessLevel>public</accessLevel>
+            <subClassingMode>normal</subClassingMode>
+            <returnValueType>ObjectCollection</returnValueType>
+            <metadataRef>com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry</metadataRef>
+            <transactionAttribute>Supports</transactionAttribute>
+            <userDefined>false</userDefined>
+            <userDefinedLogic />
+            <parameters>
+                <parameter>
+                    <name>oql</name>
+                    <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].parameters.parameter[oql].alias</alias>
+                    <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].parameters.parameter[oql].description</description>
+                    <direction>in</direction>
+                    <dataType>String</dataType>
+                    <metadataRef />
+                    <userDefined>false</userDefined>
+                </parameter>
+            </parameters>
+        </method>
+    </methods>
+    <isAbstract>false</isAbstract>
+    <bizUnitPK>com.kingdee.eas.fdc.invite.designsupplier.subill.DesignSupplierSelect</bizUnitPK>
+    <baseEntity>
+        <key name="package" value="com.kingdee.eas.framework.app" />
+        <key name="name" value="CoreBillEntryBase" />
+    </baseEntity>
+    <table>
+        <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+        <key name="name" value="T_DES_DesignSSE" />
+    </table>
+    <properties>
+        <linkProperty>
+            <name>parent</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[parent].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[parent].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FParentID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="R_DesignSupplierSelect_DesignSupplierSelectEntry_entrys" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>supplier</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FSupplierID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="R_DesignSupplierSelectEntry_DesignSupplierStock_supplier" />
+            </relationship>
+        </linkProperty>
+        <linkProperty>
+            <name>supplierLv</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <mappingField>
+                <key name="name" value="FSupplierLvID" />
+            </mappingField>
+            <relationship>
+                <key name="package" value="com.kingdee.eas.fdc.invite.designsupplier.subill.app" />
+                <key name="name" value="R_DesignSupplierSelectEntry_DesignLevelSetUp_supplierLv" />
+            </relationship>
+        </linkProperty>
+        <ownProperty>
+            <name>supplierCompany</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FSupplierCompany" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>peopleCfg</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPeopleCfg" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>design</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FDesign" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>PostService</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPostService" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>Pro</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>100</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPro" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>price</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>BigDecimal</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>28</length>
+            <precision>28</precision>
+            <decimalDigits>10</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FPrice" />
+            </mappingField>
+        </ownProperty>
+        <ownProperty>
+            <name>remake</name>
+            <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].alias</alias>
+            <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].description</description>
+            <userDefined>false</userDefined>
+            <configured>false</configured>
+            <dataType>String</dataType>
+            <metadataRef />
+            <isMultilingual>false</isMultilingual>
+            <isNullable>false</isNullable>
+            <formula />
+            <length>255</length>
+            <precision>0</precision>
+            <decimalDigits>0</decimalDigits>
+            <defaultValue>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].defaultValue</defaultValue>
+            <displayFormat />
+            <mappingField>
+                <key name="name" value="FRemake" />
+            </mappingField>
+        </ownProperty>
+    </properties>
+    <logicalKey>
+        <name>id</name>
+        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].logicalKey[id].alias</alias>
+        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].logicalKey[id].description</description>
+        <keyClass>com.kingdee.bos.dao.IObjectPK</keyClass>
+        <userDefined>false</userDefined>
+        <keyProperties>
+            <baseProperty>
+                <key name="name" value="id" />
+            </baseProperty>
+        </keyProperties>
+    </logicalKey>
+    <defaultView>
+        <name />
+        <alias>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].defaultViewalias</alias>
+        <description>entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].defaultViewdescription</description>
+    </defaultView>
+    <resource>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="分录" />
+            <lang locale="zh_TW" value="分錄" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].defaultViewalias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].defaultViewdescription">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].logicalKey[id].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].logicalKey[id].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].parameters.parameter[view].alias">
+            <lang locale="en_US" value="getCollection" />
+            <lang locale="zh_CN" value="取集合" />
+            <lang locale="zh_TW" value="取集合" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getCollection].parameters.parameter[view].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[oql].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[oql].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[pk].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[pk].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[selector].alias">
+            <lang locale="en_US" value="getValue" />
+            <lang locale="zh_CN" value="取值" />
+            <lang locale="zh_TW" value="取值" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].methods.method[getValue].parameters.parameter[selector].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[parent].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="单据头" />
+            <lang locale="zh_TW" value="單據頭" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[parent].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供应商级别" />
+            <lang locale="zh_TW" value="供應商級別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="供应商级别" />
+            <lang locale="zh_TW" value="供應商級別" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplierLv].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="邀约供应商" />
+            <lang locale="zh_TW" value="邀約供應商" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="邀约供应商" />
+            <lang locale="zh_TW" value="邀約供應商" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].extendedProperty.dataField">
+            <lang locale="en_US" value="name" />
+            <lang locale="zh_CN" value="name" />
+            <lang locale="zh_TW" value="name" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.linkProperty[supplier].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="后期服务" />
+            <lang locale="zh_TW" value="後期服務" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="后期服务" />
+            <lang locale="zh_TW" value="後期服務" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[PostService].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="代表项目" />
+            <lang locale="zh_TW" value="代表項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="代表项目" />
+            <lang locale="zh_TW" value="代表項目" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[Pro].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="设计质量" />
+            <lang locale="zh_TW" value="設計質量" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="设计质量" />
+            <lang locale="zh_TW" value="設計質量" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[design].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员配置" />
+            <lang locale="zh_TW" value="人員配置" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="人员配置" />
+            <lang locale="zh_TW" value="人員配置" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[peopleCfg].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总价" />
+            <lang locale="zh_TW" value="總價" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="总价" />
+            <lang locale="zh_TW" value="總價" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[price].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="备注" />
+            <lang locale="zh_TW" value="備註" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].extendedProperty.bizDataType">
+            <lang locale="en_US" value="NOTE" />
+            <lang locale="zh_CN" value="NOTE" />
+            <lang locale="zh_TW" value="NOTE" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[remake].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].alias">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司情况" />
+            <lang locale="zh_TW" value="公司情況" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].defaultValue">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="null" />
+            <lang locale="zh_TW" value="null" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].description">
+            <lang locale="en_US" value="null" />
+            <lang locale="zh_CN" value="公司情况" />
+            <lang locale="zh_TW" value="公司情況" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].extendedProperty.ColWidthInKDTable">
+            <lang locale="en_US" value="50" />
+            <lang locale="zh_CN" value="50" />
+            <lang locale="zh_TW" value="50" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].extendedProperty.bizDataType">
+            <lang locale="en_US" value="STRING" />
+            <lang locale="zh_CN" value="STRING" />
+            <lang locale="zh_TW" value="STRING" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].extendedProperty.enableFieldPermission">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].extendedProperty.isForGrouping">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].extendedProperty.isForMapping">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].extendedProperty.isForMatching">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].extendedProperty.isForWrittenBack">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].extendedProperty.isInCode">
+            <lang locale="en_US" value="false" />
+            <lang locale="zh_CN" value="false" />
+            <lang locale="zh_TW" value="false" />
+        </rs>
+        <rs key="entityObject[com.kingdee.eas.fdc.invite.designsupplier.subill.app.DesignSupplierSelectEntry].properties.ownProperty[supplierCompany].extendedProperty.isVisibleForKDTable">
+            <lang locale="en_US" value="true" />
+            <lang locale="zh_CN" value="true" />
+            <lang locale="zh_TW" value="true" />
+        </rs>
+    </resource>
+</entityObject>
+
